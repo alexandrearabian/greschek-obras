@@ -1,0 +1,616 @@
+{
+ "casa-pergola": [
+  {
+   "src": "/obras/casa-pergola/01.webp",
+   "w": 1920,
+   "h": 1080,
+   "orig": "1.jpg",
+   "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAQCdASoQAAkAA4BaJZACdADwbKqaYAD+wFtfCazVvwv9rUpd+lAsCroYhoVUjbmUD7NglYEbdUsQq3fcWhjWWdHu/woGgAA="
+  },
+  {
+   "src": "/obras/casa-pergola/02.webp",
+   "w": 2500,
+   "h": 1667,
+   "orig": "1.+go+casa+santa+barbara-+fachada+5.JPG",
+   "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwAgCdASoQAAsAA4BaJbACdAELVU+xfZhsAAD2nVNsf6Rlff7iegSRnilbm2IqBiTAYS7MEb9rAtGm71D5yz2BnFnha5dT7DqfumqE4cmSgb/txXXz+v/W7sYc2gAA"
+  },
+  {
+   "src": "/obras/casa-pergola/03.webp",
+   "w": 2500,
+   "h": 1669,
+   "orig": "2.+go+casa+santa+barbara-+living+1.JPG",
+   "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwAgCdASoQAAsAA4BaJYwCdAEfB1Xd8ko4QAD2pzLV1I1zJzoS+z30nQ0w6VbufM8n56hZ8jPIxAOUZsnkE9jhth4BNLxpd939g5FqYFt6AAAA"
+  },
+  {
+   "src": "/obras/casa-pergola/04.webp",
+   "w": 2500,
+   "h": 3749,
+   "orig": "1.+go+casa+santa+barbara-+fachada+14.JPG",
+   "blur": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAAAwBACdASoQABgAPu1iqU2ppaOiMAgBMB2JaACdABeey2iJJgubENOnVYAA/i97YAvai3XiZrOlP9sSiKqB4PgAPpHVe06M6rJ+z/HSe+5AEeZ00kgDq5cYlqtSQOa9viA4HMdevAP3ZzpQs/CD9wPLD3b7Dgw+RWKuvtxry/tn9GFBi291mtw6aEAQtHNJ5ZAAAA=="
+  },
+  {
+   "src": "/obras/casa-pergola/05.webp",
+   "w": 2500,
+   "h": 1669,
+   "orig": "2.+go+casa+santa+barbara-+living+2.JPG",
+   "blur": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAACQAgCdASoQAAsAA4BaJYwCdEf/i2GNALTdAL3m0ADgLd2PnXMu+O7xHK6M5kXjtWZekvJPdxR4KOcoG6zj7rvwTt4T0yXxHYSRxUFE16z+ius7/LdUyqqhFmRJ1W+jTYs4sEjq3QtbD44NagAAAA=="
+  },
+  {
+   "src": "/obras/casa-pergola/06.webp",
+   "w": 2500,
+   "h": 3745,
+   "orig": "5.+go+casa+santa+barbara-+cocina+4.JPG",
+   "blur": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAAAQBACdASoQABgAPu1iqk2ppaQiMAgBMB2JYwCdIMgCuDEULkDaQRb16AD+sbq/UhGDgRc030gVVMsUhZ9K5ZKCwPjzLBb3aBgSJWx2iLBUMpVsN80IZ1nHW3OovRRKa9LfsEYLYwNpf3s7hcQyYSdPpwRQcqWqLkR2I1XcD9zA3NztMq3YBYGiJqGkhKgA"
+  },
+  {
+   "src": "/obras/casa-pergola/07.webp",
+   "w": 2500,
+   "h": 3746,
+   "orig": "6.+go+casa+santa+barbara-+toilette+1.JPG",
+   "blur": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAACQBACdASoQABgAPu1iqU2ppaOiMAgBMB2JYwCdMoADYkZz9T4R8i5pVsuv+FAA/XXj+0YKDK5fd0ZXbVa8qA+frI8+6ArybgxsMQdHUCimr7OLqf4k3rvBhth9X2hfThf6wwqdMVl2sIyzg0/ntLipUa4YcJXeCYvxPkii1T3nwAAA"
+  },
+  {
+   "src": "/obras/casa-pergola/08.webp",
+   "w": 2500,
+   "h": 3745,
+   "orig": "7.+go+casa+santa+barbara-+baño+4.JPG",
+   "blur": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAAAQBACdASoQABgAPu1iqU2ppaOiMAgBMB2JYwCdACHuzc2bCFrF2WFdQAD+mkhXQdO7HskoXT0EXG9jvWPtm3/Y8BgnTXrhu6TNHhgFPgw39D/D8+rwxANk8bSTbJ/JJeqd/tYP9GfjXxVk8gnVP8xvX4AAAA=="
+  },
+  {
+   "src": "/obras/casa-pergola/09.webp",
+   "w": 2435,
+   "h": 3652,
+   "orig": "IMG_1393.JPG",
+   "blur": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAAAwBACdASoQABgAPu1kqU2ppaOiMAgBMB2JQBWA7wATRuANo8gDcaY6MzAA/tcIjFLOrDEQ9OLfevo8QlcyEjtML4QKbN90z/x/rQbW6IewWCBzAJZJaeRgDXkR6RUtvHdiIsF1Z6rPub10yqCsxNrr4TxmfV1BxGIlKtDL+ZMskNfzOUophgaWpAFrDH33CvLls52M9SmGnHz3IUKmKmVZvkAAAA=="
+  }
+ ],
+ "casa-patio": [
+  {
+   "src": "/obras/casa-patio/01.webp",
+   "w": 1920,
+   "h": 1080,
+   "orig": "2.jpg",
+   "blur": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADwAQCdASoQAAkAA4BaJQBdgCP+FEgxwcAA+MDpeZFVzehWRU1rUfCpa+LtughkQRpxKZ2Obx4AAA=="
+  },
+  {
+   "src": "/obras/casa-patio/02.webp",
+   "w": 2500,
+   "h": 1669,
+   "orig": "2.+go+casa+santa+barbara+ii-+entrada+1.JPG",
+   "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAABwAgCdASoQAAsAA4BaJYwBTAA+UH63+KlXw3qwAP7IdHOOPl/9CTJYw+zOKcKaMA25QNizjg3Oo8wCqs2pmlJ0ctAKeUN/CvdVihD9Wo0sJ2mNh4AAAA=="
+  },
+  {
+   "src": "/obras/casa-patio/03.webp",
+   "w": 2500,
+   "h": 3745,
+   "orig": "3.+go+casa+santa+barbara+ii-+bodega+2.JPG",
+   "blur": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAADwAwCdASoQABgAPu1iqU2ppaQiMAgBMB2JZQDG9B6QAPOJbum4QqwAAP2tuoIHjFn0+Fo1NP7vFekBoCSztVSMcuZesZ/bsIfll3q3dw06mFJnmrDTFvpBnJCqnFulWYtDUvsT3VzhXmDGVDPpyv5xNYoSQAAA"
+  },
+  {
+   "src": "/obras/casa-patio/04.webp",
+   "w": 2500,
+   "h": 3745,
+   "orig": "4.+go+casa+santa+barbara+ii-+toilette+1.JPG",
+   "blur": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAABQBACdASoQABgAPu1iqk4ppaQiMAgBMB2JZQC+SCIj2MCk+hGklDy28cwAAP7WrKJHPeTc1euvUyzhpqc+zT3QWld2zEEhC5YeUNF60mkljQxWNrYBpfvTVupn0L8msImNNVebWpSUTRGuHvw6jM8IfM4AAA=="
+  },
+  {
+   "src": "/obras/casa-patio/05.webp",
+   "w": 2500,
+   "h": 1669,
+   "orig": "7.+go+casa+santa+barbara+ii-+cocina+4.JPG",
+   "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACwAQCdASoQAAsAA4BaJQBWAB4SFmAAAP7rZ7Zk1r1w7hQVdz2ONXn3jJmb8MlnmtXTN3Mr8Qmg6zfYWswELDasmj99nmoq5e2CxvR0AAA="
+  },
+  {
+   "src": "/obras/casa-patio/06.webp",
+   "w": 2500,
+   "h": 3745,
+   "orig": "7.+go+casa+santa+barbara+ii-+cocina+5.JPG",
+   "blur": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAADwAwCdASoQABgAPu1iqk4ppaQiMAgBMB2JZQCAAAfVUwTU/aID5VOeAP63Jqs9k3wyvcjWUUT+RltaCqVUDwEOo3xfgGP7suyHJj7tovD11butYzHF4Sdg/NAx89kWEW1bruFPQXHKrccAD93wAA=="
+  },
+  {
+   "src": "/obras/casa-patio/07.webp",
+   "w": 2500,
+   "h": 3745,
+   "orig": "9.+go+casa+santa+barbara+ii-+pasillo+1.JPG",
+   "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAwCdASoQABgAPu1iqU2ppaOiMAgBMB2JQBdgBDwGivBfzksxXDPAAP7TSUWUBnJBYi0xdO8dprUvwwFacCBhLx6TgB2/WCjCBAzA5uCqrI09qkmgAA=="
+  },
+  {
+   "src": "/obras/casa-patio/08.webp",
+   "w": 2500,
+   "h": 1669,
+   "orig": "10.+go+casa+santa+barbara+ii-+cuarto+ppal+3.JPG",
+   "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoQAAsAA4BaJQBdgCFTvuQFcAD+7iRA8UOYSlv9BmL25dFTVWu4XbhTa3LafCSBmJ3IfwLbEybcaePMgAA="
+  },
+  {
+   "src": "/obras/casa-patio/09.webp",
+   "w": 2500,
+   "h": 3745,
+   "orig": "11.+go+casa+santa+barbara+ii-+baño+ppal+1.JPG",
+   "blur": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAAAQBACdASoQABgAPu1kqk2ppaQiMAgBMB2JZQBUQvgAHgWmKahV7iKvQAD+tR7o3MIRgXst2lLBcQJRRxvnfI+vhbRbYcQZJj88GcXRzScuKS9ISgothxm1gdh31gK58M218WKwqBtkjvpzd8ub3ee8v6ZTQAAA"
+  },
+  {
+   "src": "/obras/casa-patio/10.webp",
+   "w": 2500,
+   "h": 3745,
+   "orig": "11.+go+casa+santa+barbara+ii-+baño+ppal+4.JPG",
+   "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAABQAwCdASoQABgAPu1iqU2ppaOiMAgBMB2JZwAAewTLU5LwAAD+7JxuboUJR6XwnZgc2i3LTO1ff3rYBNASlOukBUqMGkuVVY5/z17+hGT+A9vf37w8gAAA"
+  },
+  {
+   "src": "/obras/casa-patio/11.webp",
+   "w": 2500,
+   "h": 3745,
+   "orig": "16.+go+casa+santa+barbara+ii-+contrafrente+1.JPG",
+   "blur": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAABQBACdASoQABgAPu1iqk2ppaQiMAgBMB2JagCdMoADTp1KhYzyLNVkDB3IAP6QbrUIw1WsfsJj7B8oTabIaDXkr8hVD56049RJxZrlaKpjOtjMSqyqkcBl+Pk4WVSunDLEc4+amAD/aGOGt/+RPxOtwLEfcG0qBzoqvhKik1lI0CqJbMAzYS9sY7oAAA=="
+  },
+  {
+   "src": "/obras/casa-patio/12.webp",
+   "w": 2500,
+   "h": 3745,
+   "orig": "16.+go+casa+santa+barbara+ii-+contrafrente+4.JPG",
+   "blur": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAABQBACdASoQABgAPu1iqk2ppaQiMAgBMB2JaACdMoAC+y50P2CHLkLcDLIAAN1xgWgpqzcL3KgDiT0rZxnL84d5bKnLM6Vz4FE311qp9D7hsvoJqrbXxP4HcR89bpVsK/17h/5Hj/EaO52yJUUsqHd0WyHVrI6RxrlKmK2D6nrv0SJueyqhUPi6gTwgAA=="
+  }
+ ],
+ "casa-laguna": [
+  {
+   "src": "/obras/casa-laguna/01.webp",
+   "w": 1920,
+   "h": 1080,
+   "orig": "3.jpg",
+   "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAwAgCdASoQAAkAA4BaJbACdAEed/2kKZ/iAAD+0URb+g+WffLQm5i5aTV4NlsmPgPCgeOoCg6xqtke/gUEBZ+fMNK1QhAA"
+  },
+  {
+   "src": "/obras/casa-laguna/02.webp",
+   "w": 2500,
+   "h": 1667,
+   "orig": "2.+greschek+sta+barbara+contrafrente+6.JPG",
+   "blur": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAQAgCdASoQAAsAA4BaJYgCdAEYFhOdYxoYAP5rPyBEzbv2xoUU2kDNwI2I2Rvu8KPqa4iTej40N21e/LIY1iHCTo11MwkqOe9x1N21/CYWLOI4LrAtSHn3jAEoNOnSnU3D6btwAAA="
+  },
+  {
+   "src": "/obras/casa-laguna/03.webp",
+   "w": 2500,
+   "h": 1551,
+   "orig": "2.+greschek+sta+barbara+contrafrente+15.JPG",
+   "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAQAgCdASoQAAoAA4BaJbACdH8ADkjV3pZAAPZfWx3ygF2meR0CM9XbJp5SZV2dQPpjGsXUlu0Haz51nF+kIB1FxkTRM56tG+GUU65kUtnqcI4U7Wfxcq6GHU14AA=="
+  },
+  {
+   "src": "/obras/casa-laguna/04.webp",
+   "w": 2500,
+   "h": 1667,
+   "orig": "2.+greschek+sta+barbara+contrafrente+32.JPG",
+   "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAQCdASoQAAsAA4BaJYgCdADs8SDUJAD+3Pf2Av0TG3P2ydtw+iGCwEIllCalD00rJRoUGljYDI/zae21cmfPue2JHJUn93R1erv7CP+g6BoKAAA="
+  },
+  {
+   "src": "/obras/casa-laguna/05.webp",
+   "w": 2500,
+   "h": 1667,
+   "orig": "3.+greschek+sta+barbara+quincho+4.JPG",
+   "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQAgCdASoQAAsAA4BaJQBdgBwxRV8di4kAAP70ie2OiJoWwyeMIvKHnax4J2eZbeXgzecXue24DsBpkbhNcL/bRRmj7B/BzsBDMqyT4dyzwEraiQB8+lZUAAA="
+  },
+  {
+   "src": "/obras/casa-laguna/06.webp",
+   "w": 2500,
+   "h": 1667,
+   "orig": "4.+greschek+sta+barbara+living+comedor+2.JPG",
+   "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAwAgCdASoQAAsAA4BaJZQC7AEVlN+34lYMAAD+SR7k5UCpGKEmfbIb6RkXOrUZIFOxEtXBFhyXe7m8owgn21GEDDoJv8K4AAyZrhOzdTE0+SgmmiHPVxMH4YLgAA=="
+  },
+  {
+   "src": "/obras/casa-laguna/07.webp",
+   "w": 2500,
+   "h": 1666,
+   "orig": "4.+greschek+sta+barbara+living+comedor+15.JPG",
+   "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADwAQCdASoQAAsAA4BaJZQAAjtmdo/U5AAA+pMkOEZWXYvK9fX+rv6doPr122ecr1+GXXLrNk+lbhYC7FIivzY1B9pTJn8941YwnK+20aS3cimUx490npsmygCcIAAA"
+  },
+  {
+   "src": "/obras/casa-laguna/08.webp",
+   "w": 2500,
+   "h": 1667,
+   "orig": "5.+greschek+sta+barbara+cocina+3.JPG",
+   "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAwAgCdASoQAAsAA4BaJZwAAvm1ls00fMLH8AD+rcPBc+LvRPd67J7nGmql4lxQs+5A9fztkUsogfMt1+dgXZwD6xNaXcXp+mp8Z0nZrk07pj6XSzWbCAAA"
+  },
+  {
+   "src": "/obras/casa-laguna/09.webp",
+   "w": 2500,
+   "h": 1691,
+   "orig": "5.+greschek+sta+barbara+living+comedor+21.JPG",
+   "blur": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAABQAgCdASoQAAsAA4BaJZQC7AYtLjRU6EAUsAAA/sp01dZhv3TwAVckfgKRhM9b+NmTo2v5jje/vOicklZ2EI2mFbvpxOjbaCxWaHCf9LcSlVGa1/aq+Efs/wlZ4vrLpma3iCIys9l8agAA"
+  },
+  {
+   "src": "/obras/casa-laguna/10.webp",
+   "w": 2500,
+   "h": 3750,
+   "orig": "7.+greschek+sta+barbara+toilette+1.JPG",
+   "blur": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAAAQBACdASoQABgAPu1iqU2ppaOiMAgBMB2JZQDG9B4PdakCts7eBOXccAD+3Xo9dFU97dK7viG7R74V6wDZF6WwzkYpdmoL5/BeZeUS6x49PqQFIllbCerZzKrfywZF0fMAyVpP+eb1XkvVcJ3aXM99MHp2ks3WrCn0GR8/9KPTqDBSw5nUtK5uWjkgq7fAeRPHOZ/+eYAAAA=="
+  },
+  {
+   "src": "/obras/casa-laguna/11.webp",
+   "w": 2500,
+   "h": 1641,
+   "orig": "10.+greschek+sta+barbara+cuarto+ppal+8.JPG",
+   "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAwAgCdASoQAAsAA4BaJQBdgMXm5Y1paoPrhADiWz5YilcCtffzUiiQihyPy3xqzWc5IbpJeLEkuW6tszidlIJHvxDhsh59kROyXreTAIB/QGgDO6vKZSYAAAA="
+  },
+  {
+   "src": "/obras/casa-laguna/12.webp",
+   "w": 2500,
+   "h": 3718,
+   "orig": "12.+greschek+sta+barbara+baño+ppal+1.JPG",
+   "blur": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAACwBACdASoQABgAPu1iqU2ppaOiMAgBMB2JYwAjwAcrFEBRO2DU7MsNSI0rvfQAAP7l67xL1VeihvrkgpHsUsoC06EkVUxcdhykhEgS3dFiOBtDm9SNh2E0ny6vOw2I0dgxDN6wOM1xdlCT2nrEevnJ8Lp9mFUCX+P6v4THO1RbS7UHmkYimgtP9/ik1PpwlyTV3+T84jah9R3v8LL9aOnbKuf4AA=="
+  },
+  {
+   "src": "/obras/casa-laguna/13.webp",
+   "w": 2500,
+   "h": 3802,
+   "orig": "12.+greschek+sta+barbara+baño+ppal+8.JPG",
+   "blur": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAADQAwCdASoQABgAPu1iqU2ppaOiMAgBMB2JZwAANg+DL8QDIMtG4wAA/oOWlR9NYsMzcwVEb2uwzLSvRal2VT/aFhazLz91iKUpkhbYTO1e8IGchcVHqWdlPeWzt5s5+euULfL8KjCvNv/AqzupSw1PErv+T4+SPeG17+b6ccVUkg840Hj/A/Omf/IBvgRSxzlhgAAA"
+  }
+ ],
+ "casa-galeria": [
+  {
+   "src": "/obras/casa-galeria/01.webp",
+   "w": 1920,
+   "h": 1080,
+   "orig": "4.jpg",
+   "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAABQAgCdASoQAAkAA4BaJaACdIExgsTLsuXEzcAA/u+TmaVVKtli68ZwmVk1KFi1YujFSIO+or1Ug0195vnu8dlltKjgEZXTT7CO4THKbBLlwW1gpgAAAA=="
+  },
+  {
+   "src": "/obras/casa-galeria/02.webp",
+   "w": 2500,
+   "h": 1669,
+   "orig": "GO+Casa+Santa+Barbara+37.JPG",
+   "blur": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAAAQAgCdASoQAAsAA4BaJZACdADp1Gq/X0zgAPy0wKdnFSY49JxqrHVHK6GDja6D5EM0qsHQ+G0m/kxQVb9ev5pwtm7VRGjiiSfd6PV4tSnM1kBEIgI2yt1RcY21EeIsvYTDL5qS0WyAAA=="
+  },
+  {
+   "src": "/obras/casa-galeria/03.webp",
+   "w": 2500,
+   "h": 1669,
+   "orig": "GO+Casa+Santa+Barbara+44.JPG",
+   "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAABQAgCdASoQAAsAA4BaJQBOj+ACiOe9mLLiPvAA3mQ+rf4O1bwrW7BIZKrKSy/srdMlWRiYB20TBpAbSWAcW/DBRDnXi/jbE5Sriy82FzhFblwKPYAAAA=="
+  },
+  {
+   "src": "/obras/casa-galeria/04.webp",
+   "w": 2500,
+   "h": 1669,
+   "orig": "GO+Casa+Santa+Barbara+47.JPG",
+   "blur": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAACQAgCdASoQAAsAA4BaJZACdH8AgpDADQeazVPtwAD9U/et9zbrkvtRvkHMPs93HglplOf5Pg0mScxILFrlkZtSfOo9aSK3XFSyFTqJo881i50pPP6gp3YZX9y9IPhQobHddZyLaxXAAA=="
+  },
+  {
+   "src": "/obras/casa-galeria/05.webp",
+   "w": 2500,
+   "h": 3745,
+   "orig": "GO+Casa+Santa+Barbara+59.JPG",
+   "blur": "data:image/webp;base64,UklGRroAAABXRUJQVlA4IK4AAABQBACdASoQABgAPu1iqU2ppaOiMAgBMB2JZQDG9YwSlAgbuv6wYuE25W6gAP7X0kLFdAV+LtWMF9qhgH31NVHU+wapYgw2FjTs+/KWI0J13OomlR//d72UE2Jub76eKhhxzyHEY0T9lIGPNpAMNjAOFm/F+Hz7/yc+tufit/ut470YD1nMMHYdggByzhc+GhL4vFle7iE97fk9O+GzmeP0xbBblKXaBAnyMN6AAAA="
+  },
+  {
+   "src": "/obras/casa-galeria/06.webp",
+   "w": 2500,
+   "h": 3745,
+   "orig": "GO+Casa+Santa+Barbara+60.JPG",
+   "blur": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAAAwBACdASoQABgAPu1iqU2ppaQiMAgBMB2JQBOgA3QQcxyVksFg1dd1pgAA/U6XaPiMYF4rq2WzGmFBcmJZLC+ZAHeH3sjD9W3qJe6UEcVaiVnZzUmEd5WsZrT2vGX7RrpOchjU65B41a7WAAMAAA=="
+  },
+  {
+   "src": "/obras/casa-galeria/07.webp",
+   "w": 2500,
+   "h": 3745,
+   "orig": "GO+Casa+Santa+Barbara+71.JPG",
+   "blur": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAADwAwCdASoQABgAPu1iqU2ppaOiMAgBMB2JZQDG9Beie1wcI54dJaqAAP6jcvqUrqmGdgMW+XQ8F3Lul4UZ9SWKt94QdU6vb9UCWv7nLd8ElP6ib4XKMBpalfipGRopVMkJoP6HmE+EbfV0cGsYMlDkABWOn+lHBWUrmFNKO8y0Mc1zPTlasmYrRLjeKlyyhBGoGhT13C8WuOUAAAA="
+  },
+  {
+   "src": "/obras/casa-galeria/08.webp",
+   "w": 2500,
+   "h": 1669,
+   "orig": "GO+Casa+Santa+Barbara+103.JPG",
+   "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwAgCdASoQAAsAA4BaJQBdgMXr1Ns8QXCS4AD+XsP74i9ai4b76qcwhDPlyXG4sOY3mxLtQCi+U+I8xvo8L/aLss2DOrcrLsJZvCTT1qizSJbAUIxXbr6o82Vzu0AA"
+  },
+  {
+   "src": "/obras/casa-galeria/09.webp",
+   "w": 2500,
+   "h": 3745,
+   "orig": "GO+Casa+Santa+Barbara+109.JPG",
+   "blur": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAwBACdASoQABgAPu1orU6ppiSiMAgBMB2JZwAAXAaDZ/6oHEY/kIqAVdAA/Pp/tKokljziLwJHYfIrtB+PYLacG3ZukE8SNwfyBXi0EAaLiaZ5y/4TMtUb//t7TEwEgA4SdLgA"
+  },
+  {
+   "src": "/obras/casa-galeria/10.webp",
+   "w": 2500,
+   "h": 3745,
+   "orig": "GO+Casa+Santa+Barbara+110.JPG",
+   "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAABwAwCdASoQABgAPu1kqk4ppaQiMAgBMB2JZwAAWwtH/YyNbAAA/uITNISBBeVpP+JWdV35nMjhUWl+E+bx6A+lnA+55nPX03D0nAHAAAA="
+  },
+  {
+   "src": "/obras/casa-galeria/11.webp",
+   "w": 2427,
+   "h": 3479,
+   "orig": "GO+Casa+Santa+Barbara+130.JPG",
+   "blur": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAADwAwCdASoQABcAPu1mqk4ppaOiMAgBMB2JZAAAW+zIB0GYFDdGddsAAP7xxPrDTXbJ20dpUly3yN4SYdAoZR1lFRbsV4oMH59GhPhXf73Kvt0h1MP+htg3zMbc8lmqW+ZAi+kFtIVZiK4G1aMxKMRy4dItBdUH8VOzEF1SqNVLAAAA"
+  },
+  {
+   "src": "/obras/casa-galeria/12.webp",
+   "w": 2500,
+   "h": 3750,
+   "orig": "GO+Casa+Santa+Barbara+132.JPG",
+   "blur": "data:image/webp;base64,UklGRsYAAABXRUJQVlA4ILoAAADwBACdASoQABgAPu1iqU2ppaOiMAgBMB2JZgC7Ef/i2WXKIolzLwP07F68RN29GgAA/vN+/FZNs1aEEo+pouCT/UtX6XwDAgdJLLR+wl5xAu3NztyxwpVWLWX9VaekDW/NVdy470PaVyf+IydLNMW76rvk+4FZUcmLOYL2W1Q0r1AxF1mnYasnejoMW9/kCgdi+1VvSzFyqoUO8TwTBS/EvGRi2lnOiEAxI2i6+sdTfKg+NtEdiAqQcAA="
+  },
+  {
+   "src": "/obras/casa-galeria/13.webp",
+   "w": 2500,
+   "h": 1669,
+   "orig": "GO+Casa+Santa+Barbara+149.JPG",
+   "blur": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAACQAgCdASoQAAsAA4BaJZACdIExgkjL50lLmt+LwAD9tzi1fnoK49CeBES0hb2O49rKLhteban22L6uDykPsXH5/h9OWLS5OVFpWVNBP19zXLJS4hu9jBwOsCcTl6So+uZDvfyEOsNNMnu4AAA="
+  }
+ ],
+ "casa-contemporanea": [
+  {
+   "src": "/obras/casa-contemporanea/01.webp",
+   "w": 2500,
+   "h": 1602,
+   "orig": "Proyecto_5_Frente.jpg",
+   "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAQCdASoQAAoAA4BaJbACdADwVOueoAAAzB49mbajnTTutTyI7hgzeD9JugvNy7PYgpMguz28jb1XYFGF1j2gJvAHIUSHeJco6tlzBzUQOISDxFp5kAAA"
+  },
+  {
+   "src": "/obras/casa-contemporanea/02.webp",
+   "w": 2500,
+   "h": 1669,
+   "orig": "IMG_2120+(1)+copia.jpg",
+   "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwAgCdASoQAAsAA4BaJbACdAYu5TAeCbDAAAD5BBJx2AFQRSPGKt+21HyVETuCI3CfPQCipEYJtQZBV5c0ALdfOkuFlS1+BiaVu6NJv7YCN/BbVqyOleP5SKSmAAAA"
+  },
+  {
+   "src": "/obras/casa-contemporanea/03.webp",
+   "w": 2500,
+   "h": 1602,
+   "orig": "Proyecto_5_Frente.jpg",
+   "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAQCdASoQAAoAA4BaJbACdADwVOueoAAAzB49mbajnTTutTyI7hgzeD9JugvNy7PYgpMguz28jb1XYFGF1j2gJvAHIUSHeJco6tlzBzUQOISDxFp5kAAA"
+  },
+  {
+   "src": "/obras/casa-contemporanea/04.webp",
+   "w": 2500,
+   "h": 1669,
+   "orig": "Proyecto_5_cocina.jpg",
+   "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAQAgCdASoQAAsAA4BaJZwAAufiuM7mEDAAAP7rGn5vtkMkBi4vtSrQ2+P0+ePXEpP+FLSvgLTuHTehIzsKlhSFLiUyrfR7TpWyMv9ejFV1oc6WBwAAAA=="
+  },
+  {
+   "src": "/obras/casa-contemporanea/05.webp",
+   "w": 2500,
+   "h": 3745,
+   "orig": "IMG_2084.JPG",
+   "blur": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAADQAwCdASoQABgAPu1iqU2ppaOiMAgBMB2JZQAAUp7oH0m7snczFBgA/sP+iQGmna+qA/4qARH/biBXYx0LJ6a5fL/lUfOp+RXmyFp8Al707Jp22H9TWVfcF73opu7c39lTIwFXuKtxHWiviGBkNij8JX4RbRGh7G8x41BY62rwr4+Nz4qBRL4AAAA="
+  },
+  {
+   "src": "/obras/casa-contemporanea/06.webp",
+   "w": 2500,
+   "h": 3745,
+   "orig": "IMG_2101.JPG",
+   "blur": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAADQAwCdASoQABgAPu1iqU2ppaOiMAgBMB2JZwAAWnLbadgl7De4wJwA/sRfZ+099nIFalmAVGhns66zYH7xmcn2kGb4U9dIvpNN51M4ymNY0r3AGlXqkRZH4bWhzLdZR5TLdd+gmWjPUu39Bnt7kZyYzGQs3pOrmvS5AM0UeyAAAA=="
+  },
+  {
+   "src": "/obras/casa-contemporanea/07.webp",
+   "w": 2500,
+   "h": 1669,
+   "orig": "IMG_2126.JPG",
+   "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAQAgCdASoQAAsAA4BaJZAC7ACppMx9xXEAAP7I5SLNS0cmWo2w0NN3KRJCacE6hlgyyu9NoAHFcKJ17cT/oaH5J4Dyukga/h8yTYPPMrg8OhfFkgAAAA=="
+  },
+  {
+   "src": "/obras/casa-contemporanea/08.webp",
+   "w": 2500,
+   "h": 1669,
+   "orig": "IMG_2102.JPG",
+   "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAABQAgCdASoQAAsAA4BaJYwC7AD6PEKfT9LbOQAA4lFiL72tN64BNuz8rNDun/6i3anb3PXgpfzs7vXH5hGJ7U9BLws6cHIfPPms8QwMH6TqcfyQKZ8lw0Q3AAA="
+  },
+  {
+   "src": "/obras/casa-contemporanea/09.webp",
+   "w": 2500,
+   "h": 3745,
+   "orig": "IMG_2207.JPG",
+   "blur": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAAAQBACdASoQABgAPu1orU2ppqSiMAgBMB2JYgDCn8ADAEZkbWDvKpSH0AD+w1Qu5FGz0e8dQL6bwqmW3uKU582uhqtZRFvz2tSDZi2G50jioOvwG0+LpwcDbg6+aiETsOhBVI6gg7iybFngfVjLw3Rr6ZZNrtLyfp+C6IKVJibCAAAA"
+  },
+  {
+   "src": "/obras/casa-contemporanea/10.webp",
+   "w": 2500,
+   "h": 3745,
+   "orig": "IMG_2091.JPG",
+   "blur": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAABQBACdASoQABgAPu1iqk2ppaQiMAgBMB2JYgB2AAC5vKFl/u3LkrHs7uwAAPYM1RJ9Afq4LNo0GQbVhfduHpJAfStVzqJ37rmbD1e0IpvUfWa9byyLBIOpKv8+gPy0AgLMk+0LLvb/+V3hctDU+EKv/3XSo1SbIrU4AA=="
+  },
+  {
+   "src": "/obras/casa-contemporanea/11.webp",
+   "w": 2500,
+   "h": 3745,
+   "orig": "IMG_2115.JPG",
+   "blur": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAAAwBACdASoQABgAPu1kq04ppaQiMAgBMB2JYwDHFExCucMRerUcFqamZNwAyw67UV5y8uKfnV7rJjxdNsikV/lSjuSskKetnc2ULaPw4tuY+JCInxeObBW/Dc2qa4vqm3FtakWvuqWw0himqW3u9EsoSHWM70PxopspBIrDkYw20gwAAAA="
+  },
+  {
+   "src": "/obras/casa-contemporanea/12.webp",
+   "w": 2500,
+   "h": 3745,
+   "orig": "IMG_2142.JPG",
+   "blur": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAAAQBACdASoQABgAPu1iqU2ppaOiMAgBMB2JZQDImBTuyjuKM3uBRlEC8AD+FYY9lUiA/LbfxyHL1m9767WW1PZSHadJ3RHzvnjc4u6tfK8i9oQrztQvIHD9D8KuUwbZbCz0jsB9Qk9C5L/jttmeo/WtYP47YwpvONgvQXA1FY8vzplP7wAAAA=="
+  },
+  {
+   "src": "/obras/casa-contemporanea/13.webp",
+   "w": 2500,
+   "h": 1668,
+   "orig": "Proyecto_5_Contrafrente.jpg",
+   "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAwAgCdASoQAAsAA4BaJbACdH8AF/wBWORSMAD+6zJ7BwtjY+y+NjsfxfDS+Per+Qfq7l9VRGpQTM+eXCZJz4Ot7lfQuHNAKctAgM4z9h06I0sxjQAAAA=="
+  },
+  {
+   "src": "/obras/casa-contemporanea/14.webp",
+   "w": 2500,
+   "h": 3745,
+   "orig": "IMG_2098.JPG",
+   "blur": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAABQBACdASoQABgAPu1iqU2ppaQiMAgBMB2JaACdACG+eEjAwfHk0/L6o5+AAP7UnQxX8DfQVLxIni7osdO13ym/lotkZm9Ptqvi4Y7l56kNNOkusHRiU5zExoUi2VNkjutzxHjMn0737RDe6HPQeG1RWlwzwd6+OwYVfZkaiXRupIdvDkUEkxz4qOcC5K3HWgLKZiYKAAA="
+  },
+  {
+   "src": "/obras/casa-contemporanea/15.webp",
+   "w": 2500,
+   "h": 3745,
+   "orig": "IMG_2143.JPG",
+   "blur": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAABwBACdASoQABgAPu1iqU2ppaOiMAgBMB2JQBOgBDubbTAUSFGX+kgsUtEaAAD+ZF266ypSzL9jUIllCWQWlP7mjqP5E8vAWUXn03wBpYqzFlpPseE8aKKrwX0hD3vBU2/9ULn3RVIvNk1MWlJGc1zgxk5JUtgFvhsEIfXopL9VeYGpIh3nDvlH71vha4g6YZsTBGBgaQAAAA=="
+  },
+  {
+   "src": "/obras/casa-contemporanea/16.webp",
+   "w": 2500,
+   "h": 3745,
+   "orig": "IMG_2113.JPG",
+   "blur": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAADwAwCdASoQABgAPu1iqk4ppaQiMAgBMB2JYwAAW+2LN4cya6DioaxwAP7zdFhqkwS19co0bIpQEugooEIoE+rpRk5WE6GIA84TNOp+LLKLYOfeJ3X9DLmZXHBMu3QcZss8jm0aURmmomKl6qiAQ/jw3YM+nrxEgl4AAA=="
+  }
+ ],
+ "renders": [
+  {
+   "src": "/obras/renders/01.webp",
+   "w": 1280,
+   "h": 720,
+   "orig": "35bc16e4-61bb-4d85-93ca-b700c0ee0a2f.JPG",
+   "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoQAAkAA4BaJZwAApInj3RUmgAA/meCEGNxHo/rHPy/Ds1R3xuqBCS1rQ1VDhPLcBTX7fY/KZzH7G7BbYmlFvpeAAA="
+  },
+  {
+   "src": "/obras/renders/02.webp",
+   "w": 1024,
+   "h": 1024,
+   "orig": "PHOTO-2024-09-16-21-25-29.jpg",
+   "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAQCdASoQABAAA4BaJagCdAELMoihAAD+84nrd6S+H3Z/r3tb4Em0mTds/G29Qi8KU2S2xyXhAv2ytl0o/WCynHRyMuEptu1BfiVlip7AeHmEa9cw1VkAAAA="
+  },
+  {
+   "src": "/obras/renders/03.webp",
+   "w": 819,
+   "h": 1024,
+   "orig": "PHOTO-2024-09-16-21-25-30.jpg",
+   "blur": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAAAQBACdASoQABQAPu1iqU2ppaOiMAgBMB2JZACdMoABxYazOmgmPD62IAD9/LULafvF1k2L5yc2XWP0zdENXHYKWfkaV8r8uIYKrEVDQoNplX8QZYPHZMw55CaVY4T3WzbT+8WQZ++9EeZ6ikw4sJxP/aU6TcdhHwLdU/QaAAA="
+  },
+  {
+   "src": "/obras/renders/04.webp",
+   "w": 1024,
+   "h": 576,
+   "orig": "PHOTO-2024-09-16-21-25-28.jpg",
+   "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAQCdASoQAAkAA4BaJagCdAEDnJnmAAD+sj9+dcD2jp3GCvCnRub9dfvHfjl+vPwM56JyvBtoaRih0gGdaJkvyOW+GuKnYndlUAAA"
+  },
+  {
+   "src": "/obras/renders/05.webp",
+   "w": 1024,
+   "h": 1280,
+   "orig": "PHOTO-2024-09-16-21-24-33.jpg",
+   "blur": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAAAQBACdASoQABQAPu1kq04ppaQiMAgBMB2JQBOnKAAcipl0d7mI7V5zAAD+rn4ej5x0VmkA/AGuGxboUboskgnnUmEYd3R6odJWpWdhFRyTtlvf/hKhLEnxXsUY8jzzqxD9LCA2I0nEOKhGcbAfwAAA"
+  },
+  {
+   "src": "/obras/renders/06.webp",
+   "w": 1024,
+   "h": 1024,
+   "orig": "PHOTO-2024-09-16-21-25-29+2.jpg",
+   "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoQABAAA4BaJQBOgCHRt5wPYAAA/ujOZaH8BIdyw/QXLoX333unBWB85b+Zl08XbfvxdhBvlLEcDFh54PSgBlLZO898nskIwAA="
+  },
+  {
+   "src": "/obras/renders/07.webp",
+   "w": 1280,
+   "h": 720,
+   "orig": "70066739-20e3-49cf-aa88-05cc44906aca.JPG",
+   "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAkAA4BaJZQCdAEPhRhh3gAA+UEtKZfqdaDzFC0ca1U4fXU7Yd/7qDa6AF7izsi07lsYtww/8daPM7g0xyQA"
+  },
+  {
+   "src": "/obras/renders/08.webp",
+   "w": 1280,
+   "h": 720,
+   "orig": "35bc16e4-61bb-4d85-93ca-b700c0ee0a2f.JPG",
+   "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoQAAkAA4BaJZwAApInj3RUmgAA/meCEGNxHo/rHPy/Ds1R3xuqBCS1rQ1VDhPLcBTX7fY/KZzH7G7BbYmlFvpeAAA="
+  },
+  {
+   "src": "/obras/renders/09.webp",
+   "w": 1280,
+   "h": 645,
+   "orig": "947d6c3b-18b1-4911-998a-c556bf431c92.JPG",
+   "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQAgCdASoQAAgAA4BaJZQCdAD2BKSWNKgAAP7Ki8daBsCj/EWGbpsmxfSExRADtwCtoTLrTO9uIRxZxJ0e9wd4vIBxafV6oAA="
+  },
+  {
+   "src": "/obras/renders/10.webp",
+   "w": 1024,
+   "h": 1280,
+   "orig": "745154bd-9f67-4e1e-9bfa-421b2fadd674.JPG",
+   "blur": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAADwAwCdASoQABQAPu1iqk2ppaQiMAgBMB2JQBOmUABfG5nntcF0U3IAAP6HkTXBBJKXpLHX/HKZlsFf38UYk2UIqcw4OQ1UsWSWCFzeKHrKWljBon6gs2o1YUBttEjye1i3unWF6pNViorW8QiWxG9Ez6xAAAAA"
+  },
+  {
+   "src": "/obras/renders/11.webp",
+   "w": 1280,
+   "h": 1280,
+   "orig": "ee1feadd-6bda-409e-a2cc-b449b6a15ae7.JPG",
+   "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAQCdASoQABAAA4BaJZQCsAEOwKAAAP7tVSTW1uHHjz05UwTqHSXOem7/yPUFJIdJUikvw7TreKvRTnkRBl3TQ+OuaKvnr4gkAAAA"
+  },
+  {
+   "src": "/obras/renders/12.webp",
+   "w": 2048,
+   "h": 1576,
+   "orig": "Imagen+3.PNG",
+   "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAQAgCdASoQAAwAA4BaJQBOgCPQTpij964AAP7R45SmEN+uhjHc341Ecb/wTidhFdhITn/2xUpDRyhHyYjInJG0sodva8nJJ08oAAAA"
+  },
+  {
+   "src": "/obras/renders/13.webp",
+   "w": 1280,
+   "h": 720,
+   "orig": "668c234c-3c01-44a6-97b4-cd897f4820c5.JPG",
+   "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAwAgCdASoQAAkAA4BaJZQCdH8AGBjZM/R/AAD+mE3t5P4NQxVcBzmWxkkLK9BOKiRHBRfqayEdbB2jBJt8f7Ug+FgQa9UqhQAAAA=="
+  },
+  {
+   "src": "/obras/renders/14.webp",
+   "w": 1600,
+   "h": 900,
+   "orig": "dcac3f8e-78f8-403b-ace1-3d81aef69a1e.JPG",
+   "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAQCdASoQAAkAA4BaJQBOgCFw7fcVVgAA/vOL2Q/KtKNiV6jUkftmKi4w/pFCL733lHN8s8cCma730TXrfTByoZn/nr6yzX/DSdkgpACDz3/kSzXwAA=="
+  },
+  {
+   "src": "/obras/renders/15.webp",
+   "w": 2048,
+   "h": 1576,
+   "orig": "Imagen+1.PNG",
+   "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoQAAwAA4BaJZgCdAEegSl9woAA/j2ikDFW9iWjgajGmYau5q1aeD5TWJ5PvYbccSfjREJF5/irdKCnsiCc4UemQQaAAA=="
+  },
+  {
+   "src": "/obras/renders/16.webp",
+   "w": 2048,
+   "h": 1576,
+   "orig": "Imagen+2.PNG",
+   "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAQCdASoQAAwAA4BaJYgCdADZswCuGAD+TxQCgxHHUeWa7SIeDMzDpGeDbPH4MTSSZK2CQdZ7yuIycH7LFjz1mwlWdHqf5N4ZUOEmAAA="
+  },
+  {
+   "src": "/obras/renders/17.webp",
+   "w": 1920,
+   "h": 1200,
+   "orig": "IMG_1059.PNG",
+   "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQAgCdASoQAAoAA4BaJQBdgMXSztOLos5AAPysfvWBiToJjjdwSUcazP3EH4/rTgax/zpvgyLzjvmLTiEUqkle819HGUMeAgHbYFKWjcHfJUCIA2Hk3A5AAAA="
+  },
+  {
+   "src": "/obras/renders/18.webp",
+   "w": 1920,
+   "h": 1200,
+   "orig": "IMG_1058.PNG",
+   "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAwAgCdASoQAAoAA4BaJZQCdAEUrnwd394qQAD+mlYRddE8HgI/sKNCOn7h8rVe9mtZuGn0cYxJmp+OlCr7TTcqavcJRsiHKHrqXZQmmcygEi964sOUAAAA"
+  },
+  {
+   "src": "/obras/renders/19.webp",
+   "w": 1920,
+   "h": 927,
+   "orig": "IMG_1054.PNG",
+   "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAQCdASoQAAgAA4BaJQBOgCIjDnwKAAD+hWvV5GfN5L4mIhqlwWNl6il8foEqFVIp4ave7QQ0ahP8SAAAAA=="
+  },
+  {
+   "src": "/obras/renders/20.webp",
+   "w": 1920,
+   "h": 1252,
+   "orig": "IMG_1060.PNG",
+   "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAQCdASoQAAoAA4BaJQBOgCHwrMw/KEAA3lkkfRcxZuOWPpK1dsAKW9vtG/JOdSzngnQ6L3kHrjBrGKb4RX7KxFJhRuREcuoXIWBytS3C6AAA"
+  },
+  {
+   "src": "/obras/renders/21.webp",
+   "w": 1316,
+   "h": 782,
+   "orig": "IMG_1063.jpg",
+   "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQAgCdASoQAAoAA4BaJYwCdAEPCaZJvZ4wAP7rapPC10DI1PIvINKCatk29SJluG/kh8lMi3Dao8QBbzmO4kVp50pe0AoBY8YTP4Psd8AAAA=="
+  },
+  {
+   "src": "/obras/renders/22.webp",
+   "w": 1600,
+   "h": 1200,
+   "orig": "IMG_1090.JPG",
+   "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAQCdASoQAAwAA4BaJYgCdADbpWjgrqAA/usnkjvqloDVVwbsBh5gUB/DcmA/XhIhgLKl6zYX+qKnCcjEOHRLQPcYgCsGkaE+H3Y8IIyDMefAAAA="
+  },
+  {
+   "src": "/obras/renders/23.webp",
+   "w": 2500,
+   "h": 1488,
+   "orig": "IMG_8913.JPG",
+   "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACQAQCdASoQAAoAA4BaJZQAAuM0HqwA/fB5R/aIQjXAO4RtJAHXW32nm3Z9iDTU5VvG2x2y6mSpaXdm9YoTa0CAAAA="
+  }
+ ]
+}

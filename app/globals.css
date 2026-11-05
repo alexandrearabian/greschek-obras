@@ -1,0 +1,391 @@
+@import "tailwindcss";
+
+/*
+  Paleta tomada de las fotos: piedra (fondo), azul profundo (acento y bloque oscuro), roble (detalle).
+  Un solo tema claro: las casas se fotografían a pleno sol y sobre fondo oscuro pierden calidez.
+  Formas redondeadas: fotos y tarjetas con esquinas suaves, botones en píldora.
+*/
+:root {
+  --bg: #f3f2ee;
+  --surface: #e8e7e1;
+  --ink: #1c1f1b;
+  --muted: #464a44;
+  --line: #d5d4cc;
+  --accent: #163a6b;
+  --deep: #0e1c33;
+  --deep-ink: #eef2f8;
+  --deep-muted: #a3b3cc;
+  --deep-line: #263a5c;
+  --on-photo: #f6f5f1;
+  /* Tarjetas claras (FAQ abierta, menú): un blanco apagado que no encandila sobre la piedra. */
+  --card: #f9f8f5;
+  /* Lo que dura el logo de carga: las entradas de la primera pantalla esperan a que termine. */
+  --intro: 1100ms;
+  color-scheme: light;
+  interpolate-size: allow-keywords;
+}
+html[data-seen] {
+  --intro: 0ms;
+}
+@media (prefers-reduced-motion: reduce) {
+  :root { --intro: 0ms; }
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-deep: var(--deep);
+  --color-deep-ink: var(--deep-ink);
+  --color-deep-muted: var(--deep-muted);
+  --color-deep-line: var(--deep-line);
+  --color-on-photo: var(--on-photo);
+  --color-card: var(--card);
+  --font-sans: "Albert Sans Variable", ui-sans-serif, system-ui, sans-serif;
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+html {
+  background: var(--bg);
+  color: var(--ink);
+  -webkit-tap-highlight-color: transparent;
+  scroll-padding-top: 1.5rem;
+}
+
+body {
+  background: var(--bg);
+  font-size: 17px;
+  font-weight: 420;
+  line-height: 1.65;
+  /* Nada puede ensanchar la página de costado en celular (clip no rompe los sticky). */
+  overflow-x: clip;
+}
+
+html:has(dialog[open]) {
+  overflow: hidden;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--deep-ink);
+}
+
+/* Todo lo que se puede clickear muestra la mano (Tailwind deja los botones con la flecha por defecto). */
+@layer base {
+  button:not(:disabled),
+  [role="button"],
+  summary,
+  label:has(> input[type="radio"]) {
+    cursor: pointer;
+  }
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+/* Los campos de texto ya marcan el foco con su línea de abajo (ContactForm): sin recuadro encima. */
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: none;
+}
+
+h1, h2, h3 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+/* Contenedor único del sitio: mismo ancho y márgenes en todas las secciones. */
+@utility wrap {
+  margin-inline: auto;
+  width: 100%;
+  max-width: 1440px;
+  padding-inline: 1.25rem;
+  @media (width >= 48rem) {
+    padding-inline: 2.5rem;
+  }
+}
+
+/* Tipografía: una sola familia; los títulos en peso liviano y apretados, como rótulos de plano. */
+@utility display {
+  font-weight: 440;
+  letter-spacing: -0.04em;
+  line-height: 1;
+}
+@utility title {
+  font-weight: 470;
+  letter-spacing: -0.025em;
+  line-height: 1.08;
+}
+@utility label {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+/* Hover de links con texto: el título pasa al azul y se subraya de izquierda a derecha. */
+.hover-line {
+  background: linear-gradient(currentColor, currentColor) no-repeat left bottom / 0% 1px;
+  padding-bottom: 0.08em;
+  transition: color 300ms ease-out, background-size 700ms var(--ease-out-expo);
+}
+.group:focus-visible .hover-line,
+.group:hover .hover-line {
+  color: var(--accent);
+  background-size: 100% 1px;
+}
+@media (hover: none) {
+  .group:hover .hover-line { color: inherit; background-size: 0% 1px; }
+}
+
+/* Fotos de galería (renders y obras): se oscurece la mitad de abajo de la señalada y aparece su texto
+   (PhotoButton con caption). Las demás quedan como están. */
+@media (hover: hover) {
+  /* Lista de obras: la fila señalada queda, las demás se apagan. */
+  .rows:has(a:hover) a:not(:hover) { opacity: 0.35; }
+}
+
+/* Línea superior que se dibuja al entrar (pasos del proceso). */
+.draw-line::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 1px;
+  background: currentColor;
+  opacity: 0.35;
+  transform-origin: left;
+}
+
+/* Área de toque más grande (44 px) para links de texto en línea, sin cambiar cómo se ven. */
+.hit { position: relative; }
+.hit::after { content: ""; position: absolute; inset: -10px -4px; }
+
+/* Links de texto (RollText): --roll cambia el color de la copia que entra (sobre fotos o fondos oscuros).
+   Links del menú (RollText): cada letra sube y entra una copia en el acento desde abajo, escalonadas. */
+.roll { display: inline-flex; }
+.roll-ch { display: inline-flex; flex-direction: column; height: 1.2em; overflow: clip; }
+.roll-ch > span { display: block; line-height: 1.2em; }
+.roll-ch > span + span { color: var(--roll, var(--accent)); }
+
+/* Títulos partidos en letras (<SplitText>): las palabras no se cortan entre líneas. */
+.split .w { display: inline-block; white-space: nowrap; }
+.split .ch { display: inline-block; }
+
+/* Logo de carga: solo en la primera carga de la sesión (lo marca un script en el layout). */
+.intro {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  display: grid;
+  place-items: center;
+  background: var(--bg);
+  pointer-events: none;
+  animation: intro-out 600ms var(--ease-out-expo) 800ms forwards;
+}
+html[data-seen] .intro { display: none; }
+
+/* Menú de la píldora (popover nativo): Esc y click afuera lo cierran solos. */
+.menu-card {
+  position: fixed;
+  inset: auto 0 calc(5.25rem + env(safe-area-inset-bottom)) 0;
+  margin: 0 auto;
+  width: min(30rem, calc(100vw - 2rem));
+  max-height: calc(100dvh - 7rem);
+  overflow: hidden auto;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  color: inherit;
+}
+/* Al scrollear, la píldora sube al borde de arriba y el menú pasa a abrirse hacia abajo. */
+html[data-scrolled] .pill {
+  translate: 0 calc(-100dvh + 100% + 2rem + env(safe-area-inset-top) + env(safe-area-inset-bottom));
+}
+html[data-scrolled] .menu-card {
+  inset: calc(5.25rem + env(safe-area-inset-top)) 0 auto 0;
+}
+.pill { view-transition-name: pill; }
+/* Textos de la portada de una obra: capa propia en las transiciones, por encima de la foto que viaja,
+   así se ven desde el primer momento (con sus propias animaciones de entrada). */
+.hero-text { view-transition-name: hero-text; }
+/* Foto flotante de la lista de obras al hacer click: sin transiciones, así la captura del viaje la toma entera. */
+.float-preview[data-instant],
+.float-preview[data-instant] * { transition: none !important; }
+.menu-close { display: none; }
+body:has(.menu-card:popover-open) .menu-open { display: none; }
+body:has(.menu-card:popover-open) .menu-close { display: block; }
+
+/* Servicios: el texto mide lo mismo que una tarjeta angosta, así no se reacomoda cuando la tarjeta se ensancha.
+   Ancho del contenedor menos los huecos, dividido por las tarjetas (la activa cuenta doble). */
+@media (width >= 64rem) {
+  .svc-text { width: calc((min(100vw, 1440px) - 6rem - (var(--n) - 1) * 0.75rem) / (var(--n) + 1)); }
+}
+
+/* Pin del mapa de zona: punto en el acento con un halo que marca el área. */
+.map-pin {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  border-radius: 999px;
+  background: var(--accent);
+  box-shadow: 0 0 0 3px var(--card), 0 4px 12px rgb(24 34 47 / 0.35);
+}
+.map-pin::before {
+  content: "";
+  position: absolute;
+  inset: -64px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent);
+}
+
+/* Preguntas frecuentes: <details name> nativo, se abre de a una. */
+.faq::details-content {
+  block-size: 0;
+  overflow: clip;
+}
+.faq[open]::details-content { block-size: auto; }
+
+/*
+  Movimiento: una curva (expo). Sin tocar el scroll del navegador.
+  - Títulos: entran letra por letra, desenfocadas y en orden algo salteado.
+  - Resto: sube 28px y aparece al entrar en pantalla.
+  - Portada: queda fija y el contenido la tapa; el texto se va desenfocando con el scroll.
+  - Links del menú y el footer: las letras se mezclan al pasar el mouse (Motion.tsx).
+  - Obras: una foto sigue al cursor con retraso (ProjectList.tsx).
+*/
+@keyframes rise {
+  from { opacity: 0; translate: 0 28px; }
+}
+@keyframes char-in {
+  from { opacity: 0; filter: blur(10px); translate: 0 0.35em; }
+}
+@keyframes settle {
+  from { scale: 1.08; }
+}
+@keyframes fade {
+  from { opacity: 0; }
+}
+@keyframes draw {
+  from { scale: 0 1; }
+}
+@keyframes intro-in {
+  from { opacity: 0; scale: 0.92; filter: blur(8px); }
+}
+@keyframes intro-out {
+  to { opacity: 0; visibility: hidden; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .rise { animation: rise 1000ms var(--ease-out-expo) calc(var(--intro) + var(--d, 0ms)) backwards; }
+  .settle { animation: settle 2400ms var(--ease-out-expo) calc(var(--intro) - 400ms) backwards; }
+
+  [data-reveal].pre { opacity: 0; }
+  [data-reveal].in { animation: rise 1000ms var(--ease-out-expo) var(--rd, 0ms) backwards; }
+  .draw-line.in::before { animation: draw 1200ms var(--ease-out-expo) var(--rd, 0ms) backwards; }
+
+  /* Títulos partidos: se ocultan las letras, no el título. --c es el retraso de cada letra. */
+  [data-reveal][data-split].pre { opacity: 1; }
+  [data-reveal][data-split].in { animation: none; }
+  [data-split].pre .ch { opacity: 0; }
+  [data-split].in .ch { animation: char-in 900ms var(--ease-out-expo) calc(var(--rd, 0ms) + var(--c)) backwards; }
+  .split-now .ch { animation: char-in 900ms var(--ease-out-expo) calc(var(--intro) + var(--d, 0ms) + var(--c)) backwards; }
+
+  .intro > * { animation: intro-in 700ms var(--ease-out-expo) backwards; }
+  .intro-bar { transform-origin: left; animation: draw 800ms var(--ease-out-expo) 100ms backwards; }
+
+  /* Entrada solo con opacidad: el translate queda libre para el viaje de abajo hacia arriba. */
+  .pill { animation: fade 900ms ease-out calc(var(--intro) + 500ms) backwards; transition: translate 700ms cubic-bezier(0.65, 0, 0.35, 1); }
+  /* La píldora tiene su propia transición entre páginas: se desliza a su lugar en vez de fundirse con la página. */
+  ::view-transition-group(pill) { animation-duration: 650ms; animation-timing-function: cubic-bezier(0.32, 0.72, 0, 1); }
+  ::view-transition-new(hero-text) { animation: fade 300ms ease-out both; }
+  /* Aviso de scroll en la portada: la flecha baja y sube despacio. */
+  @keyframes bob { 50% { translate: 0 5px; } }
+  .scroll-cue svg { animation: bob 2.2s ease-in-out infinite; }
+  .pill-label { animation: char-in 500ms var(--ease-out-expo); }
+  .roll-ch > span { transition: translate 550ms var(--ease-out-expo) calc(var(--i) * 22ms); }
+  @media (hover: hover) { .group:hover .roll-ch > span { translate: 0 -100%; } }
+  .group:focus-visible .roll-ch > span { translate: 0 -100%; }
+
+  /* Servicios: la línea del activo se llena y al terminar pasa al siguiente (ServiceCards.tsx).
+     Con el mouse encima de las tarjetas se pausa. */
+  .svc-bar { transform-origin: left; animation: draw 12s linear; }
+  .svc:hover .svc-bar,
+  .svc:focus-within .svc-bar { animation-play-state: paused; }
+
+  .menu-card {
+    transition: opacity 250ms ease-out, translate 500ms var(--ease-out-expo), scale 500ms var(--ease-out-expo),
+      display 500ms allow-discrete, overlay 500ms allow-discrete;
+  }
+  .menu-card:not(:popover-open) { opacity: 0; translate: 0 16px; scale: 0.97; }
+  @starting-style {
+    .menu-card:popover-open { opacity: 0; translate: 0 16px; scale: 0.97; }
+  }
+  html[data-scrolled] .menu-card:not(:popover-open) { translate: 0 -16px; }
+  @starting-style {
+    html[data-scrolled] .menu-card:popover-open { translate: 0 -16px; }
+  }
+  .menu-card:popover-open .menu-link { animation: rise 700ms var(--ease-out-expo) calc(60ms + var(--i, 0) * 40ms) backwards; }
+
+  .faq::details-content {
+    transition: block-size 600ms var(--ease-out-expo), content-visibility 600ms allow-discrete;
+  }
+
+  @supports (animation-timeline: view()) {
+    @keyframes parallax { from { translate: 0 -7%; } to { translate: 0 7%; } }
+    .parallax { animation: parallax linear both; animation-timeline: view(); }
+  }
+
+  /* Portada de inicio: el texto se va con el scroll y la foto se oscurece mientras el contenido la tapa. */
+  @supports (animation-timeline: scroll()) {
+    @keyframes hero-out { to { opacity: 0; translate: 0 -12vh; filter: blur(8px); } }
+    @keyframes hero-dim { to { opacity: 1; } }
+    .hero-out { animation: hero-out linear both; animation-timeline: scroll(root); animation-range: 0 85vh; }
+    .hero-dim { animation: hero-dim linear both; animation-timeline: scroll(root); animation-range: 0 100vh; }
+  }
+
+  dialog.lightbox {
+    transition: opacity 350ms ease-out, display 350ms allow-discrete, overlay 350ms allow-discrete;
+  }
+  dialog.lightbox:not([open]) { opacity: 0; }
+  @starting-style {
+    dialog.lightbox[open] { opacity: 0; }
+  }
+  dialog.lightbox[open] .lightbox-stage { animation: settle 900ms var(--ease-out-expo) backwards; }
+
+  .form-done { animation: rise 800ms var(--ease-out-expo) backwards; }
+
+  /* Foto que viaja entre páginas (obras y servicios): curva firme sin cola lenta, esquinas redondeadas y las dos
+     capturas recortadas (no estiradas) aunque la tarjeta y el destino tengan distinta proporción. */
+  ::view-transition-group(.morph) {
+    animation-duration: 650ms;
+    animation-timing-function: cubic-bezier(0.32, 0.72, 0, 1);
+    border-radius: 1.5rem;
+    overflow: clip;
+  }
+  /* Sin fundido entre las dos capturas (cada una recorta distinto y se veía un "fantasma"): viaja la de destino. */
+  /* La página de fondo se funde al ritmo de la foto que viaja: no queda una página vacía mientras vuela. */
+  ::view-transition-old(root),
+  ::view-transition-new(root) { animation-duration: 500ms; animation-timing-function: ease-out; }
+  ::view-transition-old(.morph) { animation: none; opacity: 0; }
+  /* La captura ocupa exactamente su caja (recortada, no estirada): así sus esquinas redondeadas son las que se ven. */
+  ::view-transition-new(.morph) { width: 100%; height: 100%; object-fit: cover; animation: none; }
+  /* Entrando a una obra, las esquinas de la caja que viaja las anima ProjectHeroAnchor (onShare). */
+  html:active-view-transition-type(project)::view-transition-group(.morph) { border-radius: 1rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .intro { display: none; }
+  .group:hover .roll-ch > span:first-child, .group:focus-visible .roll-ch > span:first-child { color: var(--roll, var(--accent)); }
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) { animation: none !important; }
+}
