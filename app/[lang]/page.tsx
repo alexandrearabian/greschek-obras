@@ -10,7 +10,7 @@ import { Lightbox } from "@/components/Lightbox";
 import { ContactSection } from "@/components/ContactSection";
 import { SplitText } from "@/components/SplitText";
 import { RollText } from "@/components/RollText";
-import { ProjectList } from "@/components/ProjectList";
+import { ProjectCard } from "@/components/ProjectCard";
 import { ServiceCards } from "@/components/ServiceCards";
 import { ZoneMap } from "@/components/ZoneMap";
 
@@ -27,16 +27,16 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
   const [arq, obra, reforma, interior] = t.services.items;
   const steps = [
     { ...arq, photo: renders[13] },
-    { ...obra, photo: laguna.photos[1] },
+    { ...obra, photo: laguna.photos[3] },
     { ...reforma, photo: patio.photos[3] },
-    { ...interior, photo: pergola.photos[1] },
+    { ...interior, photo: pergola.photos[3] },
   ];
 
   return (
     // Contenedor común (no sticky): al llegar al inicio desde otra página, Next sube hasta acá y no saltea la portada fija.
     <div>
       {/* Portada: queda fija y el resto de la página sube por encima, como una hoja */}
-      <section data-section={t.sections.home} className="sticky top-0 isolate flex h-svh items-center justify-center overflow-hidden">
+      <section className="sticky top-0 isolate flex h-svh items-center justify-center overflow-hidden">
         <div className="settle absolute inset-0 -z-10">
           <Photo photo={{ ...laguna.cover, alt: t.home.heroAlt }} sizes="100vw" fill preload reveal={false} />
         </div>
@@ -69,7 +69,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
 
       <div className="relative z-10 rounded-t-[2rem] bg-bg shadow-[0_-24px_60px_-30px_rgb(14_18_26/0.5)]">
         {/* Presentación y números */}
-        <section id="estudio" data-section={t.sections.intro} className="wrap scroll-mt-0 pt-20 md:pt-36">
+        <section id="estudio" className="wrap scroll-mt-0 pt-20 md:pt-36">
           <p data-reveal className="title max-w-[26ch] text-[1.75rem] leading-[1.2] md:text-5xl md:leading-[1.08]">
             {t.home.intro}
           </p>
@@ -79,12 +79,13 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
         </section>
 
         {/* Servicios: tarjetas lado a lado, la activa se ensancha */}
-        <section data-section={t.sections.services}>
+        <section>
           <ServiceCards title={t.home.servicesTitle} link={t.home.servicesLink} steps={steps} lang={lang} />
         </section>
 
-        {/* Obras: lista con la portada que sigue al cursor */}
-        <section data-section={t.sections.works} className="wrap py-20 md:py-36">
+        {/* Obras terminadas: la prueba de lo que decimos, con fotos grandes. Casa Laguna ya es la portada,
+            así que acá van las cuatro siguientes (todas están en Proyectos). */}
+        <section className="wrap py-20 md:py-36">
           <div className="flex items-end justify-between gap-6">
             <SplitText text={t.home.worksTitle} className="title text-[2.25rem] md:text-6xl" />
             <Link href={`/${lang}/proyectos`} className="group hidden min-h-11 items-center gap-2 text-[15px] md:flex">
@@ -92,19 +93,21 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
               <ArrowRight size={16} aria-hidden className="transition duration-500 ease-out-expo group-hover:translate-x-1 group-hover:text-accent" />
             </Link>
           </div>
-          <div className="mt-12 md:mt-16">
-            <ProjectList lang={lang} projects={projects.map(({ slug, name, location, type, cover }) => ({ slug, name, location, type, cover }))} />
+          <div className="mt-12 grid gap-x-8 gap-y-12 md:mt-16 md:grid-cols-2 md:gap-y-16">
+            {projects.slice(1, 5).map((p) => (
+              <ProjectCard key={p.slug} project={p} lang={lang} heading="h3" sizes="(min-width: 768px) 50vw, 100vw" />
+            ))}
           </div>
           <div className="mt-12 md:hidden">
             <Button href={`/${lang}/proyectos`} tone="outline">{t.cta.projects}</Button>
           </div>
         </section>
 
-        {/* En diseño: grilla pareja de 6; cada imagen abre el visor, el resto está en Proyectos */}
-        <section data-section={t.sections.renders} className="wrap pb-20 md:pb-36">
+        {/* En diseño: secundario, cuatro miniaturas en fila; cada imagen abre el visor, el resto está en Proyectos */}
+        <section className="wrap pb-20 md:pb-36">
           <div className="flex items-end justify-between gap-6">
             <div>
-              <SplitText text={t.home.rendersTitle} className="title text-[2.25rem] md:text-6xl" />
+              <SplitText text={t.home.rendersTitle} className="title text-[1.75rem] md:text-4xl" />
               <p data-reveal className="mt-5 max-w-[48ch] text-lg text-muted">{t.home.rendersLead}</p>
             </div>
             <Link href={`/${lang}/proyectos`} className="group hidden min-h-11 shrink-0 items-center gap-2 text-[15px] md:flex">
@@ -112,15 +115,15 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
               <ArrowRight size={16} aria-hidden className="transition duration-500 ease-out-expo group-hover:translate-x-1 group-hover:text-accent" />
             </Link>
           </div>
-          <Lightbox photos={renders.slice(0, 6)} title={t.home.rendersTitle} labels={t.lightbox} className="mt-10 grid grid-cols-2 gap-3 md:mt-16 md:gap-4 lg:grid-cols-3 lg:gap-6">
-            {renders.slice(0, 6).map((r, i) => (
+          <Lightbox photos={renders.slice(0, 4)} title={t.home.rendersTitle} labels={t.lightbox} className="mt-8 grid grid-cols-2 gap-3 md:mt-10 md:gap-4 lg:grid-cols-4">
+            {renders.slice(0, 4).map((r, i) => (
               <PhotoButton
                 key={r.src}
                 index={i}
                 photo={r}
                 caption={`${t.projects.renderCaption} ${String(i + 1).padStart(2, "0")}`}
                 hint={t.projects.enlarge}
-                sizes="(min-width: 1024px) 33vw, 50vw"
+                sizes="(min-width: 1024px) 25vw, 50vw"
                 ratio="aspect-[3/2]"
               />
             ))}
@@ -128,10 +131,11 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
         </section>
 
         {/* Zona: foto grande con el mapa en una tarjeta */}
-        <section data-section={t.sections.zone} className="wrap">
+        <section className="wrap">
           <div className="relative isolate grid gap-8 overflow-hidden rounded-3xl p-5 pt-16 text-on-photo md:min-h-[85svh] md:grid-cols-12 md:items-end md:gap-10 md:p-12 lg:p-16">
             <div className="parallax absolute inset-x-0 -inset-y-[8%] -z-10">
-              <Photo photo={galeria.cover} sizes="(min-width: 1440px) 1360px, 100vw" fill reveal={false} />
+              {/* No la portada de Casa Galería: esa ya está en la grilla de obras. Esta mira a la laguna. */}
+              <Photo photo={galeria.photos[4]} sizes="(min-width: 1440px) 1360px, 100vw" fill reveal={false} />
             </div>
             <div className="absolute inset-0 -z-10 bg-[linear-gradient(to_bottom,rgb(14_18_26/0.72),rgb(14_18_26/0.5)_55%,rgb(14_18_26/0.6))] md:bg-[linear-gradient(to_top_right,rgb(14_18_26/0.8),rgb(14_18_26/0.15))]" aria-hidden />
             <div className="self-center md:col-span-7 md:self-end">
@@ -161,7 +165,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
         </section>
 
         {/* Preguntas frecuentes: acordeón nativo, se abre de a una */}
-        <section data-section={t.sections.faq} className="wrap py-20 md:py-36">
+        <section className="wrap py-20 md:py-36">
           <div className="grid gap-10 md:grid-cols-12 md:gap-8">
             <div className="md:col-span-5">
               <div className="md:sticky md:top-16">

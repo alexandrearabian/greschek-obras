@@ -37,7 +37,7 @@ export default async function ProjectsPage({ params }: PageProps<"/[lang]/proyec
       </section>
 
       {/* En diseño: grilla de 3 columnas, mismo recorte para todas */}
-      <section data-section={t.projects.rendersTitle} className="wrap">
+      <section className="wrap">
         <div className="rounded-3xl bg-surface px-3 py-14 md:px-10 md:py-24">
           <SplitText text={t.projects.rendersTitle} className="px-2 md:px-0 title text-[2.25rem] md:text-6xl" />
           <p data-reveal className="mt-5 max-w-[48ch] px-2 text-lg text-muted md:px-0">{t.projects.rendersLead}</p>

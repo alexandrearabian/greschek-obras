@@ -69,7 +69,7 @@ export default async function ProjectPage({ params }: PageProps<"/[lang]/proyect
     <>
       <Lightbox photos={project.photos} title={project.name} labels={t.lightbox}>
         {/* Portada a pantalla completa: la misma foto que la tarjeta, que viaja hasta acá */}
-        <section data-section={project.name} className="relative isolate flex min-h-[88svh] items-end overflow-hidden rounded-b-[2rem]">
+        <section className="relative isolate flex min-h-[88svh] items-end overflow-hidden rounded-b-[2rem]">
           {/* El degradé va dentro de la foto que viaja: llega con ella, no después */}
           <ProjectHeroAnchor slug={project.slug}>
             <Photo photo={cover} sizes="100vw" fill preload reveal={false} />
@@ -90,13 +90,7 @@ export default async function ProjectPage({ params }: PageProps<"/[lang]/proyect
         <section className="wrap grid gap-12 py-20 md:grid-cols-12 md:gap-8 md:py-28">
           <div className={lead ? "md:col-span-6" : "md:col-span-8"}>
             <p data-reveal className="title text-2xl md:text-4xl">{project.summary}</p>
-            <dl data-reveal className="mt-12 grid grid-cols-2 gap-8 border-t border-line pt-6 sm:grid-cols-3">
-              {project.location && (
-                <div>
-                  <dt className="text-sm text-muted">{t.projects.location}</dt>
-                  <dd className="mt-1">{project.location}</dd>
-                </div>
-              )}
+            <dl data-reveal className="mt-12 grid grid-cols-2 gap-8 border-t border-line pt-6">
               <div>
                 <dt className="text-sm text-muted">{t.projects.type}</dt>
                 <dd className="mt-1">{project.type}</dd>

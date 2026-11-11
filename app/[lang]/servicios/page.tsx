@@ -19,7 +19,7 @@ type Item = (typeof dict)["es"]["services"]["items"][number];
 
 function Service({ item, label, photo, flip }: { item: Item; label: string; photo: P; flip?: boolean }) {
   return (
-    <section id={item.id} data-section={item.short} className="wrap grid scroll-mt-24 items-center gap-10 pb-24 md:grid-cols-12 md:gap-8 md:pb-36">
+    <section id={item.id} className="wrap grid scroll-mt-24 items-center gap-10 pb-24 md:grid-cols-12 md:gap-8 md:pb-36">
       <div className={`md:col-span-7 ${flip ? "md:order-2 md:col-start-6" : ""}`}>
         <ViewTransition name={`service-${item.id}`} share="morph" default="none">
           <ServicePhotoAnchor id={item.id}>
@@ -56,11 +56,11 @@ export default async function ServicesPage({ params }: PageProps<"/[lang]/servic
       <PageHeader title={t.services.title} lead={t.services.lead} />
 
       <Service item={arq} label={t.services.includesLabel} photo={render} />
-      <Service item={obra} label={t.services.includesLabel} photo={laguna.photos[1]} flip />
-      <Service item={interior} label={t.services.includesLabel} photo={pergola.photos[1]} />
+      <Service item={obra} label={t.services.includesLabel} photo={laguna.photos[3]} flip />
+      <Service item={interior} label={t.services.includesLabel} photo={pergola.photos[3]} />
 
       {/* Refacciones: foto a todo el ancho con el texto debajo, rompe el ida y vuelta */}
-      <section id={reforma.id} data-section={reforma.short} className="wrap scroll-mt-24">
+      <section id={reforma.id} className="wrap scroll-mt-24">
         <div className="rounded-3xl bg-surface p-4 pb-16 md:p-6 md:pb-24">
           <ViewTransition name={`service-${reforma.id}`} share="morph" default="none">
             <ServicePhotoAnchor id={reforma.id}>
@@ -82,7 +82,7 @@ export default async function ServicesPage({ params }: PageProps<"/[lang]/servic
       </section>
 
       {/* Proceso: cinco pasos en fila, la línea de cada uno se dibuja al entrar */}
-      <section data-section={t.services.processShort} className="wrap py-20 md:py-36">
+      <section className="wrap py-20 md:py-36">
         <SplitText text={t.services.processTitle} className="title text-[2.25rem] md:text-6xl" />
         <ol className="mt-14 grid gap-10 sm:grid-cols-2 md:mt-20 lg:grid-cols-5 lg:gap-8">
           {t.services.process.map((s, i) => (

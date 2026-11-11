@@ -7,7 +7,19 @@ import { ProjectCoverAnchor } from "./ProjectCover";
 
 // Todas las tarjetas con el mismo recorte: la grilla queda pareja aunque las fotos no lo sean.
 // Al hover el nombre pasa al azul y se subraya. Al abrirla, la portada viaja a la página de la obra (flight.ts).
-export function ProjectCard({ project, lang, sizes, ratio = "aspect-[3/2]" }: { project: Project; lang: Locale; sizes: string; ratio?: string }) {
+export function ProjectCard({
+  project,
+  lang,
+  sizes,
+  ratio = "aspect-[3/2]",
+  heading: H = "h2",
+}: {
+  project: Project;
+  lang: Locale;
+  sizes: string;
+  ratio?: string;
+  heading?: "h2" | "h3";
+}) {
   return (
     <Link href={`/${lang}/proyectos/${project.slug}`} transitionTypes={["project"]} className="group block">
       <div>
@@ -16,10 +28,10 @@ export function ProjectCard({ project, lang, sizes, ratio = "aspect-[3/2]" }: { 
         </ProjectCoverAnchor>
         <div className="mt-5 flex items-start justify-between gap-4">
           <div>
-            <h2 className="text-xl font-medium tracking-tight">
+            <H className="text-xl font-medium tracking-tight">
               <span className="hover-line">{project.name}</span>
-            </h2>
-            <p className="mt-1 text-[15px] text-muted">{[project.location, project.type].filter(Boolean).join(", ")}</p>
+            </H>
+            <p className="mt-1 text-[15px] text-muted">{project.type}</p>
           </div>
           <ArrowUpRight size={20} weight="light" aria-hidden className="mt-1 shrink-0 text-muted transition duration-500 ease-out-expo group-hover:translate-x-1 group-hover:-translate-y-1 group-hover:text-accent" />
         </div>

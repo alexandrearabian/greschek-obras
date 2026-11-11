@@ -2,23 +2,27 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useRef, useState } from "react";
-import { InstagramLogo, List, X } from "@phosphor-icons/react";
+import { useEffect, useRef } from "react";
+import { InstagramLogo, List, WhatsappLogo, X } from "@phosphor-icons/react";
 import type { Dict, Locale } from "@/lib/i18n";
-import { site } from "@/lib/site";
+import { site, whatsappUrl } from "@/lib/site";
 import { buttonClass } from "./Button";
 import { Mark } from "./Wordmark";
 import { RollText } from "./RollText";
 
-// Navegación en una píldora fija abajo al centro: marca, sección en pantalla y botón de menú.
+// Navegación en una píldora fija al centro.
+// - Escritorio: marca, las secciones a la vista, idioma, WhatsApp y "Pedir presupuesto". Abajo en la portada del
+//   inicio; pasado el 60% de esa pantalla, y en las demás páginas, arriba (globals.css).
+// - Celular: marca, WhatsApp y el botón de menú, siempre abajo (al alcance del pulgar).
 // El menú es un popover nativo (Esc, click afuera y foco los resuelve el navegador).
 export function Nav({ lang, t }: { lang: Locale; t: Pick<Dict, "nav" | "menu" | "langLabel" | "cta" | "contact"> }) {
   const path = usePathname();
   const menu = useRef<HTMLDivElement>(null);
-  const [section, setSection] = useState("");
   const other: Locale = lang === "es" ? "en" : "es";
   const langHref = path.replace(/^\/(es|en)/, `/${other}`);
   const contactHref = `/${lang}/contacto`;
+  // La página de contacto ya es el formulario; en las demás, el formulario está al pie (#consulta).
+  const quoteHref = path === contactHref ? contactHref : "#consulta";
   const links = [
     { href: `/${lang}`, label: t.nav.home },
     { href: `/${lang}/proyectos`, label: t.nav.projects },
@@ -36,31 +40,7 @@ export function Nav({ lang, t }: { lang: Locale; t: Pick<Dict, "nav" | "menu" | 
     scrollTo({ top: 0, behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
   };
 
-  // Nombre de la píldora: la última sección ([data-section]) cuyo borde superior ya pasó el centro de la pantalla.
-  // Siempre hay una (también en el footer o al recargar a mitad de página).
-  useEffect(() => {
-    const els = [...document.querySelectorAll<HTMLElement>("[data-section]")];
-    let raf = 0;
-    const update = () => {
-      cancelAnimationFrame(raf);
-      raf = requestAnimationFrame(() => {
-        let current = els[0];
-        for (const el of els) if (el.getBoundingClientRect().top < innerHeight / 2) current = el;
-        setSection(current?.dataset.section ?? "");
-      });
-    };
-    update();
-    addEventListener("scroll", update, { passive: true });
-    addEventListener("resize", update);
-    return () => {
-      cancelAnimationFrame(raf);
-      removeEventListener("scroll", update);
-      removeEventListener("resize", update);
-    };
-  }, [path]);
-
-  // La píldora va abajo solo en la primera pantalla del inicio; pasado el 60% de esa pantalla, y en
-  // todas las demás páginas, queda arriba (globals.css). En páginas internas la marca ya llega del layout.
+  // Escritorio: la píldora va abajo solo en la primera pantalla del inicio (el CSS solo la sube desde 64rem).
   useEffect(() => {
     const root = document.documentElement;
     const home = path === `/${lang}`;
@@ -81,16 +61,56 @@ export function Nav({ lang, t }: { lang: Locale; t: Pick<Dict, "nav" | "menu" | 
         <Link href={`/${lang}`} onClick={toTop} aria-label={`${site.name}, ${t.nav.home}`} className="rounded-full">
           <Mark className="size-11 text-[17px]" />
         </Link>
-        <span aria-hidden className="w-36 truncate px-2 text-center text-[15px] font-medium sm:w-40">
-          <span key={section} className="pill-label inline-block">
-            {section}
-          </span>
-        </span>
-        {/* Botón de menú: blanco sólido sobre el vidrio de la píldora, con sombra corta y el ícono en el acento */}
+
+        {/* Escritorio: secciones a la vista (el inicio lo da la marca) */}
+        <ul className="hidden items-center px-2 lg:flex">
+          {links.slice(1).map((l) => (
+            <li key={l.href}>
+              <Link
+                href={l.href}
+                aria-current={isActive(l.href) ? "page" : undefined}
+                className="group flex h-11 items-center px-3 text-[15px] font-medium aria-[current=page]:text-accent"
+              >
+                <RollText text={l.label} />
+              </Link>
+            </li>
+          ))}
+        </ul>
+        <Link
+          href={langHref}
+          hrefLang={other}
+          lang={other}
+          aria-label={t.langLabel}
+          className="hidden h-11 items-center px-3 text-[15px] font-medium text-muted transition-colors duration-300 hover:text-ink lg:flex"
+        >
+          {other.toUpperCase()}
+        </Link>
+
+        {whatsappUrl && (
+          <a
+            href={whatsappUrl}
+            target="_blank"
+            rel="noreferrer"
+            aria-label={t.contact.whatsapp}
+            className="flex h-11 min-w-36 items-center justify-center gap-2 rounded-full px-4 text-[15px] font-medium transition-colors duration-300 hover:text-accent lg:min-w-0 lg:px-3"
+          >
+            <WhatsappLogo size={20} aria-hidden className="text-accent" />
+            <span className="lg:hidden">{t.contact.whatsapp}</span>
+          </a>
+        )}
+
+        <Link
+          href={quoteHref}
+          className="hidden h-11 items-center rounded-full bg-accent px-5 text-[15px] font-medium whitespace-nowrap text-deep-ink transition-colors duration-300 hover:bg-ink active:scale-[0.98] lg:inline-flex"
+        >
+          {t.cta.quote}
+        </Link>
+
+        {/* Celular: botón de menú, blanco sólido sobre el vidrio de la píldora, con el ícono en el acento */}
         <button
           type="button"
           popoverTarget="menu"
-          className="group flex h-11 items-center gap-2.5 rounded-full border border-line/70 bg-white pr-4 pl-5 text-[15px] font-medium text-ink shadow-[0_1px_2px_rgb(14_28_51/0.08),0_6px_16px_-6px_rgb(14_28_51/0.25)]"
+          className="group flex h-11 items-center gap-2.5 rounded-full border border-line/70 bg-white pr-4 pl-5 text-[15px] font-medium text-ink shadow-[0_1px_2px_rgb(14_28_51/0.08),0_6px_16px_-6px_rgb(14_28_51/0.25)] lg:hidden"
         >
           <RollText text={t.menu} />
           <List size={18} aria-hidden className="menu-open text-accent" />
@@ -140,7 +160,7 @@ export function Nav({ lang, t }: { lang: Locale; t: Pick<Dict, "nav" | "menu" | 
           </div>
 
           <Link
-            href={path === contactHref ? contactHref : "#consulta"}
+            href={quoteHref}
             onClick={close}
             className={`menu-link mt-7 w-full justify-center ${buttonClass("accent")}`}
             style={{ "--i": links.length + 1 } as React.CSSProperties}
