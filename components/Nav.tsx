@@ -95,7 +95,7 @@ export function Nav({ lang, t }: { lang: Locale; t: Pick<Dict, "nav" | "menu" | 
             className="flex h-11 min-w-36 items-center justify-center gap-2 rounded-full px-4 text-[15px] font-medium transition-colors duration-300 hover:text-accent lg:min-w-0 lg:px-3"
           >
             <WhatsappLogo size={20} aria-hidden className="text-accent" />
-            <span className="lg:hidden">{t.contact.whatsapp}</span>
+            <span className="lg:hidden xl:inline">{t.contact.whatsapp}</span>
           </a>
         )}
 

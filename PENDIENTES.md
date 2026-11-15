@@ -2,12 +2,39 @@
 
 Todo lo que está marcado como provisorio en el sitio sale de acá. Cuando llegue cada dato, se carga en `lib/site.ts`, `lib/i18n.ts` o `lib/projects.ts`.
 
-Última respuesta del cliente: 2026-11-05.
+Última respuesta del cliente: 2026-11-15 (cambios charlados con Santi).
 
-## Del Drive del cliente (recibido 2026-11-10)
-18 carpetas, una por casa, con las fotos profesionales en resolución original (~2.300 fotos). Se sumó al sitio:
-- 11 obras nuevas, con 9 a 23 fotos elegidas cada una (sin fotos con chicos)
-- Fotos originales nuevas para 7 obras que ya estaban (reemplazan las copias de Landhi)
+## Cambios pedidos por el cliente (2026-11-15)
+Pedido: portada animada con el scroll (del terreno a la casa terminada), grilla de obras con su foto principal y una página
+por obra con sus 12 fotos, y la estructura nosotros / cómo trabajamos / servicios / testimonios / contacto, con WhatsApp
+siempre visible. Hecho en el sitio:
+- [x] Obras: quedan **las 18 casas del Drive**, cada una con las 12 fotos que eligió el cliente (carpeta `_seleccion_web`,
+  en su orden; la 1 es la principal). Se sacaron las 12 que solo estaban en Landhi y los renders "En diseño"
+  (siguen en git, commit `b78a251`, por si se quieren recuperar)
+- [x] Inicio: portada, nosotros (con los números), cómo trabajamos, servicios, obras (6 + link a todas), testimonios,
+  zona, preguntas frecuentes y contacto. Zona y preguntas no estaban en el pedido: se dejaron; sacarlas si el cliente no las quiere
+- [x] WhatsApp: en la píldora de navegación, fija en todas las páginas (ahora con el texto también en escritorio ancho)
+- [ ] **Video de la portada: falta generarlo.** El sitio ya lo reproduce con el scroll; hoy muestra la foto fija de Casa Muelle.
+  1. Generar un clip de 5 a 8 s, 16:9, cámara fija, sin cortes: empieza en el terreno vacío y termina en la casa.
+     El **último cuadro tiene que ser `material/hero-ultimo-cuadro.jpg`** (la foto real, 3840×2160; `material/` no se sube a git).
+     La casa final es la obra real: lo generado es solo el proceso
+  2. Prepararlo (todos los cuadros clave, para que el scroll no salte) y sacar el primer cuadro:
+     `ffmpeg -i clip.mp4 -an -vf scale=1920:-2 -c:v libx264 -g 1 -crf 24 -pix_fmt yuv420p -movflags +faststart public/hero/obra.mp4`
+     `ffmpeg -i public/hero/obra.mp4 -frames:v 1 public/hero/obra.jpg`
+  3. Cargar `heroVideo: "/hero/obra.mp4"` en `lib/site.ts`. Probarlo en un iPhone real (Safari es el más delicado con video)
+- [ ] **Testimonios: son textos de ejemplo** y cada tarjeta dice "Ejemplo". No publicar así: cargar los reales en
+  `testimonials` de `lib/i18n.ts` y dejar `sample` vacío (o sacar la sección)
+- [ ] **38 fotos están en baja (1400 px)**: el conector del Drive no baja archivos de más de 10 MB y se usó la copia chica de
+  `_vistas`. Hay que bajar los originales a mano desde `_seleccion_web` y reemplazarlas:
+  Casa Muro (las 12), Casa Roble (01 a 06, 09, 11, 12), Casa Brisa (01, 03, 04, 06, 07, 08, 11, 12), Casa Alacena (01, 02, 05, 08, 12),
+  Casa Laguna (01, 04, 05) y Casa Muelle (08). Al reemplazar una foto con el mismo nombre, borrar `.next/cache/images`
+- [ ] **Logo: ya está en el Drive** (`_seleccion_web/Greschek Logos./Greschek_Logos_Todos_v2`, 20 SVG en azul, grafito, blanco,
+  piedra y negro; el horizontal nuevo es `03_Horizontal_Brujula_Completa`). Falta ponerlo en la píldora, el footer y el favicon
+
+## Del Drive del cliente (recibido 2026-11-10; selección de 12 fotos por casa, 2026-11-13)
+18 carpetas, una por casa, con las fotos profesionales en resolución original (~2.300 fotos). El 2026-11-13 el cliente sumó
+`_seleccion_web`: 12 fotos elegidas por casa, 3 suplentes, la principal de cada una y `seleccion.csv` con el motivo de cada elección.
+El sitio usa esa selección tal cual.
 - Decisión 2026-11-10: **las obras no muestran barrio**. Se sacó la ubicación de las tarjetas, la ficha y los datos.
   La sección Zona y la pregunta frecuente siguen nombrando los barrios donde trabajan (es la zona de servicio, no el de cada casa)
 
@@ -17,7 +44,7 @@ Todo lo que está marcado como provisorio en el sitio sale de acá. Cuando llegu
 | Santa Barbara 121 | Casa Patio |
 | Santa Barbara 122 | Casa Pérgola |
 | Santa Barbara 749 | Casa Galería |
-| El encuentro | Casa Contemporánea |
+| El encuentro (en `_seleccion_web`: "Casa sin identificar (en El Encuentro)") | Casa Contemporánea |
 | Yacht 1 | Casa Celosía |
 | Armanino SB | Casa Blanca |
 | Virazon Gilda | Casa Mármol (nueva) |
@@ -33,7 +60,7 @@ Todo lo que está marcado como provisorio en el sitio sale de acá. Cuando llegu
 | Santa Ana | Casa Muro (nueva) |
 
 - [ ] Nombres y descripciones de las 11 nuevas son provisorios (los escribimos mirando las fotos)
-- [ ] Casa Muro: solo 9 fotos, todas verticales y de celular. ¿Hay más o mejores?
+- [ ] Casa Muro: las 12 fotos son verticales (la tarjeta de la grilla recorta la principal a horizontal)
 - [ ] Casa Celosía: casi todas sus fotos son de ~2000 px. ¿Hay originales?
 - [ ] Sin usar: 15 videos cortos de celular de Casa Farol (recorridos de 3 a 6 s; pueden servir como loops) y 26 fotos HEIC
 - [ ] No hay fotos de obra en proceso en el Drive (ver "Fotos")
@@ -57,33 +84,14 @@ de gremios y proveedores" y el arquitecto José Cunzo (Quiénes somos). No se su
 - [x] Facebook inactivo: se sacó del sitio (menú, footer y contacto)
 
 ## Obras
-Son 30. Los nombres son **provisorios** y los inventamos nosotros a partir de las fotos (el sitio no muestra barrios).
-Origen de cada una: las del Drive, en la tabla de arriba; las que solo están en Landhi (fotos de menor calidad):
-
-| Sitio | Landhi |
-| --- | --- |
-| Casa Horizonte | Santa Barbara (1459) |
-| Casa Portón | Pacheco Golf (2409) |
-| Casa Bodega | Santa Barbara (1462) |
-| Casa Madera | Barbarita (1372) |
-| Casa Travertino | El Golf, Nordelta (1460) |
-| Casa Lino | Castaños, Nordelta (1461) |
-| Casa Selva | Los Sauces, Nordelta (2410) |
-| Casa Terrazas | Lagos del Golf, Nordelta (2414) |
-| Casa Lago | Nordelta (1157) |
-| Casa Mimbre | Tigre (1156) |
-| Casa Piedra | Santa Barbara (1153) |
-| Casa Pinar | Costa Esmeralda (1154) |
-| Renders | Villanueva (1155), Nordelta (1158, 2415), Albanueva (2411, Rincón de Milberg) |
+Son 18, las del Drive. Los nombres son **provisorios** y los inventamos nosotros a partir de las fotos (el sitio no muestra barrios).
+Origen de cada una: la tabla de arriba. Las 12 que solo estaban en Landhi y los renders se sacaron el 2026-11-15.
 
 - [ ] Nombre real de cada obra (o confirmar los provisorios)
-- [ ] Fotos originales de las 12 que solo están en Landhi
 - [x] Las de Santa Bárbara son casas distintas (confirmado con Landhi)
-- [ ] Renders: ponerles nombre por proyecto (Villanueva, Nordelta, Albanueva) en vez de "Anteproyecto 07"
 - [ ] Por cada obra: año, m² cubiertos, plazo de obra, y qué servicio se hizo. _Esperando_
 - [ ] Revisar las descripciones (las escribimos mirando las fotos)
 - [ ] Fotos de refacciones (tienen 180 y no se muestra ninguna). _Esperando_
-- [x] Renders "En diseño": son propios y se pueden publicar
 
 ## Servicios
 El cliente sumó: dirección de obra y construcción, anteproyecto, proyecto ejecutivo e interiorismo. Quedaron así:
@@ -103,11 +111,11 @@ El cliente sumó: dirección de obra y construcción, anteproyecto, proyecto eje
 ## Quiénes somos
 - [ ] Historia: quién fundó la empresa, cómo empezó en 1998 y los hitos importantes. _Esperando_
 - [ ] Equipo: nombres, roles y fotos (si quieren mostrarlo). _Esperando_
-- [ ] Testimonios de clientes (nombre y barrio) o link a reseñas de Google. _Esperando_
+- [ ] Testimonios de clientes (nombre y barrio) o link a reseñas de Google. _Esperando_. La sección ya está en el inicio con textos de ejemplo
 - [ ] Notas de prensa o publicaciones, si hay
 
 ## Marca
-- [ ] Logo en vector (SVG, AI o PDF). _Esperando que se lo manden al cliente_. Mientras tanto queda el wordmark tipográfico y la "G" provisoria
+- [ ] Logo en vector: **llegó por Drive** (ver arriba), falta aplicarlo. Mientras tanto queda el wordmark tipográfico y la "G" provisoria
 - [ ] Favicon (sale del logo)
 
 ## Fotos
@@ -135,7 +143,7 @@ Bloquea el lanzamiento:
 
 Depende del cliente (sin esto el sitio afirma más de lo que muestra):
 - [ ] Datos reales por obra: año, m², plazo y qué servicio se hizo. Hoy la ficha solo dice tipo y cantidad de fotos
-- [x] Más obras: ahora son 30 (Landhi + Drive)
+- [x] Obras: 18, todas con fotos profesionales del Drive
 - [ ] Una cara en "Quiénes somos": fundador o equipo, historia y al menos un testimonio
 - [ ] Email con dominio propio (@greschek-obras.com) en vez de Gmail
 - [ ] Logo en vector para reemplazar la "G" de la píldora
@@ -143,10 +151,9 @@ Depende del cliente (sin esto el sitio afirma más de lo que muestra):
 Del sitio (podemos hacerlo nosotros):
 - [ ] Bajar el movimiento: sacar las letras partidas de los títulos de sección y de los links (`SplitText`/`RollText`); dejar el viaje de fotos y el título de la portada. `RollText` duplica cada letra en el DOM (copiar el email puede traer letras de más)
 - [ ] Los números (28 / +430 / +180) salen como "0" en el HTML hasta que corre el script: renderizar el valor final y animar desde ahí
-- [ ] Casa Laguna no tiene tarjeta en el inicio (es la foto de portada y no se repite): sumar un link chico en la portada ("Casa Laguna →") o aceptarlo
+- [ ] Casa Muelle no tiene tarjeta en el inicio (es la foto de portada y no se repite): sumar un link chico en la portada ("Casa Muelle →") o aceptarlo
 - [ ] Mismo orden de servicios en Inicio y en Servicios (Interiorismo es 4º en uno y 3º en el otro); en el inicio las tarjetas de servicio no tienen descripción
 - [x] "Nordelta y alrededores" se repite 4 veces en la sección Zona: el texto ahora nombra los barrios
-- [ ] Renders: alt y títulos genéricos ("Imagen 3D de anteproyecto", "Anteproyecto 07"); la página Proyectos repite la foto de portada del inicio
 - [ ] Formulario: el teléfono va después del mensaje (subirlo, o pedir WhatsApp); los campos se ven poco sobre el bloque azul
 - [ ] Botón "Ver proyectos" de vidrio sobre la foto de portada: poco contraste
 - [ ] Etiquetas de los números muy chicas (~13 px)

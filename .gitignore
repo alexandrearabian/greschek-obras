@@ -47,3 +47,6 @@ next-env.d.ts
 .vscode/
 .idea/
 
+
+# material de trabajo (fotos en alta para generar el video de la portada)
+/material

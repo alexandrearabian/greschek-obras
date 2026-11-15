@@ -11,7 +11,7 @@ const es = {
   meta: {
     title: "Greschek Obras | Arquitectura y construcción en Nordelta",
     description:
-      "Proyectamos y construimos casas en Nordelta y alrededores desde 1998. Más de 430 casas y 180 refacciones.",
+      `Proyectamos y construimos casas en Nordelta y alrededores desde 1998. Más de ${site.houses} casas y ${site.renovations} refacciones.`,
   },
   nav: { home: "Inicio", projects: "Proyectos", services: "Servicios", about: "Quiénes somos", contact: "Contacto" },
   skip: "Saltar al contenido",
@@ -39,7 +39,7 @@ const es = {
   },
   home: {
     title: "Diseñamos y construimos tu casa",
-    heroAlt: "Casa Laguna: fachada de hormigón y piedra con jardín",
+    heroAlt: "Casa Muelle: frente de dos plantas con el acceso al centro",
     scroll: "Bajar al contenido",
     stats: [
       { value: years, prefix: "", label: "Años de trayectoria" },
@@ -47,12 +47,20 @@ const es = {
       { value: site.renovations, prefix: "+", label: "Refacciones" },
     ],
     intro: "Desde 1998 proyectamos y construimos casas en Nordelta y alrededores. Un mismo equipo acompaña cada obra, del primer plano a la entrega de llaves.",
+    aboutLink: "Conocer el estudio",
     worksTitle: "Obras terminadas",
     servicesTitle: "Cuatro formas de trabajar con nosotros",
     servicesLink: "Ver servicios",
-    quote: "La calidad no es negociable. Desde los cimientos hasta el último detalle.",
-    rendersTitle: "En diseño",
-    rendersLead: "Anteproyectos e imágenes 3D de casas que estamos proyectando.",
+  },
+  // PROVISORIO: textos de ejemplo hasta tener testimonios reales (PENDIENTES.md). Con los reales, dejar `sample` vacío.
+  testimonials: {
+    title: "Lo que dicen nuestros clientes",
+    sample: "Ejemplo",
+    items: [
+      { quote: "Texto de ejemplo. Acá va lo que cuenta un cliente sobre el proyecto: cómo entendieron lo que quería y cómo lo resolvieron.", name: "Nombre del cliente", place: "Barrio, casa nueva" },
+      { quote: "Texto de ejemplo. Acá va lo que cuenta un cliente sobre la obra: los plazos, la comunicación y el trato con el equipo.", name: "Nombre de la clienta", place: "Barrio, proyecto y obra" },
+      { quote: "Texto de ejemplo. Acá va lo que cuenta un cliente sobre el resultado: cómo es vivir en la casa terminada.", name: "Nombre de la familia", place: "Barrio, refacción" },
+    ],
   },
   form: {
     title: "¿Tenés un terreno o una casa para reformar?",
@@ -120,10 +128,6 @@ const es = {
     view: "Ver proyecto",
     next: "Siguiente proyecto",
     back: "Todos los proyectos",
-    rendersTitle: "En diseño",
-    rendersLead: "Anteproyectos e imágenes 3D de casas que estamos proyectando.",
-    renderAlt: "Imagen 3D de anteproyecto",
-    renderCaption: "Anteproyecto",
     enlarge: "Ver en grande",
     photoAlt: "foto",
   },
@@ -159,7 +163,7 @@ const en: Dict = {
   meta: {
     title: "Greschek Obras | Architecture and construction in Buenos Aires",
     description:
-      "We design and build homes in and around Nordelta since 1998. Over 430 houses and 180 renovations.",
+      `We design and build homes in and around Nordelta since 1998. Over ${site.houses} houses and ${site.renovations} renovations.`,
   },
   nav: { home: "Home", projects: "Projects", services: "Services", about: "About us", contact: "Contact" },
   skip: "Skip to content",
@@ -187,7 +191,7 @@ const en: Dict = {
   },
   home: {
     title: "We design and build your home",
-    heroAlt: "Casa Laguna: concrete and stone facade with a garden",
+    heroAlt: "Casa Muelle: two-storey front with the entrance at the centre",
     scroll: "Scroll to content",
     stats: [
       { value: years, prefix: "", label: "Years of experience" },
@@ -195,12 +199,19 @@ const en: Dict = {
       { value: site.renovations, prefix: "+", label: "Renovations" },
     ],
     intro: "Since 1998 we have designed and built homes in and around Nordelta. One team follows each project, from the first drawing to handing over the keys.",
+    aboutLink: "About the studio",
     worksTitle: "Finished work",
     servicesTitle: "Four ways to work with us",
     servicesLink: "View services",
-    quote: "Quality is not negotiable. From the foundations to the last detail.",
-    rendersTitle: "In design",
-    rendersLead: "Concept designs and 3D images of houses we are currently designing.",
+  },
+  testimonials: {
+    title: "What our clients say",
+    sample: "Sample",
+    items: [
+      { quote: "Sample text. A client's words about the design go here: how the team understood what they wanted and how it was solved.", name: "Client name", place: "Neighbourhood, new house" },
+      { quote: "Sample text. A client's words about the build go here: the schedule, the communication and the team on site.", name: "Client's name", place: "Neighbourhood, design and build" },
+      { quote: "Sample text. A client's words about the result go here: what it is like to live in the finished house.", name: "Family name", place: "Neighbourhood, renovation" },
+    ],
   },
   form: {
     title: "Do you have a plot, or a house to renovate?",
@@ -268,10 +279,6 @@ const en: Dict = {
     view: "View project",
     next: "Next project",
     back: "All projects",
-    rendersTitle: "In design",
-    rendersLead: "Concept designs and 3D images of houses we are currently designing.",
-    renderAlt: "3D image of a concept design",
-    renderCaption: "Concept",
     enlarge: "View larger",
     photoAlt: "photo",
   },

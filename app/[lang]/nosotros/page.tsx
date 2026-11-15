@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { dict, isLocale } from "@/lib/i18n";
-import { getProjects } from "@/lib/projects";
+import { bySlug, getProjects } from "@/lib/projects";
 import { Photo } from "@/components/Photo";
 import { Stats } from "@/components/Stats";
 import { ContactSection } from "@/components/ContactSection";
@@ -18,7 +18,9 @@ export default async function AboutPage({ params }: PageProps<"/[lang]/nosotros"
   const { lang } = await params;
   if (!isLocale(lang)) notFound();
   const t = dict[lang];
-  const [, , pergola, galeria] = getProjects(lang);
+  const projects = getProjects(lang);
+  const galeria = bySlug(projects, "casa-galeria");
+  const pergola = bySlug(projects, "casa-pergola");
 
   return (
     <>
@@ -51,7 +53,7 @@ export default async function AboutPage({ params }: PageProps<"/[lang]/nosotros"
           <p className="display text-[2.25rem] md:text-7xl">{t.about.quote}</p>
         </blockquote>
         <div className="md:col-span-4 md:col-start-9">
-          <Photo photo={pergola.photos[8]} ratio="aspect-[2/3]" sizes="(min-width: 768px) 33vw, 100vw" />
+          <Photo photo={pergola.photos[6]} ratio="aspect-[2/3]" sizes="(min-width: 768px) 33vw, 100vw" />
         </div>
       </section>
 

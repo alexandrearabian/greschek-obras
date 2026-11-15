@@ -2,43 +2,48 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowDown, ArrowRight, ArrowUpRight, Plus } from "@phosphor-icons/react/dist/ssr";
 import { dict, isLocale } from "@/lib/i18n";
-import { getProjects, getRenders } from "@/lib/projects";
-import { Photo, PhotoButton } from "@/components/Photo";
+import { bySlug, getProjects, servicePhotos } from "@/lib/projects";
+import { heroPhoto, site } from "@/lib/site";
+import { Photo } from "@/components/Photo";
 import { Button } from "@/components/Button";
 import { Stats } from "@/components/Stats";
-import { Lightbox } from "@/components/Lightbox";
 import { ContactSection } from "@/components/ContactSection";
 import { SplitText } from "@/components/SplitText";
 import { RollText } from "@/components/RollText";
 import { ProjectCard } from "@/components/ProjectCard";
 import { ServiceCards } from "@/components/ServiceCards";
+import { Process } from "@/components/Process";
+import { HeroVideo } from "@/components/HeroVideo";
 import { ZoneMap } from "@/components/ZoneMap";
 
 // ponytail: link a Google Maps centrado en Nordelta; cambiar si se define otra zona (PENDIENTES.md).
 const mapQuery = "Nordelta, Tigre, Buenos Aires, Argentina";
 
+// Estructura pedida por el cliente: portada, nosotros, cómo trabajamos, servicios, obras, testimonios y contacto.
 export default async function Home({ params }: PageProps<"/[lang]">) {
   const { lang } = await params;
   if (!isLocale(lang)) notFound();
   const t = dict[lang];
   const projects = getProjects(lang);
-  const [laguna, patio, pergola, galeria] = projects;
-  const renders = getRenders(t.projects.renderAlt);
+  const galeria = bySlug(projects, "casa-galeria");
+  const photos = servicePhotos(projects);
   const [arq, obra, reforma, interior] = t.services.items;
   const steps = [
-    { ...arq, photo: renders[13] },
-    { ...obra, photo: laguna.photos[3] },
-    { ...reforma, photo: patio.photos[3] },
-    { ...interior, photo: pergola.photos[3] },
+    { ...arq, photo: photos.arquitectura },
+    { ...obra, photo: photos.obra },
+    { ...reforma, photo: photos.refacciones },
+    { ...interior, photo: photos.interiorismo },
   ];
 
   return (
     // Contenedor común (no sticky): al llegar al inicio desde otra página, Next sube hasta acá y no saltea la portada fija.
-    <div>
+    // --scrub: cuánto scroll recorre el video de la portada antes de que suba el resto (0 sin video o con movimiento reducido).
+    <div className={site.heroVideo ? "[--scrub:150svh] md:[--scrub:220svh] motion-reduce:[--scrub:0px]" : ""}>
       {/* Portada: queda fija y el resto de la página sube por encima, como una hoja */}
       <section className="sticky top-0 isolate flex h-svh items-center justify-center overflow-hidden">
         <div className="settle absolute inset-0 -z-10">
-          <Photo photo={{ ...laguna.cover, alt: t.home.heroAlt }} sizes="100vw" fill preload reveal={false} />
+          <Photo photo={{ ...heroPhoto, alt: t.home.heroAlt }} sizes="100vw" fill preload reveal={false} />
+          {site.heroVideo && <HeroVideo src={site.heroVideo} />}
         </div>
         {/* Dos capas: degradé general y un velo suave detrás del texto para que se lea sobre cualquier foto */}
         <div className="absolute inset-0 -z-10 bg-[linear-gradient(to_top,rgb(14_18_26/0.7),rgb(14_18_26/0.35)_55%,rgb(14_18_26/0.45))]" aria-hidden />
@@ -66,16 +71,35 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
           </a>
         </div>
       </section>
+      {/* Separador: mientras se recorre, la portada sigue fija y el video avanza (HeroVideo) */}
+      {site.heroVideo && <div aria-hidden className="h-(--scrub)" />}
 
       <div className="relative z-10 rounded-t-[2rem] bg-bg shadow-[0_-24px_60px_-30px_rgb(14_18_26/0.5)]">
-        {/* Presentación y números */}
+        {/* Nosotros: presentación, foto y números */}
         <section id="estudio" className="wrap scroll-mt-0 pt-20 md:pt-36">
-          <p data-reveal className="title max-w-[26ch] text-[1.75rem] leading-[1.2] md:text-5xl md:leading-[1.08]">
-            {t.home.intro}
-          </p>
+          <div className="grid items-end gap-10 md:grid-cols-12 md:gap-8">
+            <div className="md:col-span-7">
+              <h2 data-reveal className="label text-muted">{t.nav.about}</h2>
+              <p data-reveal className="title mt-5 max-w-[22ch] text-[1.75rem] leading-[1.2] md:mt-6 md:text-5xl md:leading-[1.08]">
+                {t.home.intro}
+              </p>
+              <p data-reveal className="mt-6 max-w-[52ch] text-[17px] text-muted md:mt-8 md:text-lg">{t.about.body[1]}</p>
+              <div data-reveal className="mt-8 md:mt-10">
+                <Button href={`/${lang}/nosotros`} tone="outline">{t.home.aboutLink}</Button>
+              </div>
+            </div>
+            <div className="md:col-span-4 md:col-start-9">
+              <Photo photo={galeria.photos[6]} ratio="aspect-[4/5]" sizes="(min-width: 768px) 33vw, 100vw" />
+            </div>
+          </div>
           <div className="mt-14 md:mt-28">
             <Stats stats={t.home.stats} />
           </div>
+        </section>
+
+        {/* Cómo trabajamos */}
+        <section className="wrap pt-20 md:pt-36">
+          <Process t={t.services} />
         </section>
 
         {/* Servicios: tarjetas lado a lado, la activa se ensancha */}
@@ -83,8 +107,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
           <ServiceCards title={t.home.servicesTitle} link={t.home.servicesLink} steps={steps} lang={lang} />
         </section>
 
-        {/* Obras terminadas: la prueba de lo que decimos, con fotos grandes. Casa Laguna ya es la portada,
-            así que acá van las cuatro siguientes (todas están en Proyectos). */}
+        {/* Obras: grilla con la foto principal de seis (Casa Muelle es la portada y no se repite); todas están en Proyectos */}
         <section className="wrap py-20 md:py-36">
           <div className="flex items-end justify-between gap-6">
             <SplitText text={t.home.worksTitle} className="title text-[2.25rem] md:text-6xl" />
@@ -93,9 +116,9 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
               <ArrowRight size={16} aria-hidden className="transition duration-500 ease-out-expo group-hover:translate-x-1 group-hover:text-accent" />
             </Link>
           </div>
-          <div className="mt-12 grid gap-x-8 gap-y-12 md:mt-16 md:grid-cols-2 md:gap-y-16">
-            {projects.slice(1, 5).map((p) => (
-              <ProjectCard key={p.slug} project={p} lang={lang} heading="h3" sizes="(min-width: 768px) 50vw, 100vw" />
+          <div className="mt-12 grid gap-x-8 gap-y-12 sm:grid-cols-2 md:mt-16 lg:grid-cols-3">
+            {projects.filter((p) => p.slug !== "casa-muelle").slice(0, 6).map((p) => (
+              <ProjectCard key={p.slug} project={p} lang={lang} heading="h3" sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw" />
             ))}
           </div>
           <div className="mt-12 md:hidden">
@@ -103,31 +126,25 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
           </div>
         </section>
 
-        {/* En diseño: secundario, cuatro miniaturas en fila; cada imagen abre el visor, el resto está en Proyectos */}
+        {/* Testimonios. PROVISORIO: son textos de ejemplo, cada tarjeta lo dice (PENDIENTES.md) */}
         <section className="wrap pb-20 md:pb-36">
-          <div className="flex items-end justify-between gap-6">
-            <div>
-              <SplitText text={t.home.rendersTitle} className="title text-[1.75rem] md:text-4xl" />
-              <p data-reveal className="mt-5 max-w-[48ch] text-lg text-muted">{t.home.rendersLead}</p>
-            </div>
-            <Link href={`/${lang}/proyectos`} className="group hidden min-h-11 shrink-0 items-center gap-2 text-[15px] md:flex">
-              <RollText text={t.cta.projects} />
-              <ArrowRight size={16} aria-hidden className="transition duration-500 ease-out-expo group-hover:translate-x-1 group-hover:text-accent" />
-            </Link>
-          </div>
-          <Lightbox photos={renders.slice(0, 4)} title={t.home.rendersTitle} labels={t.lightbox} className="mt-8 grid grid-cols-2 gap-3 md:mt-10 md:gap-4 lg:grid-cols-4">
-            {renders.slice(0, 4).map((r, i) => (
-              <PhotoButton
-                key={r.src}
-                index={i}
-                photo={r}
-                caption={`${t.projects.renderCaption} ${String(i + 1).padStart(2, "0")}`}
-                hint={t.projects.enlarge}
-                sizes="(min-width: 1024px) 25vw, 50vw"
-                ratio="aspect-[3/2]"
-              />
+          <SplitText text={t.testimonials.title} className="title max-w-[16ch] text-[2.25rem] md:text-6xl" />
+          <ul className="mt-12 grid gap-3 md:mt-16 md:grid-cols-3 md:gap-6">
+            {t.testimonials.items.map((q) => (
+              <li key={q.name} data-reveal>
+                <figure className="flex h-full flex-col justify-between gap-10 rounded-3xl bg-surface p-6 md:gap-16 md:p-8">
+                  <blockquote className="text-[17px] leading-snug md:text-xl">{q.quote}</blockquote>
+                  <figcaption className="flex items-end justify-between gap-4 border-t border-line pt-5 text-[15px]">
+                    <span>
+                      <span className="block font-medium">{q.name}</span>
+                      <span className="block text-muted">{q.place}</span>
+                    </span>
+                    {t.testimonials.sample && <span className="label rounded-full border border-ink/25 px-3 py-1">{t.testimonials.sample}</span>}
+                  </figcaption>
+                </figure>
+              </li>
             ))}
-          </Lightbox>
+          </ul>
         </section>
 
         {/* Zona: foto grande con el mapa en una tarjeta */}
@@ -135,7 +152,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
           <div className="relative isolate grid gap-8 overflow-hidden rounded-3xl p-5 pt-16 text-on-photo md:min-h-[85svh] md:grid-cols-12 md:items-end md:gap-10 md:p-12 lg:p-16">
             <div className="parallax absolute inset-x-0 -inset-y-[8%] -z-10">
               {/* No la portada de Casa Galería: esa ya está en la grilla de obras. Esta mira a la laguna. */}
-              <Photo photo={galeria.photos[4]} sizes="(min-width: 1440px) 1360px, 100vw" fill reveal={false} />
+              <Photo photo={galeria.photos[2]} sizes="(min-width: 1440px) 1360px, 100vw" fill reveal={false} />
             </div>
             <div className="absolute inset-0 -z-10 bg-[linear-gradient(to_bottom,rgb(14_18_26/0.72),rgb(14_18_26/0.5)_55%,rgb(14_18_26/0.6))] md:bg-[linear-gradient(to_top_right,rgb(14_18_26/0.8),rgb(14_18_26/0.15))]" aria-hidden />
             <div className="self-center md:col-span-7 md:self-end">
