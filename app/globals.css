@@ -131,6 +131,10 @@ p {
   text-transform: uppercase;
 }
 
+/* Logo y marca: el SVG es la máscara y el color sale del fondo (un token). */
+.logo { aspect-ratio: 1862 / 582; mask: url(/logo.svg) center / contain no-repeat; }
+.mark { mask: url(/marca.svg) center / contain no-repeat; }
+
 /* Hover de links con texto: el título pasa al azul y se subraya de izquierda a derecha. */
 .hover-line {
   background: linear-gradient(currentColor, currentColor) no-repeat left bottom / 0% 1px;

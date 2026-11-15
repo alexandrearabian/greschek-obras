@@ -59,7 +59,7 @@ export function Nav({ lang, t }: { lang: Locale; t: Pick<Dict, "nav" | "menu" | 
         className="pill fixed inset-x-0 bottom-[calc(1rem+env(safe-area-inset-bottom))] z-40 mx-auto flex w-fit items-center gap-1 rounded-full border border-white/60 bg-[rgb(236_235_230/0.78)] p-1.5 shadow-[inset_0_1px_0_rgb(255_255_255/0.7),0_14px_40px_-14px_rgb(14_28_51/0.4)] backdrop-blur-xl backdrop-saturate-150"
       >
         <Link href={`/${lang}`} onClick={toTop} aria-label={`${site.name}, ${t.nav.home}`} className="rounded-full">
-          <Mark className="size-11 text-[17px]" />
+          <Mark className="size-11" />
         </Link>
 
         {/* Escritorio: secciones a la vista (el inicio lo da la marca) */}

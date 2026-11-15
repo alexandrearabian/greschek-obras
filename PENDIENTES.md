@@ -28,8 +28,10 @@ siempre visible. Hecho en el sitio:
   `_vistas`. Hay que bajar los originales a mano desde `_seleccion_web` y reemplazarlas:
   Casa Muro (las 12), Casa Roble (01 a 06, 09, 11, 12), Casa Brisa (01, 03, 04, 06, 07, 08, 11, 12), Casa Alacena (01, 02, 05, 08, 12),
   Casa Laguna (01, 04, 05) y Casa Muelle (08). Al reemplazar una foto con el mismo nombre, borrar `.next/cache/images`
-- [ ] **Logo: ya está en el Drive** (`_seleccion_web/Greschek Logos./Greschek_Logos_Todos_v2`, 20 SVG en azul, grafito, blanco,
-  piedra y negro; el horizontal nuevo es `03_Horizontal_Brujula_Completa`). Falta ponerlo en la píldora, el footer y el favicon
+- [x] Logo: tomado del Drive (`_seleccion_web/Greschek Logos./Greschek_Logos_Todos_v2`). El horizontal nuevo
+  (`03_Horizontal_Brujula_Completa`) va en el footer; la brújula simplificada de `02_Evolucion` va en la píldora, la
+  pantalla de carga y el ícono del navegador. Decidir con el cliente: el azul de la marca es `#00156B` y el del sitio
+  (`--accent`) es `#163a6b`; el logo usa el del sitio
 
 ## Del Drive del cliente (recibido 2026-11-10; selección de 12 fotos por casa, 2026-11-13)
 18 carpetas, una por casa, con las fotos profesionales en resolución original (~2.300 fotos). El 2026-11-13 el cliente sumó
@@ -115,8 +117,8 @@ El cliente sumó: dirección de obra y construcción, anteproyecto, proyecto eje
 - [ ] Notas de prensa o publicaciones, si hay
 
 ## Marca
-- [ ] Logo en vector: **llegó por Drive** (ver arriba), falta aplicarlo. Mientras tanto queda el wordmark tipográfico y la "G" provisoria
-- [ ] Favicon (sale del logo)
+- [x] Logo en vector: llegó por Drive y ya está en el sitio (ver arriba)
+- [x] Favicon (sale del logo)
 
 ## Fotos
 - [x] Fotos originales en alta: llegaron por Drive para 18 obras (faltan las 12 que solo están en Landhi)
@@ -146,7 +148,7 @@ Depende del cliente (sin esto el sitio afirma más de lo que muestra):
 - [x] Obras: 18, todas con fotos profesionales del Drive
 - [ ] Una cara en "Quiénes somos": fundador o equipo, historia y al menos un testimonio
 - [ ] Email con dominio propio (@greschek-obras.com) en vez de Gmail
-- [ ] Logo en vector para reemplazar la "G" de la píldora
+- [x] Logo en vector para reemplazar la "G" de la píldora
 
 Del sitio (podemos hacerlo nosotros):
 - [ ] Bajar el movimiento: sacar las letras partidas de los títulos de sección y de los links (`SplitText`/`RollText`); dejar el viaje de fotos y el título de la portada. `RollText` duplica cada letra en el DOM (copiar el email puede traer letras de más)
