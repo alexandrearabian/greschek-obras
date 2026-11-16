@@ -131,6 +131,10 @@ p {
   text-transform: uppercase;
 }
 
+/* Logo y marca: el SVG es la máscara y el color sale del fondo (un token). */
+.logo { aspect-ratio: 1862 / 582; mask: url(/logo.svg) center / contain no-repeat; }
+.mark { mask: url(/marca.svg) center / contain no-repeat; }
+
 /* Hover de links con texto: el título pasa al azul y se subraya de izquierda a derecha. */
 .hover-line {
   background: linear-gradient(currentColor, currentColor) no-repeat left bottom / 0% 1px;
@@ -144,13 +148,6 @@ p {
 }
 @media (hover: none) {
   .group:hover .hover-line { color: inherit; background-size: 0% 1px; }
-}
-
-/* Fotos de galería (renders y obras): se oscurece la mitad de abajo de la señalada y aparece su texto
-   (PhotoButton con caption). Las demás quedan como están. */
-@media (hover: hover) {
-  /* Lista de obras: la fila señalada queda, las demás se apagan. */
-  .rows:has(a:hover) a:not(:hover) { opacity: 0.35; }
 }
 
 /* Línea superior que se dibuja al entrar (pasos del proceso). */
@@ -205,20 +202,17 @@ html[data-seen] .intro { display: none; }
   background: transparent;
   color: inherit;
 }
-/* Al scrollear, la píldora sube al borde de arriba y el menú pasa a abrirse hacia abajo. */
-html[data-scrolled] .pill {
-  translate: 0 calc(-100dvh + 100% + 2rem + env(safe-area-inset-top) + env(safe-area-inset-bottom));
-}
-html[data-scrolled] .menu-card {
-  inset: calc(5.25rem + env(safe-area-inset-top)) 0 auto 0;
+/* En escritorio, al scrollear, la píldora sube al borde de arriba. En celular queda siempre abajo, al alcance
+   del pulgar (y el menú, que solo existe en celular, siempre se abre hacia arriba). */
+@media (width >= 64rem) {
+  html[data-scrolled] .pill {
+    translate: 0 calc(-100dvh + 100% + 2rem + env(safe-area-inset-top) + env(safe-area-inset-bottom));
+  }
 }
 .pill { view-transition-name: pill; }
 /* Textos de la portada de una obra: capa propia en las transiciones, por encima de la foto que viaja,
    así se ven desde el primer momento (con sus propias animaciones de entrada). */
 .hero-text { view-transition-name: hero-text; }
-/* Foto flotante de la lista de obras al hacer click: sin transiciones, así la captura del viaje la toma entera. */
-.float-preview[data-instant],
-.float-preview[data-instant] * { transition: none !important; }
 .menu-close { display: none; }
 body:has(.menu-card:popover-open) .menu-open { display: none; }
 body:has(.menu-card:popover-open) .menu-close { display: block; }
@@ -260,7 +254,6 @@ body:has(.menu-card:popover-open) .menu-close { display: block; }
   - Resto: sube 28px y aparece al entrar en pantalla.
   - Portada: queda fija y el contenido la tapa; el texto se va desenfocando con el scroll.
   - Links del menú y el footer: las letras se mezclan al pasar el mouse (Motion.tsx).
-  - Obras: una foto sigue al cursor con retraso (ProjectList.tsx).
 */
 @keyframes rise {
   from { opacity: 0; translate: 0 28px; }
@@ -310,7 +303,6 @@ body:has(.menu-card:popover-open) .menu-close { display: block; }
   /* Aviso de scroll en la portada: la flecha baja y sube despacio. */
   @keyframes bob { 50% { translate: 0 5px; } }
   .scroll-cue svg { animation: bob 2.2s ease-in-out infinite; }
-  .pill-label { animation: char-in 500ms var(--ease-out-expo); }
   .roll-ch > span { transition: translate 550ms var(--ease-out-expo) calc(var(--i) * 22ms); }
   @media (hover: hover) { .group:hover .roll-ch > span { translate: 0 -100%; } }
   .group:focus-visible .roll-ch > span { translate: 0 -100%; }
@@ -329,10 +321,6 @@ body:has(.menu-card:popover-open) .menu-close { display: block; }
   @starting-style {
     .menu-card:popover-open { opacity: 0; translate: 0 16px; scale: 0.97; }
   }
-  html[data-scrolled] .menu-card:not(:popover-open) { translate: 0 -16px; }
-  @starting-style {
-    html[data-scrolled] .menu-card:popover-open { translate: 0 -16px; }
-  }
   .menu-card:popover-open .menu-link { animation: rise 700ms var(--ease-out-expo) calc(60ms + var(--i, 0) * 40ms) backwards; }
 
   .faq::details-content {
@@ -348,8 +336,9 @@ body:has(.menu-card:popover-open) .menu-close { display: block; }
   @supports (animation-timeline: scroll()) {
     @keyframes hero-out { to { opacity: 0; translate: 0 -12vh; filter: blur(8px); } }
     @keyframes hero-dim { to { opacity: 1; } }
-    .hero-out { animation: hero-out linear both; animation-timeline: scroll(root); animation-range: 0 85vh; }
-    .hero-dim { animation: hero-dim linear both; animation-timeline: scroll(root); animation-range: 0 100vh; }
+    /* --scrub: scroll que recorre antes el video de la portada (inicio); sin video es 0. */
+    .hero-out { animation: hero-out linear both; animation-timeline: scroll(root); animation-range: var(--scrub, 0px) calc(var(--scrub, 0px) + 85vh); }
+    .hero-dim { animation: hero-dim linear both; animation-timeline: scroll(root); animation-range: var(--scrub, 0px) calc(var(--scrub, 0px) + 100vh); }
   }
 
   dialog.lightbox {

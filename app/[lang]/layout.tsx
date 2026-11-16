@@ -46,7 +46,7 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
         <script dangerouslySetInnerHTML={{ __html: seen }} />
         <div className="intro" aria-hidden>
           <div className="flex flex-col items-center gap-5">
-            <Mark className="size-14 text-2xl" />
+            <Mark className="size-14" />
             <span className="flex items-baseline gap-2 text-[15px] tracking-[0.24em] uppercase">
               <span className="font-semibold">Greschek</span>
               <span className="opacity-60">Obras</span>

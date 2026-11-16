@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ArrowUpRight, EnvelopeSimple, InstagramLogo, Phone, WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
 import { dict, isLocale } from "@/lib/i18n";
-import { site } from "@/lib/site";
+import { site, whatsappUrl } from "@/lib/site";
 import { ContactForm } from "@/components/ContactForm";
 import { PageHeader } from "@/components/PageHeader";
 
@@ -20,7 +20,7 @@ export default async function ContactPage({ params }: PageProps<"/[lang]/contact
   // Solo se muestran los canales que tienen dato en lib/site.ts.
   const channels = [
     { label: t.contact.email, value: site.email, href: `mailto:${site.email}?subject=${encodeURIComponent(t.contact.mailSubject)}`, Icon: EnvelopeSimple },
-    site.whatsapp && { label: t.contact.whatsapp, value: "WhatsApp", href: `https://wa.me/${site.whatsapp}`, Icon: WhatsappLogo },
+    whatsappUrl && { label: t.contact.whatsapp, value: "WhatsApp", href: whatsappUrl, Icon: WhatsappLogo },
     site.phone && { label: t.contact.phone, value: site.phone, href: `tel:${site.phone.replace(/\s/g, "")}`, Icon: Phone },
     { label: "Instagram", value: "@greschek_obras", href: site.instagram, Icon: InstagramLogo },
   ].filter(Boolean) as { label: string; value: string; href: string; Icon: typeof InstagramLogo }[];

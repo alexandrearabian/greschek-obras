@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { dict, isLocale } from "@/lib/i18n";
-import { getProjects } from "@/lib/projects";
+import { bySlug, getProjects } from "@/lib/projects";
 import { Photo } from "@/components/Photo";
 import { Stats } from "@/components/Stats";
 import { ContactSection } from "@/components/ContactSection";
@@ -18,7 +18,9 @@ export default async function AboutPage({ params }: PageProps<"/[lang]/nosotros"
   const { lang } = await params;
   if (!isLocale(lang)) notFound();
   const t = dict[lang];
-  const [, , pergola, galeria] = getProjects(lang);
+  const projects = getProjects(lang);
+  const galeria = bySlug(projects, "casa-galeria");
+  const pergola = bySlug(projects, "casa-pergola");
 
   return (
     <>
@@ -26,7 +28,7 @@ export default async function AboutPage({ params }: PageProps<"/[lang]/nosotros"
 
       {/* Foto ancha + texto en dos columnas */}
       <section className="wrap pb-20 md:pb-36">
-        <Photo photo={galeria.photos[2]} ratio="aspect-[3/2] md:aspect-[21/9]" sizes="(min-width: 1440px) 1360px, 100vw" preload />
+        <Photo photo={galeria.photos[7]} ratio="aspect-[3/2] md:aspect-[21/9]" sizes="(min-width: 1440px) 1360px, 100vw" preload />
         <div className="mt-14 grid gap-8 md:mt-20 md:grid-cols-12">
           {t.about.body.map((p) => (
             <p key={p} data-reveal className="text-lg text-muted md:col-span-5 md:even:col-start-7">
@@ -36,7 +38,7 @@ export default async function AboutPage({ params }: PageProps<"/[lang]/nosotros"
         </div>
       </section>
 
-      <section data-section={t.about.statsTitle} className="wrap">
+      <section className="wrap">
         <div className="rounded-3xl bg-surface px-5 py-14 md:px-12 md:py-28 lg:px-16">
           <SplitText text={t.about.statsTitle} className="title text-[2.25rem] md:text-6xl" />
           <div className="mt-14 md:mt-20">
@@ -51,7 +53,7 @@ export default async function AboutPage({ params }: PageProps<"/[lang]/nosotros"
           <p className="display text-[2.25rem] md:text-7xl">{t.about.quote}</p>
         </blockquote>
         <div className="md:col-span-4 md:col-start-9">
-          <Photo photo={pergola.photos[3]} ratio="aspect-[2/3]" sizes="(min-width: 768px) 33vw, 100vw" />
+          <Photo photo={pergola.photos[6]} ratio="aspect-[2/3]" sizes="(min-width: 768px) 33vw, 100vw" />
         </div>
       </section>
 

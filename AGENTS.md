@@ -26,8 +26,9 @@ npm run build    # todas las rutas tienen que salir estáticas (●)
 ## Dónde está cada cosa
 
 - `lib/i18n.ts`: todos los textos (es y en, mismo esquema `Dict`). Nunca texto suelto en componentes.
-- `lib/site.ts`: contacto, redes y números. Campo vacío = no se muestra.
-- `lib/projects.ts` + `lib/photos.json` + `public/obras/<slug>/`: obras y fotos (con medidas y blur).
+- `lib/site.ts`: contacto, redes, números y la portada (`heroPhoto`, `heroVideo`). Campo vacío = no se muestra.
+- `lib/projects.ts` + `lib/photos.json` + `public/obras/<slug>/`: las 18 obras y sus 12 fotos (con medidas y blur),
+  en el orden que eligió el cliente; la 01 es la principal.
 - `app/globals.css`: tokens de color, utilidades (`wrap`, `display`, `title`, `label`) y TODA la animación CSS.
 - `components/flight.ts`: reglas de las fotos que viajan entre páginas (leer antes de tocar transiciones).
 - `PENDIENTES.md`: lo que falta del cliente. Lo provisorio del sitio sale de ahí.
@@ -44,6 +45,8 @@ npm run build    # todas las rutas tienen que salir estáticas (●)
 
 - Una curva (`--ease-out-expo`), entradas cortas. Todo con alternativa para `prefers-reduced-motion`.
 - No se toca el scroll del navegador (nada de scroll suave ni secciones fijas que secuestren el scroll).
+  Única excepción, pedida por el cliente: el video de la portada avanza con el scroll (`HeroVideo`). El scroll sigue
+  siendo el nativo: solo se lee su posición, y con movimiento reducido queda la foto fija.
 - Títulos: `<SplitText>` (letra por letra). Links de texto: `<RollText>` dentro de un `.group`.
 - Fotos que abren otra página: siempre por `flight.ts`:
   - click → View Transition de React; el origen lleva el nombre de transición solo durante el viaje
@@ -64,3 +67,4 @@ npm run build    # todas las rutas tienen que salir estáticas (●)
 
 `npm run lint`, `npx tsc --noEmit` y `npm run build` limpios. Si se tocó algo visual, mirarlo en el navegador
 a 1440 y a 390 px. No dejar código de depuración (`window.__...`, `console.log`).
+Si se reemplazó una foto sin cambiarle el nombre, borrar `.next/cache/images`: si no, en local se sigue viendo la vieja.

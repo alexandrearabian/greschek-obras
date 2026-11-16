@@ -1,7 +1,7 @@
 import Link from "next/link";
-import { InstagramLogo } from "@phosphor-icons/react/dist/ssr";
+import { InstagramLogo, WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
 import type { Dict, Locale } from "@/lib/i18n";
-import { site } from "@/lib/site";
+import { site, whatsappUrl } from "@/lib/site";
 import { SplitText } from "./SplitText";
 import { Wordmark } from "./Wordmark";
 import { RollText } from "./RollText";
@@ -15,6 +15,7 @@ export function Footer({ lang, t }: { lang: Locale; t: Dict }) {
     [`/${lang}/contacto`, t.nav.contact],
   ];
   const link = "w-fit py-2 text-[15px] text-muted transition-colors duration-300 hover:text-ink";
+  const icon = "flex size-11 items-center justify-center text-muted transition-colors hover:text-ink";
   return (
     <footer className="relative z-10 -mt-0.5 overflow-hidden bg-bg text-ink">
       <div className="wrap grid grid-cols-2 gap-x-6 gap-y-8 pt-14 md:grid-cols-12 md:gap-12 md:pt-24">
@@ -41,9 +42,16 @@ export function Footer({ lang, t }: { lang: Locale; t: Dict }) {
               </a>
             )}
           </div>
-          <a href={site.instagram} target="_blank" rel="noreferrer" aria-label="Instagram" className="-mr-2.5 flex size-11 shrink-0 items-center justify-center text-muted transition-colors hover:text-ink md:mt-3 md:-ml-2.5">
-            <InstagramLogo size={22} weight="light" aria-hidden />
-          </a>
+          <div className="-mr-2.5 flex shrink-0 md:mt-3 md:-ml-2.5">
+            {whatsappUrl && (
+              <a href={whatsappUrl} target="_blank" rel="noreferrer" aria-label={t.contact.whatsapp} className={icon}>
+                <WhatsappLogo size={22} weight="light" aria-hidden />
+              </a>
+            )}
+            <a href={site.instagram} target="_blank" rel="noreferrer" aria-label="Instagram" className={icon}>
+              <InstagramLogo size={22} weight="light" aria-hidden />
+            </a>
+          </div>
         </div>
       </div>
       <div className="wrap mt-12 flex flex-wrap justify-between gap-x-4 gap-y-1 border-t border-line pt-6 text-[13px] text-muted md:mt-14">

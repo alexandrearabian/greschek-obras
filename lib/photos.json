@@ -1,616 +1,1550 @@
 {
- "casa-pergola": [
-  {
-   "src": "/obras/casa-pergola/01.webp",
-   "w": 1920,
-   "h": 1080,
-   "orig": "1.jpg",
-   "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAQCdASoQAAkAA4BaJZACdADwbKqaYAD+wFtfCazVvwv9rUpd+lAsCroYhoVUjbmUD7NglYEbdUsQq3fcWhjWWdHu/woGgAA="
-  },
-  {
-   "src": "/obras/casa-pergola/02.webp",
-   "w": 2500,
-   "h": 1667,
-   "orig": "1.+go+casa+santa+barbara-+fachada+5.JPG",
-   "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwAgCdASoQAAsAA4BaJbACdAELVU+xfZhsAAD2nVNsf6Rlff7iegSRnilbm2IqBiTAYS7MEb9rAtGm71D5yz2BnFnha5dT7DqfumqE4cmSgb/txXXz+v/W7sYc2gAA"
-  },
-  {
-   "src": "/obras/casa-pergola/03.webp",
-   "w": 2500,
-   "h": 1669,
-   "orig": "2.+go+casa+santa+barbara-+living+1.JPG",
-   "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwAgCdASoQAAsAA4BaJYwCdAEfB1Xd8ko4QAD2pzLV1I1zJzoS+z30nQ0w6VbufM8n56hZ8jPIxAOUZsnkE9jhth4BNLxpd939g5FqYFt6AAAA"
-  },
-  {
-   "src": "/obras/casa-pergola/04.webp",
-   "w": 2500,
-   "h": 3749,
-   "orig": "1.+go+casa+santa+barbara-+fachada+14.JPG",
-   "blur": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAAAwBACdASoQABgAPu1iqU2ppaOiMAgBMB2JaACdABeey2iJJgubENOnVYAA/i97YAvai3XiZrOlP9sSiKqB4PgAPpHVe06M6rJ+z/HSe+5AEeZ00kgDq5cYlqtSQOa9viA4HMdevAP3ZzpQs/CD9wPLD3b7Dgw+RWKuvtxry/tn9GFBi291mtw6aEAQtHNJ5ZAAAA=="
-  },
-  {
-   "src": "/obras/casa-pergola/05.webp",
-   "w": 2500,
-   "h": 1669,
-   "orig": "2.+go+casa+santa+barbara-+living+2.JPG",
-   "blur": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAACQAgCdASoQAAsAA4BaJYwCdEf/i2GNALTdAL3m0ADgLd2PnXMu+O7xHK6M5kXjtWZekvJPdxR4KOcoG6zj7rvwTt4T0yXxHYSRxUFE16z+ius7/LdUyqqhFmRJ1W+jTYs4sEjq3QtbD44NagAAAA=="
-  },
-  {
-   "src": "/obras/casa-pergola/06.webp",
-   "w": 2500,
-   "h": 3745,
-   "orig": "5.+go+casa+santa+barbara-+cocina+4.JPG",
-   "blur": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAAAQBACdASoQABgAPu1iqk2ppaQiMAgBMB2JYwCdIMgCuDEULkDaQRb16AD+sbq/UhGDgRc030gVVMsUhZ9K5ZKCwPjzLBb3aBgSJWx2iLBUMpVsN80IZ1nHW3OovRRKa9LfsEYLYwNpf3s7hcQyYSdPpwRQcqWqLkR2I1XcD9zA3NztMq3YBYGiJqGkhKgA"
-  },
-  {
-   "src": "/obras/casa-pergola/07.webp",
-   "w": 2500,
-   "h": 3746,
-   "orig": "6.+go+casa+santa+barbara-+toilette+1.JPG",
-   "blur": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAACQBACdASoQABgAPu1iqU2ppaOiMAgBMB2JYwCdMoADYkZz9T4R8i5pVsuv+FAA/XXj+0YKDK5fd0ZXbVa8qA+frI8+6ArybgxsMQdHUCimr7OLqf4k3rvBhth9X2hfThf6wwqdMVl2sIyzg0/ntLipUa4YcJXeCYvxPkii1T3nwAAA"
-  },
-  {
-   "src": "/obras/casa-pergola/08.webp",
-   "w": 2500,
-   "h": 3745,
-   "orig": "7.+go+casa+santa+barbara-+baño+4.JPG",
-   "blur": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAAAQBACdASoQABgAPu1iqU2ppaOiMAgBMB2JYwCdACHuzc2bCFrF2WFdQAD+mkhXQdO7HskoXT0EXG9jvWPtm3/Y8BgnTXrhu6TNHhgFPgw39D/D8+rwxANk8bSTbJ/JJeqd/tYP9GfjXxVk8gnVP8xvX4AAAA=="
-  },
-  {
-   "src": "/obras/casa-pergola/09.webp",
-   "w": 2435,
-   "h": 3652,
-   "orig": "IMG_1393.JPG",
-   "blur": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAAAwBACdASoQABgAPu1kqU2ppaOiMAgBMB2JQBWA7wATRuANo8gDcaY6MzAA/tcIjFLOrDEQ9OLfevo8QlcyEjtML4QKbN90z/x/rQbW6IewWCBzAJZJaeRgDXkR6RUtvHdiIsF1Z6rPub10yqCsxNrr4TxmfV1BxGIlKtDL+ZMskNfzOUophgaWpAFrDH33CvLls52M9SmGnHz3IUKmKmVZvkAAAA=="
-  }
- ],
- "casa-patio": [
-  {
-   "src": "/obras/casa-patio/01.webp",
-   "w": 1920,
-   "h": 1080,
-   "orig": "2.jpg",
-   "blur": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADwAQCdASoQAAkAA4BaJQBdgCP+FEgxwcAA+MDpeZFVzehWRU1rUfCpa+LtughkQRpxKZ2Obx4AAA=="
-  },
-  {
-   "src": "/obras/casa-patio/02.webp",
-   "w": 2500,
-   "h": 1669,
-   "orig": "2.+go+casa+santa+barbara+ii-+entrada+1.JPG",
-   "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAABwAgCdASoQAAsAA4BaJYwBTAA+UH63+KlXw3qwAP7IdHOOPl/9CTJYw+zOKcKaMA25QNizjg3Oo8wCqs2pmlJ0ctAKeUN/CvdVihD9Wo0sJ2mNh4AAAA=="
-  },
-  {
-   "src": "/obras/casa-patio/03.webp",
-   "w": 2500,
-   "h": 3745,
-   "orig": "3.+go+casa+santa+barbara+ii-+bodega+2.JPG",
-   "blur": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAADwAwCdASoQABgAPu1iqU2ppaQiMAgBMB2JZQDG9B6QAPOJbum4QqwAAP2tuoIHjFn0+Fo1NP7vFekBoCSztVSMcuZesZ/bsIfll3q3dw06mFJnmrDTFvpBnJCqnFulWYtDUvsT3VzhXmDGVDPpyv5xNYoSQAAA"
-  },
-  {
-   "src": "/obras/casa-patio/04.webp",
-   "w": 2500,
-   "h": 3745,
-   "orig": "4.+go+casa+santa+barbara+ii-+toilette+1.JPG",
-   "blur": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAABQBACdASoQABgAPu1iqk4ppaQiMAgBMB2JZQC+SCIj2MCk+hGklDy28cwAAP7WrKJHPeTc1euvUyzhpqc+zT3QWld2zEEhC5YeUNF60mkljQxWNrYBpfvTVupn0L8msImNNVebWpSUTRGuHvw6jM8IfM4AAA=="
-  },
-  {
-   "src": "/obras/casa-patio/05.webp",
-   "w": 2500,
-   "h": 1669,
-   "orig": "7.+go+casa+santa+barbara+ii-+cocina+4.JPG",
-   "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACwAQCdASoQAAsAA4BaJQBWAB4SFmAAAP7rZ7Zk1r1w7hQVdz2ONXn3jJmb8MlnmtXTN3Mr8Qmg6zfYWswELDasmj99nmoq5e2CxvR0AAA="
-  },
-  {
-   "src": "/obras/casa-patio/06.webp",
-   "w": 2500,
-   "h": 3745,
-   "orig": "7.+go+casa+santa+barbara+ii-+cocina+5.JPG",
-   "blur": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAADwAwCdASoQABgAPu1iqk4ppaQiMAgBMB2JZQCAAAfVUwTU/aID5VOeAP63Jqs9k3wyvcjWUUT+RltaCqVUDwEOo3xfgGP7suyHJj7tovD11butYzHF4Sdg/NAx89kWEW1bruFPQXHKrccAD93wAA=="
-  },
-  {
-   "src": "/obras/casa-patio/07.webp",
-   "w": 2500,
-   "h": 3745,
-   "orig": "9.+go+casa+santa+barbara+ii-+pasillo+1.JPG",
-   "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAwCdASoQABgAPu1iqU2ppaOiMAgBMB2JQBdgBDwGivBfzksxXDPAAP7TSUWUBnJBYi0xdO8dprUvwwFacCBhLx6TgB2/WCjCBAzA5uCqrI09qkmgAA=="
-  },
-  {
-   "src": "/obras/casa-patio/08.webp",
-   "w": 2500,
-   "h": 1669,
-   "orig": "10.+go+casa+santa+barbara+ii-+cuarto+ppal+3.JPG",
-   "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoQAAsAA4BaJQBdgCFTvuQFcAD+7iRA8UOYSlv9BmL25dFTVWu4XbhTa3LafCSBmJ3IfwLbEybcaePMgAA="
-  },
-  {
-   "src": "/obras/casa-patio/09.webp",
-   "w": 2500,
-   "h": 3745,
-   "orig": "11.+go+casa+santa+barbara+ii-+baño+ppal+1.JPG",
-   "blur": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAAAQBACdASoQABgAPu1kqk2ppaQiMAgBMB2JZQBUQvgAHgWmKahV7iKvQAD+tR7o3MIRgXst2lLBcQJRRxvnfI+vhbRbYcQZJj88GcXRzScuKS9ISgothxm1gdh31gK58M218WKwqBtkjvpzd8ub3ee8v6ZTQAAA"
-  },
-  {
-   "src": "/obras/casa-patio/10.webp",
-   "w": 2500,
-   "h": 3745,
-   "orig": "11.+go+casa+santa+barbara+ii-+baño+ppal+4.JPG",
-   "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAABQAwCdASoQABgAPu1iqU2ppaOiMAgBMB2JZwAAewTLU5LwAAD+7JxuboUJR6XwnZgc2i3LTO1ff3rYBNASlOukBUqMGkuVVY5/z17+hGT+A9vf37w8gAAA"
-  },
-  {
-   "src": "/obras/casa-patio/11.webp",
-   "w": 2500,
-   "h": 3745,
-   "orig": "16.+go+casa+santa+barbara+ii-+contrafrente+1.JPG",
-   "blur": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAABQBACdASoQABgAPu1iqk2ppaQiMAgBMB2JagCdMoADTp1KhYzyLNVkDB3IAP6QbrUIw1WsfsJj7B8oTabIaDXkr8hVD56049RJxZrlaKpjOtjMSqyqkcBl+Pk4WVSunDLEc4+amAD/aGOGt/+RPxOtwLEfcG0qBzoqvhKik1lI0CqJbMAzYS9sY7oAAA=="
-  },
-  {
-   "src": "/obras/casa-patio/12.webp",
-   "w": 2500,
-   "h": 3745,
-   "orig": "16.+go+casa+santa+barbara+ii-+contrafrente+4.JPG",
-   "blur": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAABQBACdASoQABgAPu1iqk2ppaQiMAgBMB2JaACdMoAC+y50P2CHLkLcDLIAAN1xgWgpqzcL3KgDiT0rZxnL84d5bKnLM6Vz4FE311qp9D7hsvoJqrbXxP4HcR89bpVsK/17h/5Hj/EaO52yJUUsqHd0WyHVrI6RxrlKmK2D6nrv0SJueyqhUPi6gTwgAA=="
-  }
- ],
- "casa-laguna": [
-  {
-   "src": "/obras/casa-laguna/01.webp",
-   "w": 1920,
-   "h": 1080,
-   "orig": "3.jpg",
-   "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAwAgCdASoQAAkAA4BaJbACdAEed/2kKZ/iAAD+0URb+g+WffLQm5i5aTV4NlsmPgPCgeOoCg6xqtke/gUEBZ+fMNK1QhAA"
-  },
-  {
-   "src": "/obras/casa-laguna/02.webp",
-   "w": 2500,
-   "h": 1667,
-   "orig": "2.+greschek+sta+barbara+contrafrente+6.JPG",
-   "blur": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAQAgCdASoQAAsAA4BaJYgCdAEYFhOdYxoYAP5rPyBEzbv2xoUU2kDNwI2I2Rvu8KPqa4iTej40N21e/LIY1iHCTo11MwkqOe9x1N21/CYWLOI4LrAtSHn3jAEoNOnSnU3D6btwAAA="
-  },
-  {
-   "src": "/obras/casa-laguna/03.webp",
-   "w": 2500,
-   "h": 1551,
-   "orig": "2.+greschek+sta+barbara+contrafrente+15.JPG",
-   "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAQAgCdASoQAAoAA4BaJbACdH8ADkjV3pZAAPZfWx3ygF2meR0CM9XbJp5SZV2dQPpjGsXUlu0Haz51nF+kIB1FxkTRM56tG+GUU65kUtnqcI4U7Wfxcq6GHU14AA=="
-  },
-  {
-   "src": "/obras/casa-laguna/04.webp",
-   "w": 2500,
-   "h": 1667,
-   "orig": "2.+greschek+sta+barbara+contrafrente+32.JPG",
-   "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAQCdASoQAAsAA4BaJYgCdADs8SDUJAD+3Pf2Av0TG3P2ydtw+iGCwEIllCalD00rJRoUGljYDI/zae21cmfPue2JHJUn93R1erv7CP+g6BoKAAA="
-  },
-  {
-   "src": "/obras/casa-laguna/05.webp",
-   "w": 2500,
-   "h": 1667,
-   "orig": "3.+greschek+sta+barbara+quincho+4.JPG",
-   "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQAgCdASoQAAsAA4BaJQBdgBwxRV8di4kAAP70ie2OiJoWwyeMIvKHnax4J2eZbeXgzecXue24DsBpkbhNcL/bRRmj7B/BzsBDMqyT4dyzwEraiQB8+lZUAAA="
-  },
-  {
-   "src": "/obras/casa-laguna/06.webp",
-   "w": 2500,
-   "h": 1667,
-   "orig": "4.+greschek+sta+barbara+living+comedor+2.JPG",
-   "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAwAgCdASoQAAsAA4BaJZQC7AEVlN+34lYMAAD+SR7k5UCpGKEmfbIb6RkXOrUZIFOxEtXBFhyXe7m8owgn21GEDDoJv8K4AAyZrhOzdTE0+SgmmiHPVxMH4YLgAA=="
-  },
-  {
-   "src": "/obras/casa-laguna/07.webp",
-   "w": 2500,
-   "h": 1666,
-   "orig": "4.+greschek+sta+barbara+living+comedor+15.JPG",
-   "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADwAQCdASoQAAsAA4BaJZQAAjtmdo/U5AAA+pMkOEZWXYvK9fX+rv6doPr122ecr1+GXXLrNk+lbhYC7FIivzY1B9pTJn8941YwnK+20aS3cimUx490npsmygCcIAAA"
-  },
-  {
-   "src": "/obras/casa-laguna/08.webp",
-   "w": 2500,
-   "h": 1667,
-   "orig": "5.+greschek+sta+barbara+cocina+3.JPG",
-   "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAwAgCdASoQAAsAA4BaJZwAAvm1ls00fMLH8AD+rcPBc+LvRPd67J7nGmql4lxQs+5A9fztkUsogfMt1+dgXZwD6xNaXcXp+mp8Z0nZrk07pj6XSzWbCAAA"
-  },
-  {
-   "src": "/obras/casa-laguna/09.webp",
-   "w": 2500,
-   "h": 1691,
-   "orig": "5.+greschek+sta+barbara+living+comedor+21.JPG",
-   "blur": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAABQAgCdASoQAAsAA4BaJZQC7AYtLjRU6EAUsAAA/sp01dZhv3TwAVckfgKRhM9b+NmTo2v5jje/vOicklZ2EI2mFbvpxOjbaCxWaHCf9LcSlVGa1/aq+Efs/wlZ4vrLpma3iCIys9l8agAA"
-  },
-  {
-   "src": "/obras/casa-laguna/10.webp",
-   "w": 2500,
-   "h": 3750,
-   "orig": "7.+greschek+sta+barbara+toilette+1.JPG",
-   "blur": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAAAQBACdASoQABgAPu1iqU2ppaOiMAgBMB2JZQDG9B4PdakCts7eBOXccAD+3Xo9dFU97dK7viG7R74V6wDZF6WwzkYpdmoL5/BeZeUS6x49PqQFIllbCerZzKrfywZF0fMAyVpP+eb1XkvVcJ3aXM99MHp2ks3WrCn0GR8/9KPTqDBSw5nUtK5uWjkgq7fAeRPHOZ/+eYAAAA=="
-  },
-  {
-   "src": "/obras/casa-laguna/11.webp",
-   "w": 2500,
-   "h": 1641,
-   "orig": "10.+greschek+sta+barbara+cuarto+ppal+8.JPG",
-   "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAwAgCdASoQAAsAA4BaJQBdgMXm5Y1paoPrhADiWz5YilcCtffzUiiQihyPy3xqzWc5IbpJeLEkuW6tszidlIJHvxDhsh59kROyXreTAIB/QGgDO6vKZSYAAAA="
-  },
-  {
-   "src": "/obras/casa-laguna/12.webp",
-   "w": 2500,
-   "h": 3718,
-   "orig": "12.+greschek+sta+barbara+baño+ppal+1.JPG",
-   "blur": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAACwBACdASoQABgAPu1iqU2ppaOiMAgBMB2JYwAjwAcrFEBRO2DU7MsNSI0rvfQAAP7l67xL1VeihvrkgpHsUsoC06EkVUxcdhykhEgS3dFiOBtDm9SNh2E0ny6vOw2I0dgxDN6wOM1xdlCT2nrEevnJ8Lp9mFUCX+P6v4THO1RbS7UHmkYimgtP9/ik1PpwlyTV3+T84jah9R3v8LL9aOnbKuf4AA=="
-  },
-  {
-   "src": "/obras/casa-laguna/13.webp",
-   "w": 2500,
-   "h": 3802,
-   "orig": "12.+greschek+sta+barbara+baño+ppal+8.JPG",
-   "blur": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAADQAwCdASoQABgAPu1iqU2ppaOiMAgBMB2JZwAANg+DL8QDIMtG4wAA/oOWlR9NYsMzcwVEb2uwzLSvRal2VT/aFhazLz91iKUpkhbYTO1e8IGchcVHqWdlPeWzt5s5+euULfL8KjCvNv/AqzupSw1PErv+T4+SPeG17+b6ccVUkg840Hj/A/Omf/IBvgRSxzlhgAAA"
-  }
- ],
- "casa-galeria": [
-  {
-   "src": "/obras/casa-galeria/01.webp",
-   "w": 1920,
-   "h": 1080,
-   "orig": "4.jpg",
-   "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAABQAgCdASoQAAkAA4BaJaACdIExgsTLsuXEzcAA/u+TmaVVKtli68ZwmVk1KFi1YujFSIO+or1Ug0195vnu8dlltKjgEZXTT7CO4THKbBLlwW1gpgAAAA=="
-  },
-  {
-   "src": "/obras/casa-galeria/02.webp",
-   "w": 2500,
-   "h": 1669,
-   "orig": "GO+Casa+Santa+Barbara+37.JPG",
-   "blur": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAAAQAgCdASoQAAsAA4BaJZACdADp1Gq/X0zgAPy0wKdnFSY49JxqrHVHK6GDja6D5EM0qsHQ+G0m/kxQVb9ev5pwtm7VRGjiiSfd6PV4tSnM1kBEIgI2yt1RcY21EeIsvYTDL5qS0WyAAA=="
-  },
-  {
-   "src": "/obras/casa-galeria/03.webp",
-   "w": 2500,
-   "h": 1669,
-   "orig": "GO+Casa+Santa+Barbara+44.JPG",
-   "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAABQAgCdASoQAAsAA4BaJQBOj+ACiOe9mLLiPvAA3mQ+rf4O1bwrW7BIZKrKSy/srdMlWRiYB20TBpAbSWAcW/DBRDnXi/jbE5Sriy82FzhFblwKPYAAAA=="
-  },
-  {
-   "src": "/obras/casa-galeria/04.webp",
-   "w": 2500,
-   "h": 1669,
-   "orig": "GO+Casa+Santa+Barbara+47.JPG",
-   "blur": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAACQAgCdASoQAAsAA4BaJZACdH8AgpDADQeazVPtwAD9U/et9zbrkvtRvkHMPs93HglplOf5Pg0mScxILFrlkZtSfOo9aSK3XFSyFTqJo881i50pPP6gp3YZX9y9IPhQobHddZyLaxXAAA=="
-  },
-  {
-   "src": "/obras/casa-galeria/05.webp",
-   "w": 2500,
-   "h": 3745,
-   "orig": "GO+Casa+Santa+Barbara+59.JPG",
-   "blur": "data:image/webp;base64,UklGRroAAABXRUJQVlA4IK4AAABQBACdASoQABgAPu1iqU2ppaOiMAgBMB2JZQDG9YwSlAgbuv6wYuE25W6gAP7X0kLFdAV+LtWMF9qhgH31NVHU+wapYgw2FjTs+/KWI0J13OomlR//d72UE2Jub76eKhhxzyHEY0T9lIGPNpAMNjAOFm/F+Hz7/yc+tufit/ut470YD1nMMHYdggByzhc+GhL4vFle7iE97fk9O+GzmeP0xbBblKXaBAnyMN6AAAA="
-  },
-  {
-   "src": "/obras/casa-galeria/06.webp",
-   "w": 2500,
-   "h": 3745,
-   "orig": "GO+Casa+Santa+Barbara+60.JPG",
-   "blur": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAAAwBACdASoQABgAPu1iqU2ppaQiMAgBMB2JQBOgA3QQcxyVksFg1dd1pgAA/U6XaPiMYF4rq2WzGmFBcmJZLC+ZAHeH3sjD9W3qJe6UEcVaiVnZzUmEd5WsZrT2vGX7RrpOchjU65B41a7WAAMAAA=="
-  },
-  {
-   "src": "/obras/casa-galeria/07.webp",
-   "w": 2500,
-   "h": 3745,
-   "orig": "GO+Casa+Santa+Barbara+71.JPG",
-   "blur": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAADwAwCdASoQABgAPu1iqU2ppaOiMAgBMB2JZQDG9Beie1wcI54dJaqAAP6jcvqUrqmGdgMW+XQ8F3Lul4UZ9SWKt94QdU6vb9UCWv7nLd8ElP6ib4XKMBpalfipGRopVMkJoP6HmE+EbfV0cGsYMlDkABWOn+lHBWUrmFNKO8y0Mc1zPTlasmYrRLjeKlyyhBGoGhT13C8WuOUAAAA="
-  },
-  {
-   "src": "/obras/casa-galeria/08.webp",
-   "w": 2500,
-   "h": 1669,
-   "orig": "GO+Casa+Santa+Barbara+103.JPG",
-   "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwAgCdASoQAAsAA4BaJQBdgMXr1Ns8QXCS4AD+XsP74i9ai4b76qcwhDPlyXG4sOY3mxLtQCi+U+I8xvo8L/aLss2DOrcrLsJZvCTT1qizSJbAUIxXbr6o82Vzu0AA"
-  },
-  {
-   "src": "/obras/casa-galeria/09.webp",
-   "w": 2500,
-   "h": 3745,
-   "orig": "GO+Casa+Santa+Barbara+109.JPG",
-   "blur": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAwBACdASoQABgAPu1orU6ppiSiMAgBMB2JZwAAXAaDZ/6oHEY/kIqAVdAA/Pp/tKokljziLwJHYfIrtB+PYLacG3ZukE8SNwfyBXi0EAaLiaZ5y/4TMtUb//t7TEwEgA4SdLgA"
-  },
-  {
-   "src": "/obras/casa-galeria/10.webp",
-   "w": 2500,
-   "h": 3745,
-   "orig": "GO+Casa+Santa+Barbara+110.JPG",
-   "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAABwAwCdASoQABgAPu1kqk4ppaQiMAgBMB2JZwAAWwtH/YyNbAAA/uITNISBBeVpP+JWdV35nMjhUWl+E+bx6A+lnA+55nPX03D0nAHAAAA="
-  },
-  {
-   "src": "/obras/casa-galeria/11.webp",
-   "w": 2427,
-   "h": 3479,
-   "orig": "GO+Casa+Santa+Barbara+130.JPG",
-   "blur": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAADwAwCdASoQABcAPu1mqk4ppaOiMAgBMB2JZAAAW+zIB0GYFDdGddsAAP7xxPrDTXbJ20dpUly3yN4SYdAoZR1lFRbsV4oMH59GhPhXf73Kvt0h1MP+htg3zMbc8lmqW+ZAi+kFtIVZiK4G1aMxKMRy4dItBdUH8VOzEF1SqNVLAAAA"
-  },
-  {
-   "src": "/obras/casa-galeria/12.webp",
-   "w": 2500,
-   "h": 3750,
-   "orig": "GO+Casa+Santa+Barbara+132.JPG",
-   "blur": "data:image/webp;base64,UklGRsYAAABXRUJQVlA4ILoAAADwBACdASoQABgAPu1iqU2ppaOiMAgBMB2JZgC7Ef/i2WXKIolzLwP07F68RN29GgAA/vN+/FZNs1aEEo+pouCT/UtX6XwDAgdJLLR+wl5xAu3NztyxwpVWLWX9VaekDW/NVdy470PaVyf+IydLNMW76rvk+4FZUcmLOYL2W1Q0r1AxF1mnYasnejoMW9/kCgdi+1VvSzFyqoUO8TwTBS/EvGRi2lnOiEAxI2i6+sdTfKg+NtEdiAqQcAA="
-  },
-  {
-   "src": "/obras/casa-galeria/13.webp",
-   "w": 2500,
-   "h": 1669,
-   "orig": "GO+Casa+Santa+Barbara+149.JPG",
-   "blur": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAACQAgCdASoQAAsAA4BaJZACdIExgkjL50lLmt+LwAD9tzi1fnoK49CeBES0hb2O49rKLhteban22L6uDykPsXH5/h9OWLS5OVFpWVNBP19zXLJS4hu9jBwOsCcTl6So+uZDvfyEOsNNMnu4AAA="
-  }
- ],
- "casa-contemporanea": [
-  {
-   "src": "/obras/casa-contemporanea/01.webp",
-   "w": 2500,
-   "h": 1602,
-   "orig": "Proyecto_5_Frente.jpg",
-   "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAQCdASoQAAoAA4BaJbACdADwVOueoAAAzB49mbajnTTutTyI7hgzeD9JugvNy7PYgpMguz28jb1XYFGF1j2gJvAHIUSHeJco6tlzBzUQOISDxFp5kAAA"
-  },
-  {
-   "src": "/obras/casa-contemporanea/02.webp",
-   "w": 2500,
-   "h": 1669,
-   "orig": "IMG_2120+(1)+copia.jpg",
-   "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwAgCdASoQAAsAA4BaJbACdAYu5TAeCbDAAAD5BBJx2AFQRSPGKt+21HyVETuCI3CfPQCipEYJtQZBV5c0ALdfOkuFlS1+BiaVu6NJv7YCN/BbVqyOleP5SKSmAAAA"
-  },
-  {
-   "src": "/obras/casa-contemporanea/03.webp",
-   "w": 2500,
-   "h": 1602,
-   "orig": "Proyecto_5_Frente.jpg",
-   "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAQCdASoQAAoAA4BaJbACdADwVOueoAAAzB49mbajnTTutTyI7hgzeD9JugvNy7PYgpMguz28jb1XYFGF1j2gJvAHIUSHeJco6tlzBzUQOISDxFp5kAAA"
-  },
-  {
-   "src": "/obras/casa-contemporanea/04.webp",
-   "w": 2500,
-   "h": 1669,
-   "orig": "Proyecto_5_cocina.jpg",
-   "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAQAgCdASoQAAsAA4BaJZwAAufiuM7mEDAAAP7rGn5vtkMkBi4vtSrQ2+P0+ePXEpP+FLSvgLTuHTehIzsKlhSFLiUyrfR7TpWyMv9ejFV1oc6WBwAAAA=="
-  },
-  {
-   "src": "/obras/casa-contemporanea/05.webp",
-   "w": 2500,
-   "h": 3745,
-   "orig": "IMG_2084.JPG",
-   "blur": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAADQAwCdASoQABgAPu1iqU2ppaOiMAgBMB2JZQAAUp7oH0m7snczFBgA/sP+iQGmna+qA/4qARH/biBXYx0LJ6a5fL/lUfOp+RXmyFp8Al707Jp22H9TWVfcF73opu7c39lTIwFXuKtxHWiviGBkNij8JX4RbRGh7G8x41BY62rwr4+Nz4qBRL4AAAA="
-  },
-  {
-   "src": "/obras/casa-contemporanea/06.webp",
-   "w": 2500,
-   "h": 3745,
-   "orig": "IMG_2101.JPG",
-   "blur": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAADQAwCdASoQABgAPu1iqU2ppaOiMAgBMB2JZwAAWnLbadgl7De4wJwA/sRfZ+099nIFalmAVGhns66zYH7xmcn2kGb4U9dIvpNN51M4ymNY0r3AGlXqkRZH4bWhzLdZR5TLdd+gmWjPUu39Bnt7kZyYzGQs3pOrmvS5AM0UeyAAAA=="
-  },
-  {
-   "src": "/obras/casa-contemporanea/07.webp",
-   "w": 2500,
-   "h": 1669,
-   "orig": "IMG_2126.JPG",
-   "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAQAgCdASoQAAsAA4BaJZAC7ACppMx9xXEAAP7I5SLNS0cmWo2w0NN3KRJCacE6hlgyyu9NoAHFcKJ17cT/oaH5J4Dyukga/h8yTYPPMrg8OhfFkgAAAA=="
-  },
-  {
-   "src": "/obras/casa-contemporanea/08.webp",
-   "w": 2500,
-   "h": 1669,
-   "orig": "IMG_2102.JPG",
-   "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAABQAgCdASoQAAsAA4BaJYwC7AD6PEKfT9LbOQAA4lFiL72tN64BNuz8rNDun/6i3anb3PXgpfzs7vXH5hGJ7U9BLws6cHIfPPms8QwMH6TqcfyQKZ8lw0Q3AAA="
-  },
-  {
-   "src": "/obras/casa-contemporanea/09.webp",
-   "w": 2500,
-   "h": 3745,
-   "orig": "IMG_2207.JPG",
-   "blur": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAAAQBACdASoQABgAPu1orU2ppqSiMAgBMB2JYgDCn8ADAEZkbWDvKpSH0AD+w1Qu5FGz0e8dQL6bwqmW3uKU582uhqtZRFvz2tSDZi2G50jioOvwG0+LpwcDbg6+aiETsOhBVI6gg7iybFngfVjLw3Rr6ZZNrtLyfp+C6IKVJibCAAAA"
-  },
-  {
-   "src": "/obras/casa-contemporanea/10.webp",
-   "w": 2500,
-   "h": 3745,
-   "orig": "IMG_2091.JPG",
-   "blur": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAABQBACdASoQABgAPu1iqk2ppaQiMAgBMB2JYgB2AAC5vKFl/u3LkrHs7uwAAPYM1RJ9Afq4LNo0GQbVhfduHpJAfStVzqJ37rmbD1e0IpvUfWa9byyLBIOpKv8+gPy0AgLMk+0LLvb/+V3hctDU+EKv/3XSo1SbIrU4AA=="
-  },
-  {
-   "src": "/obras/casa-contemporanea/11.webp",
-   "w": 2500,
-   "h": 3745,
-   "orig": "IMG_2115.JPG",
-   "blur": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAAAwBACdASoQABgAPu1kq04ppaQiMAgBMB2JYwDHFExCucMRerUcFqamZNwAyw67UV5y8uKfnV7rJjxdNsikV/lSjuSskKetnc2ULaPw4tuY+JCInxeObBW/Dc2qa4vqm3FtakWvuqWw0himqW3u9EsoSHWM70PxopspBIrDkYw20gwAAAA="
-  },
-  {
-   "src": "/obras/casa-contemporanea/12.webp",
-   "w": 2500,
-   "h": 3745,
-   "orig": "IMG_2142.JPG",
-   "blur": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAAAQBACdASoQABgAPu1iqU2ppaOiMAgBMB2JZQDImBTuyjuKM3uBRlEC8AD+FYY9lUiA/LbfxyHL1m9767WW1PZSHadJ3RHzvnjc4u6tfK8i9oQrztQvIHD9D8KuUwbZbCz0jsB9Qk9C5L/jttmeo/WtYP47YwpvONgvQXA1FY8vzplP7wAAAA=="
-  },
-  {
-   "src": "/obras/casa-contemporanea/13.webp",
-   "w": 2500,
-   "h": 1668,
-   "orig": "Proyecto_5_Contrafrente.jpg",
-   "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAwAgCdASoQAAsAA4BaJbACdH8AF/wBWORSMAD+6zJ7BwtjY+y+NjsfxfDS+Per+Qfq7l9VRGpQTM+eXCZJz4Ot7lfQuHNAKctAgM4z9h06I0sxjQAAAA=="
-  },
-  {
-   "src": "/obras/casa-contemporanea/14.webp",
-   "w": 2500,
-   "h": 3745,
-   "orig": "IMG_2098.JPG",
-   "blur": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAABQBACdASoQABgAPu1iqU2ppaQiMAgBMB2JaACdACG+eEjAwfHk0/L6o5+AAP7UnQxX8DfQVLxIni7osdO13ym/lotkZm9Ptqvi4Y7l56kNNOkusHRiU5zExoUi2VNkjutzxHjMn0737RDe6HPQeG1RWlwzwd6+OwYVfZkaiXRupIdvDkUEkxz4qOcC5K3HWgLKZiYKAAA="
-  },
-  {
-   "src": "/obras/casa-contemporanea/15.webp",
-   "w": 2500,
-   "h": 3745,
-   "orig": "IMG_2143.JPG",
-   "blur": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAABwBACdASoQABgAPu1iqU2ppaOiMAgBMB2JQBOgBDubbTAUSFGX+kgsUtEaAAD+ZF266ypSzL9jUIllCWQWlP7mjqP5E8vAWUXn03wBpYqzFlpPseE8aKKrwX0hD3vBU2/9ULn3RVIvNk1MWlJGc1zgxk5JUtgFvhsEIfXopL9VeYGpIh3nDvlH71vha4g6YZsTBGBgaQAAAA=="
-  },
-  {
-   "src": "/obras/casa-contemporanea/16.webp",
-   "w": 2500,
-   "h": 3745,
-   "orig": "IMG_2113.JPG",
-   "blur": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAADwAwCdASoQABgAPu1iqk4ppaQiMAgBMB2JYwAAW+2LN4cya6DioaxwAP7zdFhqkwS19co0bIpQEugooEIoE+rpRk5WE6GIA84TNOp+LLKLYOfeJ3X9DLmZXHBMu3QcZss8jm0aURmmomKl6qiAQ/jw3YM+nrxEgl4AAA=="
-  }
- ],
- "renders": [
-  {
-   "src": "/obras/renders/01.webp",
-   "w": 1280,
-   "h": 720,
-   "orig": "35bc16e4-61bb-4d85-93ca-b700c0ee0a2f.JPG",
-   "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoQAAkAA4BaJZwAApInj3RUmgAA/meCEGNxHo/rHPy/Ds1R3xuqBCS1rQ1VDhPLcBTX7fY/KZzH7G7BbYmlFvpeAAA="
-  },
-  {
-   "src": "/obras/renders/02.webp",
-   "w": 1024,
-   "h": 1024,
-   "orig": "PHOTO-2024-09-16-21-25-29.jpg",
-   "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAQCdASoQABAAA4BaJagCdAELMoihAAD+84nrd6S+H3Z/r3tb4Em0mTds/G29Qi8KU2S2xyXhAv2ytl0o/WCynHRyMuEptu1BfiVlip7AeHmEa9cw1VkAAAA="
-  },
-  {
-   "src": "/obras/renders/03.webp",
-   "w": 819,
-   "h": 1024,
-   "orig": "PHOTO-2024-09-16-21-25-30.jpg",
-   "blur": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAAAQBACdASoQABQAPu1iqU2ppaOiMAgBMB2JZACdMoABxYazOmgmPD62IAD9/LULafvF1k2L5yc2XWP0zdENXHYKWfkaV8r8uIYKrEVDQoNplX8QZYPHZMw55CaVY4T3WzbT+8WQZ++9EeZ6ikw4sJxP/aU6TcdhHwLdU/QaAAA="
-  },
-  {
-   "src": "/obras/renders/04.webp",
-   "w": 1024,
-   "h": 576,
-   "orig": "PHOTO-2024-09-16-21-25-28.jpg",
-   "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAQCdASoQAAkAA4BaJagCdAEDnJnmAAD+sj9+dcD2jp3GCvCnRub9dfvHfjl+vPwM56JyvBtoaRih0gGdaJkvyOW+GuKnYndlUAAA"
-  },
-  {
-   "src": "/obras/renders/05.webp",
-   "w": 1024,
-   "h": 1280,
-   "orig": "PHOTO-2024-09-16-21-24-33.jpg",
-   "blur": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAAAQBACdASoQABQAPu1kq04ppaQiMAgBMB2JQBOnKAAcipl0d7mI7V5zAAD+rn4ej5x0VmkA/AGuGxboUboskgnnUmEYd3R6odJWpWdhFRyTtlvf/hKhLEnxXsUY8jzzqxD9LCA2I0nEOKhGcbAfwAAA"
-  },
-  {
-   "src": "/obras/renders/06.webp",
-   "w": 1024,
-   "h": 1024,
-   "orig": "PHOTO-2024-09-16-21-25-29+2.jpg",
-   "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoQABAAA4BaJQBOgCHRt5wPYAAA/ujOZaH8BIdyw/QXLoX333unBWB85b+Zl08XbfvxdhBvlLEcDFh54PSgBlLZO898nskIwAA="
-  },
-  {
-   "src": "/obras/renders/07.webp",
-   "w": 1280,
-   "h": 720,
-   "orig": "70066739-20e3-49cf-aa88-05cc44906aca.JPG",
-   "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAkAA4BaJZQCdAEPhRhh3gAA+UEtKZfqdaDzFC0ca1U4fXU7Yd/7qDa6AF7izsi07lsYtww/8daPM7g0xyQA"
-  },
-  {
-   "src": "/obras/renders/08.webp",
-   "w": 1280,
-   "h": 720,
-   "orig": "35bc16e4-61bb-4d85-93ca-b700c0ee0a2f.JPG",
-   "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoQAAkAA4BaJZwAApInj3RUmgAA/meCEGNxHo/rHPy/Ds1R3xuqBCS1rQ1VDhPLcBTX7fY/KZzH7G7BbYmlFvpeAAA="
-  },
-  {
-   "src": "/obras/renders/09.webp",
-   "w": 1280,
-   "h": 645,
-   "orig": "947d6c3b-18b1-4911-998a-c556bf431c92.JPG",
-   "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQAgCdASoQAAgAA4BaJZQCdAD2BKSWNKgAAP7Ki8daBsCj/EWGbpsmxfSExRADtwCtoTLrTO9uIRxZxJ0e9wd4vIBxafV6oAA="
-  },
-  {
-   "src": "/obras/renders/10.webp",
-   "w": 1024,
-   "h": 1280,
-   "orig": "745154bd-9f67-4e1e-9bfa-421b2fadd674.JPG",
-   "blur": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAADwAwCdASoQABQAPu1iqk2ppaQiMAgBMB2JQBOmUABfG5nntcF0U3IAAP6HkTXBBJKXpLHX/HKZlsFf38UYk2UIqcw4OQ1UsWSWCFzeKHrKWljBon6gs2o1YUBttEjye1i3unWF6pNViorW8QiWxG9Ez6xAAAAA"
-  },
-  {
-   "src": "/obras/renders/11.webp",
-   "w": 1280,
-   "h": 1280,
-   "orig": "ee1feadd-6bda-409e-a2cc-b449b6a15ae7.JPG",
-   "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAQCdASoQABAAA4BaJZQCsAEOwKAAAP7tVSTW1uHHjz05UwTqHSXOem7/yPUFJIdJUikvw7TreKvRTnkRBl3TQ+OuaKvnr4gkAAAA"
-  },
-  {
-   "src": "/obras/renders/12.webp",
-   "w": 2048,
-   "h": 1576,
-   "orig": "Imagen+3.PNG",
-   "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAQAgCdASoQAAwAA4BaJQBOgCPQTpij964AAP7R45SmEN+uhjHc341Ecb/wTidhFdhITn/2xUpDRyhHyYjInJG0sodva8nJJ08oAAAA"
-  },
-  {
-   "src": "/obras/renders/13.webp",
-   "w": 1280,
-   "h": 720,
-   "orig": "668c234c-3c01-44a6-97b4-cd897f4820c5.JPG",
-   "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAwAgCdASoQAAkAA4BaJZQCdH8AGBjZM/R/AAD+mE3t5P4NQxVcBzmWxkkLK9BOKiRHBRfqayEdbB2jBJt8f7Ug+FgQa9UqhQAAAA=="
-  },
-  {
-   "src": "/obras/renders/14.webp",
-   "w": 1600,
-   "h": 900,
-   "orig": "dcac3f8e-78f8-403b-ace1-3d81aef69a1e.JPG",
-   "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAQCdASoQAAkAA4BaJQBOgCFw7fcVVgAA/vOL2Q/KtKNiV6jUkftmKi4w/pFCL733lHN8s8cCma730TXrfTByoZn/nr6yzX/DSdkgpACDz3/kSzXwAA=="
-  },
-  {
-   "src": "/obras/renders/15.webp",
-   "w": 2048,
-   "h": 1576,
-   "orig": "Imagen+1.PNG",
-   "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoQAAwAA4BaJZgCdAEegSl9woAA/j2ikDFW9iWjgajGmYau5q1aeD5TWJ5PvYbccSfjREJF5/irdKCnsiCc4UemQQaAAA=="
-  },
-  {
-   "src": "/obras/renders/16.webp",
-   "w": 2048,
-   "h": 1576,
-   "orig": "Imagen+2.PNG",
-   "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAQCdASoQAAwAA4BaJYgCdADZswCuGAD+TxQCgxHHUeWa7SIeDMzDpGeDbPH4MTSSZK2CQdZ7yuIycH7LFjz1mwlWdHqf5N4ZUOEmAAA="
-  },
-  {
-   "src": "/obras/renders/17.webp",
-   "w": 1920,
-   "h": 1200,
-   "orig": "IMG_1059.PNG",
-   "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQAgCdASoQAAoAA4BaJQBdgMXSztOLos5AAPysfvWBiToJjjdwSUcazP3EH4/rTgax/zpvgyLzjvmLTiEUqkle819HGUMeAgHbYFKWjcHfJUCIA2Hk3A5AAAA="
-  },
-  {
-   "src": "/obras/renders/18.webp",
-   "w": 1920,
-   "h": 1200,
-   "orig": "IMG_1058.PNG",
-   "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAwAgCdASoQAAoAA4BaJZQCdAEUrnwd394qQAD+mlYRddE8HgI/sKNCOn7h8rVe9mtZuGn0cYxJmp+OlCr7TTcqavcJRsiHKHrqXZQmmcygEi964sOUAAAA"
-  },
-  {
-   "src": "/obras/renders/19.webp",
-   "w": 1920,
-   "h": 927,
-   "orig": "IMG_1054.PNG",
-   "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAQCdASoQAAgAA4BaJQBOgCIjDnwKAAD+hWvV5GfN5L4mIhqlwWNl6il8foEqFVIp4ave7QQ0ahP8SAAAAA=="
-  },
-  {
-   "src": "/obras/renders/20.webp",
-   "w": 1920,
-   "h": 1252,
-   "orig": "IMG_1060.PNG",
-   "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAQCdASoQAAoAA4BaJQBOgCHwrMw/KEAA3lkkfRcxZuOWPpK1dsAKW9vtG/JOdSzngnQ6L3kHrjBrGKb4RX7KxFJhRuREcuoXIWBytS3C6AAA"
-  },
-  {
-   "src": "/obras/renders/21.webp",
-   "w": 1316,
-   "h": 782,
-   "orig": "IMG_1063.jpg",
-   "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQAgCdASoQAAoAA4BaJYwCdAEPCaZJvZ4wAP7rapPC10DI1PIvINKCatk29SJluG/kh8lMi3Dao8QBbzmO4kVp50pe0AoBY8YTP4Psd8AAAA=="
-  },
-  {
-   "src": "/obras/renders/22.webp",
-   "w": 1600,
-   "h": 1200,
-   "orig": "IMG_1090.JPG",
-   "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAQCdASoQAAwAA4BaJYgCdADbpWjgrqAA/usnkjvqloDVVwbsBh5gUB/DcmA/XhIhgLKl6zYX+qKnCcjEOHRLQPcYgCsGkaE+H3Y8IIyDMefAAAA="
-  },
-  {
-   "src": "/obras/renders/23.webp",
-   "w": 2500,
-   "h": 1488,
-   "orig": "IMG_8913.JPG",
-   "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACQAQCdASoQAAoAA4BaJZQAAuM0HqwA/fB5R/aIQjXAO4RtJAHXW32nm3Z9iDTU5VvG2x2y6mSpaXdm9YoTa0CAAAA="
-  }
- ]
+  "casa-galeria": [
+    {
+      "src": "/obras/casa-galeria/01.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "contrafrente",
+      "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAwAgCdASoQAAsABUB8JYgCdIDZGEatkxD5PAD+3yS4MBa6GXL3OcprUswW1m3iioTK+9uZ3HH4G+YHb8/butuBvwiPQcjrCWcwwAAA"
+    },
+    {
+      "src": "/obras/casa-galeria/02.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "fachada",
+      "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQAgCdASoQAAsABUB8JbACdGuAAswnk1OAAMxNA+ABVgQX6v2nq5ytbfJUg4CuxnjVXAYGAmGG4MgWUe1lqU5drsiDKDS1UcBuAisnOAA="
+    },
+    {
+      "src": "/obras/casa-galeria/03.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "piscina",
+      "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAABQAgCdASoQAAsABUB8JbAC7H8AGX4bvBE62bgA9naGEbtTZG5OrRnL/nbJX/5q/rTMGDKu9je+gG1SRURqE0DXopdRdjevopPCoJJw2lAAAA=="
+    },
+    {
+      "src": "/obras/casa-galeria/04.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "galería",
+      "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAQAgCdASoQAAsABUB8JZgCdAEeobpYGYIAAPhh235A0G5t8HOV9c0ZmaLZdCY0qzSc6M0gLvAmjGS5NtMjiRzSFzfwikJzeVMqAAAA"
+    },
+    {
+      "src": "/obras/casa-galeria/05.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "living",
+      "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAQCdASoQAAsABUB8JYwCsADpyCnl04AA/I59I+Vs3sXNA//X+w+fRQLgJYJYtczlTz7CyTBMAlxfdajeyp4EU+bUukomEV77H7cqebIRYi3nJysgAA=="
+    },
+    {
+      "src": "/obras/casa-galeria/06.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "comedor",
+      "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQAgCdASoQAAsABUB8JQBOgCHu09CNtggAAP3bWzcp+FUPI6tbP1P2opVOaXx6KiTPjUEGf9LCPFq2MUcz6/H5rww3s/71/YJ0gXBgAAA="
+    },
+    {
+      "src": "/obras/casa-galeria/07.webp",
+      "w": 1602,
+      "h": 2400,
+      "orig": "cocina",
+      "blur": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAAAwBACdASoQABgAPzmGuVOvKSWisAgB4CcJZQAAXiyDeqDppA+ZiZB5QQAA/MvcFgpIz818I/e+osc0EzsWFSH5PfkR+NRRQO90QlPz0JFfucUgnR710qKsA/8ZutlFRcrBbxXuNNM31cEoo/DvnXV2ZsUdRLDux3znjnGIxAJAAA=="
+    },
+    {
+      "src": "/obras/casa-galeria/08.webp",
+      "w": 2400,
+      "h": 1553,
+      "orig": "estar",
+      "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACQAQCdASoQAAoABUB8JQAAPAqAcAAA/rIJQVZiwjS9GnCL3IVOpkFWnP9KLt0+ciV/P+IF7sXnybf1kIyJjtxP2y0AAA=="
+    },
+    {
+      "src": "/obras/casa-galeria/09.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "dormitorio",
+      "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAQCdASoQAAsABUB8JYwAAc/TyjmVgAD8ovJP07fN/xgtVnVRDoAUWuoyWOhCuqsKnIbpIyAwx40WalXrK4SBI5rb9+Vb/JAAAA=="
+    },
+    {
+      "src": "/obras/casa-galeria/10.webp",
+      "w": 1602,
+      "h": 2400,
+      "orig": "baño",
+      "blur": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAADwAwCdASoQABgAPzmEulOvKKWisAgB4CcJZAAAW219TOYZj+vlBa4AAPkagqaf3oSMxLMG5/lB3kq5n3fFa6zukWsy+TzqYzzkh26Tb5Z/FyvtL0V/mPjFR/U/IDfYVUJfJ6EDIHzCh4Z3wgN2JuDOfBdZDra3r/2lqLE+fu6OHgJQAAA="
+    },
+    {
+      "src": "/obras/casa-galeria/11.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "hall",
+      "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQAgCdASoQAAsABUB8JZgC7ADGkzkR7B9AAP5kzCc6SaCDalAmV4ee3bWAB7YSE9OTv6ml6jD8FDNzF+ptCWc80LNUCicgAAA="
+    },
+    {
+      "src": "/obras/casa-galeria/12.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "escritorio",
+      "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAQCdASoQAAsABUB8JaACdAC1FCt97IAA/qalFo69UHKm714XbIvbRZYrdoYQ2ymfWptnu/ZutUN6GXMvjqXkf8XxeFmzyB3F0ZI66syebRmkPdPYrHngAAA="
+    }
+  ],
+  "casa-muelle": [
+    {
+      "src": "/obras/casa-muelle/01.webp",
+      "w": 2400,
+      "h": 1546,
+      "orig": "fachada",
+      "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACwAQCdASoQAAoABUB8JZACdACdpdNwAP52n/0kTkggldOn9CA+X3cQBFudqFjC+QX3pZLQCqks9UsQAAA="
+    },
+    {
+      "src": "/obras/casa-muelle/02.webp",
+      "w": 2400,
+      "h": 1514,
+      "orig": "contrafrente",
+      "blur": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADwAQCdASoQAAoABUB8JYgCdADb0R+kJAAA/IyQRPfZhgY/6TByAiUTO00HiiiWUYjKlCAM4Uk8AA=="
+    },
+    {
+      "src": "/obras/casa-muelle/03.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "piscina",
+      "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoQAAsABUB8JbACdH8AFQvE54AA/oHWHLxo/VK6CSSIwyU5RDK9nfBbr/fVD50c47QxGPBehE5HMAAA"
+    },
+    {
+      "src": "/obras/casa-muelle/04.webp",
+      "w": 2400,
+      "h": 1484,
+      "orig": "living",
+      "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAQCdASoQAAoABUB8JYwAAjpa95DAAP7UtiYWTaDfIQi60noYS2U4Uaq6Srzfrw7pAZin2ETl+XLX1MXOmqtCHOqnvywAAAA="
+    },
+    {
+      "src": "/obras/casa-muelle/05.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "comedor",
+      "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAQCdASoQAAsABUB8JZQAAhW/itgAAP6UxH5Ub5t+3HidZaKA3pwdilSBo+4eb46nYutkNCkuIgHnGWW/LAAA"
+    },
+    {
+      "src": "/obras/casa-muelle/06.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "cocina",
+      "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADQAQCdASoQAAsABUB8JQBOgB2KZyJOcAD+TK3xkVYnjilEIzb8EZ98AW2CrQTWBdiyFSoTGV2Y8nMmAAA="
+    },
+    {
+      "src": "/obras/casa-muelle/07.webp",
+      "w": 2400,
+      "h": 1596,
+      "orig": "parrilla",
+      "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAsABUB8JZwAAuQ898v5qSAA9r5QThVbYJ2QgvD9o4xTCWrMO0u1LS6L3nz33hUQBAVidYPCiv9tddVgoAAA"
+    },
+    {
+      "src": "/obras/casa-muelle/08.webp",
+      "w": 933,
+      "h": 1400,
+      "orig": "escalera",
+      "blur": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAwBACdASoQABgAPzmEuVOvKKWisAgB4CcJQBOmUABirvVHcux5jS5SgaAA37PA7RLUBgBJbk6epKr1ovsmv+N0bvTYMBuHJ02mxugNYeNmBMqwb2s7iJ07gi68rhD3+WT7wAAA"
+    },
+    {
+      "src": "/obras/casa-muelle/09.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "dormitorio",
+      "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAABwAQCdASoQAAsABUB8JZQAANb8gAD+VgZdo/lphTBy2eynaO+ER4yoPCUmUoKRX5U/A8sDZjYW1dq5fg/6lJMLurYAAA=="
+    },
+    {
+      "src": "/obras/casa-muelle/10.webp",
+      "w": 1600,
+      "h": 2400,
+      "orig": "baño",
+      "blur": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAADwAwCdASoQABgAPzmGuVOvKSWisAgB4CcJZgCdICXCQ14qY/SYb7AAAM2TPQHF86hbCxLbhpY3nvRMo9gP0DkrqEQjh8fC2NRGGKpglcmq0pAc8kMGVWCNw7+LvakBYupEAAAA"
+    },
+    {
+      "src": "/obras/casa-muelle/11.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "dormitorio",
+      "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoQAAsABUB8JZQCdAChOrrqIAAA9AccY11iRHYgtZtcqH7fTL6R53GXOOK5z/A3QjZb5WYl9n85GihXcsuhpcf0AAA="
+    },
+    {
+      "src": "/obras/casa-muelle/12.webp",
+      "w": 2400,
+      "h": 1655,
+      "orig": "baño",
+      "blur": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADQAQCdASoQAAsABUB8JZwAAlvI1wRikAD+yQt2xKSTlfhLDY+bSoIgIL9Elu//JTX7QUAA"
+    }
+  ],
+  "casa-marmol": [
+    {
+      "src": "/obras/casa-marmol/01.webp",
+      "w": 2400,
+      "h": 1623,
+      "orig": "contrafrente",
+      "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoQAAsABUB8JaACdAEPSyDmwAD+55Hj8Nn5wnsVAEJJBRDkRjW6JFXUi79r9R3fkaS6bjDm57EJAAAA"
+    },
+    {
+      "src": "/obras/casa-marmol/02.webp",
+      "w": 1723,
+      "h": 2400,
+      "orig": "fachada",
+      "blur": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAAAwBACdASoQABYAPzmGuVOvKSWisAgB4CcJZACdACG+SdAPmSIBpLVGOggA/owwHJ+s2w9n3XlFpiRVl1cItM30v3LIxIqiS48gnxC8b25kO8CGsMD3QbdgFZFpN39rYT71ZYbRYVYgMHnNCqHN7NPwpoAAAA=="
+    },
+    {
+      "src": "/obras/casa-marmol/03.webp",
+      "w": 2400,
+      "h": 1523,
+      "orig": "living",
+      "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoQAAoABUB8JYgC7ACvJNoeAAD+sLw7q15V6lCkDhdkTNQgPZISc24QdrmgudFspp9y076wx3+hAAAA"
+    },
+    {
+      "src": "/obras/casa-marmol/04.webp",
+      "w": 2400,
+      "h": 1796,
+      "orig": "comedor",
+      "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAQCdASoQAAwABUB8JZAAApt+gRgAAOIDw7q9RlUq5E/LRvOqZ2gp7qVw3e1m5B+L40t1cKnll3ypqBky+REG8/vWf51QAAA="
+    },
+    {
+      "src": "/obras/casa-marmol/05.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "cocina",
+      "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQAgCdASoQAAsABUB8JYgCw7EWtSA72usAAP6rFPpGqV/3NIV0GSLYWxjMhzesN2VH1D+W3++jsngpWv27lay+vRnMC5eP6AFRK0nEFAAAAA=="
+    },
+    {
+      "src": "/obras/casa-marmol/06.webp",
+      "w": 2400,
+      "h": 1593,
+      "orig": "hall",
+      "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAQAgCdASoQAAsABUB8JYwCdAEQPec6otgAAOJiGvfcifT2jzIyZ5OIEhQgw62UPXhZ7KrtnSR786cAAAA="
+    },
+    {
+      "src": "/obras/casa-marmol/07.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "escalera",
+      "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAgCdASoQAAsABUB8JQBdgCLphY+cVSiAAP6xsjQcVWM11y6mzieDgKNBKTzqZTtaAXjbanWzh2JrZfEAAA=="
+    },
+    {
+      "src": "/obras/casa-marmol/08.webp",
+      "w": 2400,
+      "h": 1608,
+      "orig": "dormitorio",
+      "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAgCdASoQAAsABUB8JZACdADxAyM4CboAAP7D/KLLwxSnqQGQxvZtD6nonSDExHMe7IhHCWa+MVmAYFUAAA=="
+    },
+    {
+      "src": "/obras/casa-marmol/09.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "vestidor",
+      "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAQCdASoQAAsABUB8JaACdADGOp40FgAA/t2oKj+msT6DdQJxWMi7RLVvcEgzPn+BwYGnlOxKtnNb/uznKsCirPfqkxirBwjC4nTd7KoAAA=="
+    },
+    {
+      "src": "/obras/casa-marmol/10.webp",
+      "w": 2400,
+      "h": 1677,
+      "orig": "baño",
+      "blur": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADQAQCdASoQAAsABUB8JYwAAi+IYcXu4AD+tdf9qaxTvrzbDVrYI6KOx3lalikZuVJeL1Ze48jgAA=="
+    },
+    {
+      "src": "/obras/casa-marmol/11.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "galería",
+      "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoQAAsABUB8JYgCdADvcFWRgAD+sbSwmoDxBKvsi75IBQiI14xU+jQRDOqxZlGtpu73jCrz9vj+sTWJnpEwAA=="
+    },
+    {
+      "src": "/obras/casa-marmol/12.webp",
+      "w": 2400,
+      "h": 1515,
+      "orig": "piscina",
+      "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADwAQCdASoQAAoABUB8JQBOgCHen0tZiOAA/GdJnw6FYCm72UzQ90dicuxAUoG11EUO7AYII9AfEQ3YAAA="
+    }
+  ],
+  "casa-contemporanea": [
+    {
+      "src": "/obras/casa-contemporanea/01.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "contrafrente",
+      "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAABwAgCdASoQAAsABUB8JZAC7H8AGDqKFLp/NMZoAP7U6iDHQsQyoJcIBfUwkZh3nESxDCHIZ2XBWNlO20niU1BMY6pkf7TmML2UfpNeAAA="
+    },
+    {
+      "src": "/obras/casa-contemporanea/02.webp",
+      "w": 2400,
+      "h": 1538,
+      "orig": "fachada",
+      "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADwAQCdASoQAAoABUB8JbACsAEf8KzPoIAAy/0BtmQ1+0oiv7asfs+rRJtI6vDhz4WqDI4Hyfj+xqI/RbspZ4J2kAA="
+    },
+    {
+      "src": "/obras/casa-contemporanea/03.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "galería",
+      "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAQAgCdASoQAAsABUB8JYgCdADcOYZqrKYAAP511vA9N/v8muwnAbYDX8hIiuYz6Q/BL6hSLog+l3M+3N8u7jnv0bc5XJf7X3gAAA=="
+    },
+    {
+      "src": "/obras/casa-contemporanea/04.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "living",
+      "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoQAAsABUB8JZQAAqHczXlpAADiUKTxLWvvEAtIqfww8p4cF1hkYUFCVrdKHNfn9BMCAB3QbfVbVjK8DwAAAA=="
+    },
+    {
+      "src": "/obras/casa-contemporanea/05.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "comedor",
+      "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAQAgCdASoQAAsABUB8JYwAAutstHMpeMkAAPRoThofOqdKtmTQHaLXIvSnhaWFHzNuweezYA2xbn3bjn0P5Cjd1wAAAA=="
+    },
+    {
+      "src": "/obras/casa-contemporanea/06.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "cocina",
+      "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoQAAsABUB8JZwAAjRjkIUiAAD+1ZfEQK7l20nrfxHAAFejovbjBj0MfOw/CV+W9dgt+jNR/uzIOFX0puOEAA=="
+    },
+    {
+      "src": "/obras/casa-contemporanea/07.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "comedor diario",
+      "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAwAgCdASoQAAsABUB8JQBdgCB/zm2554p/gAD+1zE6MQa2hyhQaFeEa3t5FUSDeH7s3ftcBO3EZqiswFUrGD5enLd8AA=="
+    },
+    {
+      "src": "/obras/casa-contemporanea/08.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "escalera",
+      "blur": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAACwAQCdASoQAAsABUB8JQAASy7DJwBwAP38XPEJcIZsbuCEkhYDujQLFfiifhA5ZHqmSP2VIHAAAA=="
+    },
+    {
+      "src": "/obras/casa-contemporanea/09.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "dormitorio",
+      "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoQAAsABUB8JbACdAD0ZSV0v4AA/peOQcvR1n4JHaL+m8MlSAx5cGD1I6bdzdWGlBSRGI3bPqQyjjpW53TSYBNC8AA="
+    },
+    {
+      "src": "/obras/casa-contemporanea/10.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "baño",
+      "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoQAAsABUB8JZAAAq8h4AVT6AD+W7Yaw4jGitsJ81lhvzZ9ek5JBYsbFPs9mrGHUoeWtRHD942LQL9AAAA="
+    },
+    {
+      "src": "/obras/casa-contemporanea/11.webp",
+      "w": 1602,
+      "h": 2400,
+      "orig": "baño",
+      "blur": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAADQAwCdASoQABgAPzmGuVOvKSWisAgB4CcJYwDKABBRmY4R0WeU8QAA/NDYiNv9mRdiZLTjExA1nUxJMug7hseJZyx/YAkgOag5YZ310L0rvIMXUYmQKfx3jfKZU02R5jCur/JlfcNzYK47GuYAW5F00EZKZdq3XeaYK3AA"
+    },
+    {
+      "src": "/obras/casa-contemporanea/12.webp",
+      "w": 1602,
+      "h": 2400,
+      "orig": "detalle",
+      "blur": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAAAQBACdASoQABgAPzmGuVOvKSWisAgB4CcJaAAAOWjEHQvSz5lzCBTwgADJAxgc41bn3vdjT4A2+BNMOPfCDsvHzswqwRCGyX6R3OSUrdb+Lq/E7DaG0WulDKsoBRzRMZpMrSj5aYhPaEBaYS4384keM29j5W41ip9KQzOdBKFZ3yCGg7usAA=="
+    }
+  ],
+  "casa-hormigon": [
+    {
+      "src": "/obras/casa-hormigon/01.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "fachada",
+      "blur": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAQCdASoQAAsABUB8JbACdAEOcEtPgAD+oiT30cYWMhrWTHt8A43dSUMphts2mYa2JdE5bHcMAAAA"
+    },
+    {
+      "src": "/obras/casa-hormigon/02.webp",
+      "w": 2400,
+      "h": 1350,
+      "orig": "contrafrente",
+      "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACwAQCdASoQAAkABUB8JQBOgB3fY3wIAMyimZnyggoH4f1oRQz9qqkl444rGTQhPEGN8rvIoshS3OEJg5tdTNVAAAA="
+    },
+    {
+      "src": "/obras/casa-hormigon/03.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "piscina",
+      "blur": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACwAQCdASoQAAsABUB8JYgCdAELFEAAAMyPdbkWYTbqu0pbk9QhU8bxBOanrWbSFDP1bq/q1Q49YwAA"
+    },
+    {
+      "src": "/obras/casa-hormigon/04.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "galería",
+      "blur": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACwAQCdASoQAAsABUB8JQBWABsmYh2AAP0AGZzwyVE9dp6eM0qoar9WE2gLJrcET50/60DL5KSUGyAA"
+    },
+    {
+      "src": "/obras/casa-hormigon/05.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "hall",
+      "blur": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADwAQCdASoQAAsABUB8JaACdAED4C6Xl2AA+eOYUfSc28kO6d4/CgFCXb3B8HzDHIMMAAAA"
+    },
+    {
+      "src": "/obras/casa-hormigon/06.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "living",
+      "blur": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAQCdASoQAAsABUB8JYgCdAEW/1U6QAD+rAoDMW2SwvIvvSdM9b8a5DcPvGPLrSH0BXtt5RZXcAAA"
+    },
+    {
+      "src": "/obras/casa-hormigon/07.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "living comedor",
+      "blur": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADQAQCdASoQAAsABUB8JbACsAD2HqpAAAD9TC3+qrIyYD3ZjwGDPx9tmg90QcFZJ6zb8YGkAAA="
+    },
+    {
+      "src": "/obras/casa-hormigon/08.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "cocina",
+      "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAwAgCdASoQAAsABUB8JbACdAEfBx7NH5SoAADf/StQdd7HGWCp2H/vJNFzokitJBQFr54HplOQWYpmsid0PIthZAAAAA=="
+    },
+    {
+      "src": "/obras/casa-hormigon/09.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "escalera",
+      "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoQAAsABUB8JbACdACgy42QAAD+N9MEmFd4ONXg1Wit5utFhYtuwqroOxKrItIcHz6crt5GIzo5KyAA"
+    },
+    {
+      "src": "/obras/casa-hormigon/10.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "dormitorio",
+      "blur": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADQAQCdASoQAAsABUB8JQAAXB8ns/4XAAD9SX4V754chHuVXCuZgcGkbhxYdihvtH96AAAA"
+    },
+    {
+      "src": "/obras/casa-hormigon/11.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "baño",
+      "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoQAAsABUB8JZwAAi66SlIB1gAAzV0cy6pYGG81dwskRpXke46O93DCu5rAp2zP9U1qFMqOEtzjAAAA"
+    },
+    {
+      "src": "/obras/casa-hormigon/12.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "vestidor",
+      "blur": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAACwAQCdASoQAAsABUB8JQBOgBi9IboAAP7s5S19Zx2nhHw9YF9JV0+H6qq3D7xnSCMNGctWEAA="
+    }
+  ],
+  "casa-oliva": [
+    {
+      "src": "/obras/casa-oliva/01.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "fachada",
+      "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQAgCdASoQAAsABUB8JYgAAug0WOpshVaQAP7XhcpgjVwlkbw9vFq3F9VtaGPMZCawTy3ZpLuqiZfJdnVmas461Dj3Zu6nwAA="
+    },
+    {
+      "src": "/obras/casa-oliva/02.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "contrafrente",
+      "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADwAQCdASoQAAsABUB8JQAAXIsFyrSegIAA/u1RD/sOGxR7U5tG3JVuztnXNj+k5sQwa+97ygqlsEtgIGH1IFHYhAA="
+    },
+    {
+      "src": "/obras/casa-oliva/03.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "galería",
+      "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoQAAsABUB8JZQAAv2rUv6m5gAA/sxY81C5yXt+BDz7R/eXQ/5M+oKDfT3ZUfRRrqxc2HEKbQJkwv7iNqTAscY34hAAAA=="
+    },
+    {
+      "src": "/obras/casa-oliva/04.webp",
+      "w": 2400,
+      "h": 1629,
+      "orig": "living",
+      "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAQCdASoQAAsABUB8JZwAAsQg14Wp2FgA/pgEMlL7C2DnrZmLiC4dqhbb5xEfwzGReG+hY1jRiy41TuejpmOldvPpg9ytzN9YE626QIAAAA=="
+    },
+    {
+      "src": "/obras/casa-oliva/05.webp",
+      "w": 2400,
+      "h": 1633,
+      "orig": "comedor",
+      "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADwAQCdASoQAAsABUB8JZwAApNfEIVuQAAAzhcOctF/YsLqwviHI8LEDDqEGvurVhJYjd0aHidGlh+TkAxlmWoEAAA="
+    },
+    {
+      "src": "/obras/casa-oliva/06.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "cocina",
+      "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoQAAsABUB8JZwAAp/6fmQlwAAA/pCRIJdIBCuKZ1mQT7VsW1rJcCtn4ekk25WIvG2DTpe86tdTygQA"
+    },
+    {
+      "src": "/obras/casa-oliva/07.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "playroom",
+      "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAQCdASoQAAsABUB8JYgAAjlh54dtgAD+aVzRU8rVFox08uo0YIcQUM1Zi8jf8zSvzTT6tkq4043MD368gxQXa50g62xpK/WPwgAA"
+    },
+    {
+      "src": "/obras/casa-oliva/08.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "hall",
+      "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAgCdASoQAAsABUB8JZwAAxX++vYGqFwAAPzLDj+7syFOj1BS0zhuO2AT5b8s3qKNOnAwhaS9HWEb5GAAAA=="
+    },
+    {
+      "src": "/obras/casa-oliva/09.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "detalle",
+      "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAQCdASoQAAsABUB8JQAAR1mA/1xwgAD+t6kP8pneb8ZgEEJGVOyflAOwS/eOR+Z3wGhvLQCdIpfnqNF2HXCbA/EZ/PVsohwAAA=="
+    },
+    {
+      "src": "/obras/casa-oliva/10.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "dormitorio",
+      "blur": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADwAQCdASoQAAsABUB8JZwAAqsD2Uvu3+AAzRZbiA5k0snCkpMDMZ7clZFpQCGGZna88hAA"
+    },
+    {
+      "src": "/obras/casa-oliva/11.webp",
+      "w": 1600,
+      "h": 2400,
+      "orig": "baño",
+      "blur": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAAAwBACdASoQABgAPzmEuVOvKKWisAgB4CcJQBOgA0gOUlLGjTB6iZhkF0AA8plK90TyNw/QFVeDaa0rK3zEevlo186rNHlca0edMPDcbVuj+kWXqjwOIP6R4H2Ntk7dymUcWygG+0QApzCAAAA="
+    },
+    {
+      "src": "/obras/casa-oliva/12.webp",
+      "w": 1600,
+      "h": 2400,
+      "orig": "toilette",
+      "blur": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAAAwBACdASoQABgAPzmGuVOvKSWisAgB4CcJZQDLLCKV+6fCHJ/Jf4Lhj5AA8RFQY6xfe8VPlU8TMLAHzPiJqvPMpglq+eGGhpA5k+7H+jRsOVR8R+KC4gytaFtlomkGbBIYq8OD/D8xP1KG0pLCFRfQAAA="
+    }
+  ],
+  "casa-laguna": [
+    {
+      "src": "/obras/casa-laguna/01.webp",
+      "w": 1400,
+      "h": 933,
+      "orig": "contrafrente",
+      "blur": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAAAQAgCdASoQAAsABUB8JZgCdAEQPaiJ7+QAAP63JxJTUMsoAHmA74DSiZhl/2oZu2pMRdu0FiaF4cAA"
+    },
+    {
+      "src": "/obras/casa-laguna/02.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "fachada",
+      "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQAgCdASoQAAsABUB8JYgCdAEDGCwvWAcAAM3ixInODDpWT4FQ0l8Jha7Z+yvqXC7W9IGYjliMaF3vibJsOy6QzBb0xEgtT5W2xDm/0AA="
+    },
+    {
+      "src": "/obras/casa-laguna/03.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "piscina",
+      "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAQAgCdASoQAAsABUB8JbACdAEfnqd+ok+4AP6tFRAQv3bBFCjXGDYPryQp4d4zK5PmtEDNQqtdytKXRI42ig2MlTAAAA=="
+    },
+    {
+      "src": "/obras/casa-laguna/04.webp",
+      "w": 1400,
+      "h": 933,
+      "orig": "galería",
+      "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQAAsABUB8JQBdgBxs178mhKAA/sA+Y/j9MHNFq14QTs73bC6llcK/17Xm+Hx/OGbohMdGpUTna+VshTAAAA=="
+    },
+    {
+      "src": "/obras/casa-laguna/05.webp",
+      "w": 1400,
+      "h": 869,
+      "orig": "living",
+      "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQAAoABUB8JZwAAj2CpWUHYAAA/qF1tDRaNOPbRJPDJTh73lXxLzUF5B1ybW6I/wyLwqdMLKrczdb7PKAQAA=="
+    },
+    {
+      "src": "/obras/casa-laguna/06.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "comedor",
+      "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAQCdASoQAAsABUB8JZQAAwDWazesAAD+x3XAp08LmbS5fr00k8L3FRkBHfPG5ySwE3K6ed0zu+hOt1KfeoEVYKdCHPoFF5Svg53WAAA="
+    },
+    {
+      "src": "/obras/casa-laguna/07.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "cocina",
+      "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAQCdASoQAAsABUB8JZwAAq/ZQ2xcwAD+TLmCLwzsZFGTKVRKp8dX7eLX3R50/WC5nBddYIb2jagm5VuMS5LbNEql1kEQ+gAAAA=="
+    },
+    {
+      "src": "/obras/casa-laguna/08.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "quincho",
+      "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADwAQCdASoQAAsABUB8JYwC7AD1d2/78fAA/uyxa4FTUu/k0mLg1DuG3ftar44kMLf/vx8VWUmlyRX8vWWcW4tgAAA="
+    },
+    {
+      "src": "/obras/casa-laguna/09.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "hall",
+      "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAQCdASoQAAsABUB8JQAAVUUUWPiLsAD+xKSDDH/4tybjmcxQlOkk09yt9Dee1edn2hN6GIx5kNBXuFww0XsoX2jJWAAA"
+    },
+    {
+      "src": "/obras/casa-laguna/10.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "detalle",
+      "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoQAAsABUB8JZQAAZNXfYuIAAD77At31AJVc2cTpJwqZTCMHJCnHn1kk2XOMxNSTCMdRGjbc3tLioEAAAA="
+    },
+    {
+      "src": "/obras/casa-laguna/11.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "dormitorio",
+      "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACQAQCdASoQAAsABUB8JZQAAnydhOAA+4ZrpyIdsa5hdy0pLEfwoop4T1y9wb9O5d+2+RHAsd3GbqD8+N/vCSgtRRcIAA=="
+    },
+    {
+      "src": "/obras/casa-laguna/12.webp",
+      "w": 2400,
+      "h": 1678,
+      "orig": "baño",
+      "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoQAAsABUB8JYwAArLi1tosO8AA/gs1PoK1sDk6ja6pJ/WM2yUG2Y1fIOUku3cUdPhTZUGGBdF5U9/wL3IY02CHpTT/0AAA"
+    }
+  ],
+  "casa-pizarra": [
+    {
+      "src": "/obras/casa-pizarra/01.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "fachada",
+      "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAABwAgCdASoQAAsABUB8JbACdGuAAtKtJ8BkocbAAOHaJJC125QPXsX+QDl4UvF0xtHFXaQUjjhsOvkUBafsJ0Xwmgf6hk4xMYRK0jIzQWQOhb/3mltwmpHFqAA="
+    },
+    {
+      "src": "/obras/casa-pizarra/02.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "entrada",
+      "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAQCdASoQAAsABUB8JYwAAtrhwItCAAD82V3ANvO+6kXXfqRO9ti48DjHCL1LNt4PiLHwqwDDm+7Lsdk+SpNUm3ouQEJofAAAAA=="
+    },
+    {
+      "src": "/obras/casa-pizarra/03.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "hall",
+      "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoQAAsABUB8JZgC7ADOiLNAGQAA/snpN0l15djGzt2nQyevaOcHPDRHEkcDpEurKP2vUiPiA28JJqObL25gWCm8YAA="
+    },
+    {
+      "src": "/obras/casa-pizarra/04.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "living",
+      "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAABQAgCdASoQAAsABUB8JZACdH8AGZ/0WGZZIAAA/o36Dw/qzURdFxhL55WHluC3vzmDsaJWYdKCbcDcVxbT0y+dzUJnmeI4KVglDNQUAAA="
+    },
+    {
+      "src": "/obras/casa-pizarra/05.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "comedor",
+      "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAQAgCdASoQAAsABUB8JQBdgCPpvEHnr7gAAP6OBTbHm1m8P6lbetecYjDlHiPheUkc+65Nmf0UFmrWlUuB8xDryLmqObAA"
+    },
+    {
+      "src": "/obras/casa-pizarra/06.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "cocina",
+      "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAQCdASoQAAsABUB8JZQAAtvKI1d78AD+Brfp4P/HEhrLxYtQD9Byq9BJjN3CQJbNbRQOKKO8gDMhNWIO9ZqDRhFPn/7nmloxyzQgAAA="
+    },
+    {
+      "src": "/obras/casa-pizarra/07.webp",
+      "w": 2400,
+      "h": 1603,
+      "orig": "comedor diario",
+      "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAwAgCdASoQAAsABUB8JZgCw7EedUX5J114AAD973/wMjpOl32l3MCec3N1muqJBP1qSkh/9WSzid3DMgMs3pV0vaMAwC6RrUe9GWvgAAA="
+    },
+    {
+      "src": "/obras/casa-pizarra/08.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "dormitorio",
+      "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQAgCdASoQAAsABUB8JQBWAB0/2KOteB6AAP6o099YoWlJ4PzS7eAaEIa1daClCSTQTrMW7dL/t2u17gH5pYTgvqXpC8imV/ExkWj+AAA="
+    },
+    {
+      "src": "/obras/casa-pizarra/09.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "baño",
+      "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAACQAQCdASoQAAsABUB8JQBdgBgNxAAA/pTnw0scdGvuVjnTlGsv6GnN7EXKE+xpBKU8l0mYYSP1JbVZOS3A0uCMM2hrVmqyDq5vi+GdFEsZhg4AAAA="
+    },
+    {
+      "src": "/obras/casa-pizarra/10.webp",
+      "w": 1602,
+      "h": 2400,
+      "orig": "toilette",
+      "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAADQAwCdASoQABgAPzmGulOvKKWisAgB4CcJQBfnBFWOKRUw/osyLcgAyhZYCpeZfioGvVvwtyTfqiOkjtBj/H3VTpjfDt07xmmfXL2BuzgQ9YgEyNgiBHy7rxqHDhP8orfgAA=="
+    },
+    {
+      "src": "/obras/casa-pizarra/11.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "galería",
+      "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAwAgCdASoQAAsABUB8JQBOgMW+ht7ov1VuAAD+2FJzLI3tXf86Mvc2fokqn3l0DnDA8pN+NHB0DZ+NMRnY4VR78Vbb/zsmkx4tUe9GDYweqZS+QpBBO4AA"
+    },
+    {
+      "src": "/obras/casa-pizarra/12.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "piscina",
+      "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAQCdASoQAAsABUB8JbACdAEINful6AD+tgJUelsMvM5lQ3bq75CDkSONBa6le0/cItRsXxbPDGUHu7xgUOIId9hSpeKRAAA="
+    }
+  ],
+  "casa-patio": [
+    {
+      "src": "/obras/casa-patio/01.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "fachada",
+      "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAQAgCdASoQAAsABUB8JbACdAERBFzKm+AAAM23sZtJwBBmHgbkk14sk0Ab+kCdiNJb8KhnJij7GNaCC2PZ1RCQAAA="
+    },
+    {
+      "src": "/obras/casa-patio/02.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "hall",
+      "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAQAgCdASoQAAsABUB8JQBdgB7HxcMd/7BgAP6Z8ES34zr2Evbr0lSSlZuZlnbTYLRrAy/zM3n77fxEY2EwOt74AAA="
+    },
+    {
+      "src": "/obras/casa-patio/03.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "living",
+      "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQAgCdASoQAAsABUB8JYwC7AD0oYhs6F8wAP7Vw0WVUZod0A3R+fLvf7d+CpuY+zDFqKw1Pkkgdp09iniGHJowCwWEJhg8AAA="
+    },
+    {
+      "src": "/obras/casa-patio/04.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "comedor",
+      "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADwAQCdASoQAAsABUB8JZQAAiC9drkSBQAA/tWegqswDFsmZVXxfHGOMSZoZoMub0Z8klTuvXUb7d6pDgA="
+    },
+    {
+      "src": "/obras/casa-patio/05.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "cocina",
+      "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAQAgCdASoQAAsABUB8JQBdgCB0cjutJyGAAP7HHIlbYGUblatY+cG0cH7MaDeEYgOQKfp+Ov3mz+9mcT5tx9TE2YAAAA=="
+    },
+    {
+      "src": "/obras/casa-patio/06.webp",
+      "w": 1602,
+      "h": 2400,
+      "orig": "bodega",
+      "blur": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAAAQBACdASoQABgAPzmEuVOvKKWisAgB4CcJQBYdg3KY5OX8Tj3KcMNHAAD8q4l1QcrAFAIeG6RnXyNVuG7RgK3WaHOs02CRM7HypjKoSCOBK+GlE/TEuuYw50WNjJyS7QEEmSQ8Zq6BqFrQAAA="
+    },
+    {
+      "src": "/obras/casa-patio/07.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "dormitorio",
+      "blur": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACwAQCdASoQAAsABUB8JQAAXtxmBioYAP7nndrEo3rPLOR8UqdyFsZ7D8OxZuNkPiFDQ+XIUf13VsAA"
+    },
+    {
+      "src": "/obras/casa-patio/08.webp",
+      "w": 2400,
+      "h": 1603,
+      "orig": "baño",
+      "blur": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAACwAQCdASoQAAsABUB8JaAAAvZNFDmAAP7ITtmo2b+Vc1DEYqnV/bDTkdxEnm656X/pMZv8EQAAAA=="
+    },
+    {
+      "src": "/obras/casa-patio/09.webp",
+      "w": 1602,
+      "h": 2400,
+      "orig": "toilette",
+      "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAwCdASoQABgAPzmGulQvKSWjMAgB4CcJZQAAUX+pZT232YVAP3QA/q+eLPBbhHQoY9S01t6kbFe+hl27ndIVSmqdp6b7t99xI3Xl5NSkcxmC7p8t3TDQ4AA="
+    },
+    {
+      "src": "/obras/casa-patio/10.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "galería",
+      "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAwAgCdASoQAAsABUB8JYgCdAEei0x0Lt2/AAD86ceFaosOQd6507Hr7F2QMdFATu/3hJRh+yKGWI/wW9H8a9kE7w4CB/V8lCcAAA=="
+    },
+    {
+      "src": "/obras/casa-patio/11.webp",
+      "w": 1602,
+      "h": 2400,
+      "orig": "piscina",
+      "blur": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAAAQBACdASoQABgAPzmGuVOvKSWisAgB4CcJagCdACHcNtJTTZgY8ZSd4AD93X4VAurUsHUWtweVylV14tZGi3ageQNOsXW8lF8j4OXL9MDy+i4G0DYrfXPEsvkbop3EMY9ZlO5l9Sa4ndeOAAA="
+    },
+    {
+      "src": "/obras/casa-patio/12.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "contrafrente",
+      "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAQAgCdASoQAAsABUB8JZgCdADp5cGXTVMAAP5V4zfgoV1bL9hGk/tQJ2EpfHY1ZkosUYwS/olEJAsQHYax2bVJQWQ94yAA"
+    }
+  ],
+  "casa-pergola": [
+    {
+      "src": "/obras/casa-pergola/01.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "fachada",
+      "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQAgCdASoQAAsABUB8JbACdAEe4F793+pAAPXc0MF4j6o2NDDoMvOiI812cMWA2ZEnnQR8dSQ1WO/2J4D8lItfVwokVjJggAA="
+    },
+    {
+      "src": "/obras/casa-pergola/02.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "fachada",
+      "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoQAAsABUB8JbACdAD1+uJW3gAA/eKcB6mP0JphpGAHRlXe2efJ3IsTWSsjb8TywyYxQ0yVZsoMmT4TMukwS5VZMAA="
+    },
+    {
+      "src": "/obras/casa-pergola/03.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "entrada",
+      "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAAAQAgCdASoQAAsABUB8JaACdADw1YhkyBgAAOAs1FHsl++dQyCjPachb92ae9kwJY9PmTVmeOJsYQY+VFwK/wAA"
+    },
+    {
+      "src": "/obras/casa-pergola/04.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "living",
+      "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoQAAsABUB8JQBOgCHrNA5oDAAAyxwd2dn7jh+a7FI9rCcm2SodleNyPIbNCcKX7Djk5WRDK/fnaYRVQim3XV3cP8gAAA=="
+    },
+    {
+      "src": "/obras/casa-pergola/05.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "comedor",
+      "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAwAgCdASoQAAsABUB8JYwC7AEe2GUyH7DGIAD+wF92dFHnuGaqloRg5TV0l1bX0v2kS0jQAeV+5ghKr2D+xsWj2b1HsA3ktcWqTVpgGT5cpE2OAAA="
+    },
+    {
+      "src": "/obras/casa-pergola/06.webp",
+      "w": 1600,
+      "h": 2400,
+      "orig": "cocina",
+      "blur": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAAAQBACdASoQABgAPzmEuVOvKKWisAgB4CcJQAALfXx4KGjQsaC9AeB0AAD+5xB5aNMWlhTsR3vY9wByrenhDlxPdBjFz2etaucFwumpCmlwjuTUgzLi2Q5xHwuPRb5lt0j01ohTSi2MO3UO/0RC7uR/8Z7dhgAA"
+    },
+    {
+      "src": "/obras/casa-pergola/07.webp",
+      "w": 1600,
+      "h": 2400,
+      "orig": "escalera",
+      "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAwBACdASoQABgAPzmGuVOvKSWisAgB4CcJYwDA3By+62BXlwKAPRJ/3gAA+FHfddRJm7mT4iM8joQCs98HoBjoX12v5/DIT4V2Mg+pImXSurpq/RYx9nTFuOcMXPYBoikAAA=="
+    },
+    {
+      "src": "/obras/casa-pergola/08.webp",
+      "w": 1600,
+      "h": 2400,
+      "orig": "detalle",
+      "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADwAwCdASoQABgAPzmQvlWvKqajMAgB4CcJZQC7ACFlJLBNzp4rq110AP6eeQCXyXssDwYTK1gZ2rAlJT7E7JBhgaKw8r5mmCpw8E3tlNv7y3FtICYDry4RSkQwAA=="
+    },
+    {
+      "src": "/obras/casa-pergola/09.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "dormitorio",
+      "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAQCdASoQAAsABUB8JQBOgBQmUlkAAOEAnv5sUubUq0graRPLN/UtcwixqlCPv315CT3p7cSSyw80CF6XpWLe0oSXrASANfAEu2AA"
+    },
+    {
+      "src": "/obras/casa-pergola/10.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "baño",
+      "blur": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACwAQCdASoQAAsABUB8JZQAAuia8zAAAP30vxFieqUTFbei6S4AfrKcjoxpZfkV3rEJe0yODgxwIAAA"
+    },
+    {
+      "src": "/obras/casa-pergola/11.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "toilette",
+      "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAwAgCdASoQAAsABUB8JYwC7AEWLbG2mN/u8AD+zuR7c85XSpH/ZSnYfa9kR3DA3aGfU72e9sLYBkorcWRA8bEAAAA="
+    },
+    {
+      "src": "/obras/casa-pergola/12.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "playroom",
+      "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAQCdASoQAAsABUB8JYwCsAC4WJWi8AD8jjfoUY2mruCH5ijwtYW+OQNest/ryNIEfiiD6vruobu+e0DgEVdyEhFVIAAA"
+    }
+  ],
+  "casa-farol": [
+    {
+      "src": "/obras/casa-farol/01.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "contrafrente",
+      "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACQAQCdASoQAAsABUB8JbAAAVUoYKAA/u2C9qLqYJC3p+QLRWtrMja/HVXi94zvrEMpp44AE+ZaHAIWFX6ZP+m+/wAAAA=="
+    },
+    {
+      "src": "/obras/casa-farol/02.webp",
+      "w": 2400,
+      "h": 1494,
+      "orig": "fachada",
+      "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAoABUB8JagCdAENhlCVy2AA4l9LaqQrCGT0aNdgrse9p7DFirzX/sFNUenZsDxXfs2nLvph7U9kQ6Hi9gAA"
+    },
+    {
+      "src": "/obras/casa-farol/03.webp",
+      "w": 2400,
+      "h": 1513,
+      "orig": "living",
+      "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAgCdASoQAAoABUB8JZQAAsQXEQzfHIcAAP7IKpIVso8h2e2pMuBI3A63pEPT3uur+xeamFI1C3sro4AAAA=="
+    },
+    {
+      "src": "/obras/casa-farol/04.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "comedor",
+      "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADwAQCdASoQAAsABUB8JQBOgjgAoGpAaYAA/tW6prSK3cT/jDpAYzrYLZv5wja095Dk52qAOZUzLS280AA="
+    },
+    {
+      "src": "/obras/casa-farol/05.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "cocina",
+      "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADwAQCdASoQAAsABUB8JYwC7ADsYipsslAA/rNfrEPaTJW12KkDsXzUcY6YnwwyislSy4mazyRzCVWHWEAAAA=="
+    },
+    {
+      "src": "/obras/casa-farol/06.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "vajillero",
+      "blur": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADwAQCdASoQAAsABUB8JQBOgB4bs36pPoAA+TxZ6gJTnyFJNX5j1jEwzhvsYqkgMA+nDPhKKAA="
+    },
+    {
+      "src": "/obras/casa-farol/07.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "hall",
+      "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADwAQCdASoQAAsABUB8JQBOgB8mXao/v0AA9y4T1qJz9L/G0jxpKG9YOy03vpQVXQg4O88umBgrLu6GGmgAAA=="
+    },
+    {
+      "src": "/obras/casa-farol/08.webp",
+      "w": 1641,
+      "h": 2400,
+      "orig": "escalera",
+      "blur": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAQBACdASoQABcAPzmGvFQvKSYjMAgB4CcJQBOgAt65og44Hqzm+fQrkAD3CU9h5nFu2Pfi+S4VXqvGNfFW3dCT6aPqdzGbz8e02HH3eOL0NCg+JwGlsKlL0JGUwBax/bisWYVugAA="
+    },
+    {
+      "src": "/obras/casa-farol/09.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "dormitorio",
+      "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAgCdASoQAAsABUB8JYgC7AD2OkcLDxuAAP6NOsPoNepwUwQBgo+mBzCWNFKP9p6gD+a6fsnhecQ11BQAAA=="
+    },
+    {
+      "src": "/obras/casa-farol/10.webp",
+      "w": 1600,
+      "h": 2400,
+      "orig": "baño",
+      "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAACwAwCdASoQABgAPzmGulOvKSWisAgB4CcJZQAAQWL0CLPWEq1mgAD8hE1sTXL7F123cO931w/rpyDRRAWSow17+jJkpBfcK8uqwl5voksQGQUbpz1zNBDbnl7/KyRebWgAAA=="
+    },
+    {
+      "src": "/obras/casa-farol/11.webp",
+      "w": 1600,
+      "h": 2400,
+      "orig": "detalle",
+      "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAABQAwCdASoQABgAPzleyV8vI6qmGAHgJwljAK4cGtSDpf8YQAD+E3mZLORzg4jjFTpx9Pk6JtyqAhlxYTSCTnrOtEQLRJRlw8cmqL1Rtr2gLOmuZQUXkyyyGYgAAA=="
+    },
+    {
+      "src": "/obras/casa-farol/12.webp",
+      "w": 1771,
+      "h": 2400,
+      "orig": "piscina",
+      "blur": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAACwAwCdASoQABYAPzmEuVOvKKWisAgB4CcJZgAAUoiop3rAP3ASUAD4ppruO7PohdJUmlGK9HfW4eNGW1CSumq8LxpFLIN3hpv+s3aU+qyxEbh0a9lgWyvYWRj5OdNM3cnytJSlx6F81zWesFgAAA=="
+    }
+  ],
+  "casa-blanca": [
+    {
+      "src": "/obras/casa-blanca/01.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "piscina",
+      "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQAAsABUB8JbACdAD0fuP4mAAA/kAdfIKxjEMhqMv5wQ3nVakKlFj0L8YRqd1ROIEe7mn/AaluPY5BwtYCAA=="
+    },
+    {
+      "src": "/obras/casa-blanca/02.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "fachada",
+      "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoQAAsABUB8JbACdAEREFwj4IAA/kB8Z+DFA8SORuf3M8MfmDk2mRk+tijER5c8mSx8FNtHubHhBDFFMoMrguL71TEAAA=="
+    },
+    {
+      "src": "/obras/casa-blanca/03.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "parrilla",
+      "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAABQAgCdASoQAAsABUB8JZgC7AEQWgR+os9m+AAA/mAZ2lQjqMZOH4PMu23c0l2/WIvNuMiWHVBHb9dm/9PmGCRuHnjXgAAA"
+    },
+    {
+      "src": "/obras/casa-blanca/04.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "galería",
+      "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACwAQCdASoQAAsABUB8JQAAU3mH8lAAAPjjLDM4pNh0nbjHFZ30PkUvWROB1SwjEQJS4tUbpig3y/5G/Msv9t+CYyHlcGtvzZ8AAA=="
+    },
+    {
+      "src": "/obras/casa-blanca/05.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "living",
+      "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoQAAsABUB8JZgC7AEQS/3gWAAA/tRtCVaH2sn+nG6f6BvGtUOU+jyWfFPOb3sx3j7bzeORlz/vB3azwf/vlOnAAAA="
+    },
+    {
+      "src": "/obras/casa-blanca/06.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "comedor",
+      "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAwAgCdASoQAAsABUB8JaAC7AD6IUo+6gnAAAD+1h6za1NCPdN7a+Np+BxOcssN9G5ibtdyu1tFKOBiuo3b84+Ac7n3bNssmSki2+9zxQAAAA=="
+    },
+    {
+      "src": "/obras/casa-blanca/07.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "cocina",
+      "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQAAsABUB8JQAAYr4HSyqyt0AA/t+HXG5pvqHwrUtdN/cDH4AC0ppdscPLrbdTE64kmi65nhFKuVF5VgAAAA=="
+    },
+    {
+      "src": "/obras/casa-blanca/08.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "estar",
+      "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoQAAsABUB8JQBdgCG0ruFEAAD+4W6FGsualn5lTLUlB3qGRwwb7mwPjOlxTNcShoynNTGs6XojAAAA"
+    },
+    {
+      "src": "/obras/casa-blanca/09.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "hall",
+      "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAwAgCdASoQAAsABUB8JaAC7AEf1do2OBPgEAD+t424aE1lL0NZVsoPgB0ENUZG6GjvFJPYy4z136pqeI1x2nu2AAAAAA=="
+    },
+    {
+      "src": "/obras/casa-blanca/10.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "dormitorio",
+      "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAQAgCdASoQAAsABUB8JZAC7AD2P6X7ZZUAAPa5atRmV6vnPg4x8bucw3q+6AjPR61MuWFBa8eQ8cs9oOVuDPdaybT5+Nx2IAAAAA=="
+    },
+    {
+      "src": "/obras/casa-blanca/11.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "baño",
+      "blur": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAACwAQCdASoQAAsABUB8JQAAW47uZ0kAAP7nLvqXygQ8BT1puESSiLOnM0+TQjn7iYHgAA=="
+    },
+    {
+      "src": "/obras/casa-blanca/12.webp",
+      "w": 1716,
+      "h": 2400,
+      "orig": "baño",
+      "blur": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAAAQBACdASoQABYAPzmEuVOvKKWisAgB4CcJZQAAWn0CYKUGwjljqCR8oAD+sWXR/ifVXUrOEVOQPbt8J93IZVuTGu2MwNxnPKV+ZqsE3p/qwq4nD6N3kYY3LXQGotElSwN17wLjwKKEDLcKlhCvnCN/t9tlguQAAAA="
+    }
+  ],
+  "casa-brisa": [
+    {
+      "src": "/obras/casa-brisa/01.webp",
+      "w": 1400,
+      "h": 933,
+      "orig": "piscina",
+      "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAgCdASoQAAsABUB8JQBOj+ABxurs5wQAAPeie+qS9Oa27OuesMuC1hI+PMzkik3ROqWr/DXkk3EL0wAAAA=="
+    },
+    {
+      "src": "/obras/casa-brisa/02.webp",
+      "w": 2400,
+      "h": 1511,
+      "orig": "contrafrente",
+      "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAQAgCdASoQAAoABUB8JZACdAEVJuPwxiNgAPx9doML1NeiMsNf74wgjm8NfNXaGjSjWpdibd1qsSXKAAA="
+    },
+    {
+      "src": "/obras/casa-brisa/03.webp",
+      "w": 1400,
+      "h": 933,
+      "orig": "living comedor",
+      "blur": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAACQAQCdASoQAAsABUB8JZwAAs3ZpFAA/tT49tr+wCd0Imd1kXRvUFQote7+A70T5mnfMeQtWgoAAA=="
+    },
+    {
+      "src": "/obras/casa-brisa/04.webp",
+      "w": 1400,
+      "h": 933,
+      "orig": "living",
+      "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAQAgCdASoQAAsABUB8JYwAAvdANKj/Z+YAAP7IiV9xFVVq4ALkDI2w2tCbu09FB/ilOQ9wak30pkXhAAA="
+    },
+    {
+      "src": "/obras/casa-brisa/05.webp",
+      "w": 2400,
+      "h": 1553,
+      "orig": "comedor",
+      "blur": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADwAQCdASoQAAoABUB8JZwAApyqUAGs6cAA/t8S0rDVId1YnMugQyEA8/nI/GNVkIcAAA=="
+    },
+    {
+      "src": "/obras/casa-brisa/06.webp",
+      "w": 1400,
+      "h": 933,
+      "orig": "cocina",
+      "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoQAAsABUB8JZQAAu14+cRxvwAA/pGpDkJ5NisVAVAYZej42hSvLIRPNLvtEfVsBcyd79HcdBwpAgAA"
+    },
+    {
+      "src": "/obras/casa-brisa/07.webp",
+      "w": 1400,
+      "h": 933,
+      "orig": "patio",
+      "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAQAgCdASoQAAsABUB8JQBdgBu2NhNqUqYEAP7HUiDw0o4jhxUjXCU09nQDGVHq0VXxkFdkfOvouO3ldxw/nQQuIo9lcAAA"
+    },
+    {
+      "src": "/obras/casa-brisa/08.webp",
+      "w": 933,
+      "h": 1400,
+      "orig": "entrada",
+      "blur": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAADQAwCdASoQABgAPzmGulOvKSWisAgB4CcJQBfnA8+E90cePW7hguAA/tfO93jolTNWb099KcMf9pMLbOmp+tYg9mYeJyixOcb7Z0tdQrzzeAwHyflhJOKZ70ZasfF6q13LwAAA"
+    },
+    {
+      "src": "/obras/casa-brisa/09.webp",
+      "w": 1600,
+      "h": 2400,
+      "orig": "hall",
+      "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAwCdASoQABgAPzmYvlYvLCajsAgB4CcJZwABH0iKigjwlKAEIAD+1NApGukfNP+7ogUeb5uOQgftBpuHZhi2vOe/RkMAAAA="
+    },
+    {
+      "src": "/obras/casa-brisa/10.webp",
+      "w": 1600,
+      "h": 2400,
+      "orig": "dormitorio",
+      "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAABQAwCdASoQABgALvmczmclLy8vDwD4SxrsAoR5LJAtVkZGYAD+7pnGf5qS0BHJQrTASsuN1g5nXwNbFOpdza/GSWpZtNl8Ms1BwEqoZUAAAA=="
+    },
+    {
+      "src": "/obras/casa-brisa/11.webp",
+      "w": 933,
+      "h": 1400,
+      "orig": "baño",
+      "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACwAwCdASoQABgAPzmGuVOvKSWisAgB4CcJZQDMHCGaDkreyhL1PAD92Z3X1GnYwHMKYTjD7x+cL2Ih3NVNXWkZBkamxlOdUld71d6QAAA="
+    },
+    {
+      "src": "/obras/casa-brisa/12.webp",
+      "w": 1073,
+      "h": 1400,
+      "orig": "toilette",
+      "blur": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAADQAwCdASoQABUAPzmEuVOvKKWisAgB4CcJZwAATF8u1keWm1ymRQAA/gADKbJhO95xqec4Ak7R5opqQukfswZ1DT0Kd8pWn6OsG7N03lfaif7olF2HlVNlwPgOyMadKCDQP+O9/9U6toa6ty+4OY4fB7gaBNz0PgAAAA=="
+    }
+  ],
+  "casa-celosia": [
+    {
+      "src": "/obras/casa-celosia/01.webp",
+      "w": 2048,
+      "h": 1366,
+      "orig": "fachada",
+      "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAQCdASoQAAsABUB8JbACdACqjWSA4AD4M9aE0CU45CP2QJwsmcfleu+M6MqGdllIQFgb+RxXBExN3I1u7L+D0lX6rwjbpE17/XYjc8dPCzH4AAA="
+    },
+    {
+      "src": "/obras/casa-celosia/02.webp",
+      "w": 2048,
+      "h": 1366,
+      "orig": "contrafrente",
+      "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAQAgCdASoQAAsABUB8JaACdAEPBex4E84AAP6xc0dhe+5jrDMgsmNCcWOY4ei5x0bSRUjufwx0LEPh3HKYY/FHwlzgpAAA"
+    },
+    {
+      "src": "/obras/casa-celosia/03.webp",
+      "w": 2048,
+      "h": 1367,
+      "orig": "jardín",
+      "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAQCdASoQAAsABUB8JZAAAuR7TQf9vAAA/ofWldXUyoZqcu5k40OPRUt8HaXfCVqu1oflq8TEtTDiE+fOPYMjOGALhuUUANJ0+VTPRxhAAA=="
+    },
+    {
+      "src": "/obras/casa-celosia/04.webp",
+      "w": 2048,
+      "h": 1367,
+      "orig": "entrada",
+      "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAwAgCdASoQAAsABUB8JagCdAEN5BcJ1ls0AAD0dDheWRlIBGRxE/noQGbTWXR4PeM2lPOl6mek+yKgcMg95v9/FJKUEynNMsRinwIN2KSDY9kAAAA="
+    },
+    {
+      "src": "/obras/casa-celosia/05.webp",
+      "w": 2048,
+      "h": 1367,
+      "orig": "living",
+      "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAQCdASoQAAsABUB8JZQAAtnfHBV38QAA/lvifgr5fk2PkLhCBGs/cGpKCgf3Zhnig4paHj9EvR18r8s0ZsMiF0UxAFMltOI44sAY9b6AAA=="
+    },
+    {
+      "src": "/obras/casa-celosia/06.webp",
+      "w": 2048,
+      "h": 1367,
+      "orig": "comedor",
+      "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAsABUB8JQAAT/jxsn2q44AA/oOvHLE5jj9XwH5dTIdGP+xxNJdHOsizyIlqOUIg8P0ArFQBJjGPF9VegAAA"
+    },
+    {
+      "src": "/obras/casa-celosia/07.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "cocina",
+      "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoQAAsABUB8JYwAAiDPxOKl2AAA/ukpu/bI4qQVu0eC6uj7eMjZIxc7PyuqNsWhwLZzvurQZwABLUVYlp5y0UsKcaRwAA=="
+    },
+    {
+      "src": "/obras/casa-celosia/08.webp",
+      "w": 2048,
+      "h": 1367,
+      "orig": "estar",
+      "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAACQAQCdASoQAAsABUB8JYgC7ABWFgAA/gXIGPb0H0B4+JkSa5cwmAsKXTJ+V3pj8j5MoGYZbG1uA7Y67NEKEVPyZo+8MGkGpKamu0geBAAAAA=="
+    },
+    {
+      "src": "/obras/casa-celosia/09.webp",
+      "w": 2048,
+      "h": 1367,
+      "orig": "dormitorio",
+      "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAQAgCdASoQAAsABUB8JZAC7AEJ0XuJQguwAP53OWiH7xLaJL600LQea30J6ewSlrl0YRnKf+30CYfBColOvqBtc5zijLhsCAAAAA=="
+    },
+    {
+      "src": "/obras/casa-celosia/10.webp",
+      "w": 1602,
+      "h": 2400,
+      "orig": "detalle",
+      "blur": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAAAwBACdASoQABgAPzmGuVOvKKWisAgB4CcJQBfnA+tZy/xTwvOux1EExgAA8bZXvRWlghgmrvy+j2btMZII6ZNXvs64XuzPf1XtSPYQhecm4iyvAc2C86nVm8ql36/fO0tk9el2lGb4TDBaLIWgARDJfQAwIFQUtREIPVZDiAAAAA=="
+    },
+    {
+      "src": "/obras/casa-celosia/11.webp",
+      "w": 2048,
+      "h": 1367,
+      "orig": "baño",
+      "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoQAAsABUB8JYwCdADIiwdgAAD+mtOBpP34cYZtb+uBHozKZZbEGWy4DDiPikdUPR4F8KYnsleq1Ele2RAAAA=="
+    },
+    {
+      "src": "/obras/casa-celosia/12.webp",
+      "w": 2048,
+      "h": 1367,
+      "orig": "dormitorio infantil",
+      "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAACwAQCdASoQAAsABUB8JYgC7ABsd+YAAMq52Q/VOPdnwZD0o5oSVegjV970t4ILi8g1g0mMi6jMXEgyFWcnBooYNomkBWN+p2vhEQuhYEAAAA=="
+    }
+  ],
+  "casa-roble": [
+    {
+      "src": "/obras/casa-roble/01.webp",
+      "w": 1400,
+      "h": 933,
+      "orig": "fachada",
+      "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQAgCdASoQAAsABUB8JYgC7AENq2v85aAAAP7th901A4ulOi112RL0iHRoVg2yGcmKP2EVg0pdoY28BLS04ysUQKjsH9ECAAA="
+    },
+    {
+      "src": "/obras/casa-roble/02.webp",
+      "w": 933,
+      "h": 1400,
+      "orig": "contrafrente",
+      "blur": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAAAwBACdASoQABgAPzmGuVOvKSWisAgB4CcJagCdACHEzWOKpC7AM86mSgAA96Tr+oSU7ORTLIpjxNwiLvpjRaPuWJdQEIkVq9/tMtpN6wgIA3zUss7k9QCPJDG0BjGoaZmOPCnPHi6WRi6CeNdPfn1Hfu3O6H+ejaAAAA=="
+    },
+    {
+      "src": "/obras/casa-roble/03.webp",
+      "w": 1400,
+      "h": 933,
+      "orig": "galería",
+      "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoQAAsABUB8JYwCw7EW/2N5a4AAyzVZ3y8KCUlLhmeN4To2RNrc8gUpOGa3/g8iPmNKYEkZMiu7ooEs+QR1XS98SfAAAA=="
+    },
+    {
+      "src": "/obras/casa-roble/04.webp",
+      "w": 1400,
+      "h": 933,
+      "orig": "living",
+      "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAQCdASoQAAsABUB8JQAAX5I0pkhLYAD92rw6R5Fk70X9vWMr1JvEAFLi8Q++ioGbqH8Oibc1KbLPcyAAAA=="
+    },
+    {
+      "src": "/obras/casa-roble/05.webp",
+      "w": 1400,
+      "h": 933,
+      "orig": "living",
+      "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACQAQCdASoQAAsABUB8JQAAXM+L5iAA2/p3I4+fTAUL4RJXvZQmC8qXx4Ehu+8WuS35U2SEHeBibbrsgAA="
+    },
+    {
+      "src": "/obras/casa-roble/06.webp",
+      "w": 986,
+      "h": 1400,
+      "orig": "cocina",
+      "blur": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAwBACdASoQABcAPzmGuVOvKSWisAgB4CcJZQDCgCIe1M38Xvl6xJgQlQAA/lgIqXnogyAajs+iErq0PH13yOfMcLs4IVVj4JpY/2XtsIcpaeaaCSFLEpRrPV00HIf4WuJh4qUAAAA="
+    },
+    {
+      "src": "/obras/casa-roble/07.webp",
+      "w": 2400,
+      "h": 1600,
+      "orig": "estar",
+      "blur": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAQCdASoQAAsABUB8JZQAApC+D58wAAD+53zoKm5/tRZsniPcskyL9klemMoCeFvcQNEdsj9ykAAA"
+    },
+    {
+      "src": "/obras/casa-roble/08.webp",
+      "w": 1600,
+      "h": 2400,
+      "orig": "escalera",
+      "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAABQAwCdASoQABgAPzmGuVOvKSWisAgB4CcJZQAAIsOpyBMRAAD3A8LMHIJEYn/NldL8fAmbGG2MePQXN7qmHoNr9DRHhJ37wcAAAA=="
+    },
+    {
+      "src": "/obras/casa-roble/09.webp",
+      "w": 933,
+      "h": 1400,
+      "orig": "vestidor",
+      "blur": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAADwAwCdASoQABgAPzmEuVOvKKWisAgB4CcJQAAKLEJIh1AeQk1pxGBAAP6r2rzioq2DM8AKj/ZxkZ4AFGTQz0sLZHJO79X1SS5Ntt5DTu1q5x03DQBfTNMSyLsjfMvm0+ekMI2LVmNenG013YcfR8VjSSGs5Qzah5tRIw1xavcMUPAmfr0wAA=="
+    },
+    {
+      "src": "/obras/casa-roble/10.webp",
+      "w": 1600,
+      "h": 2400,
+      "orig": "baño",
+      "blur": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADQAwCdASoQABgAPzmEuVOvKKWisAgB4CcJQBdgAzfD6PLcDqYcTQAA/FzHJtd1lUrwveH+3nwxHMYwvtFUIEUBjT7pTUVMTq6d+J3ckOnWPXrue30U4bU4K13R2fSBQAA="
+    },
+    {
+      "src": "/obras/casa-roble/11.webp",
+      "w": 933,
+      "h": 1400,
+      "orig": "toilette",
+      "blur": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAADwAwCdASoQABgAPzmGulQvKSWjMAgB4CcJYwCsACKKhNjMQXJqW3sAAP4uj7npUVdkdiLs4pApI1t0CUstKJ7eLA8aZhqes3nCSUdVmMrLPXyPS8awoRIjVqdwkIgsxNt2bgAA"
+    },
+    {
+      "src": "/obras/casa-roble/12.webp",
+      "w": 933,
+      "h": 1400,
+      "orig": "detalle",
+      "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAwBACdASoQABgAPzmGuVOvKSWisAgB4CcJZwDKACHgA9bGqeDE7MGJMwAA/t5ZV6/E2oqPGddWi5Se1zLU9rEDVyNtqRr0kv5QhZlKfM+qLhMtlXdl0f+4rb/4AA=="
+    }
+  ],
+  "casa-alacena": [
+    {
+      "src": "/obras/casa-alacena/01.webp",
+      "w": 1400,
+      "h": 943,
+      "orig": "fachada",
+      "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAQAgCdASoQAAsABUB8JQAAYqf82Hl9zy1AAP62TheTKBkgT0OrsVJv0IWxofu8anGCZkC/8bfgyt1/aZ3ZTGfUAfjT4AAA"
+    },
+    {
+      "src": "/obras/casa-alacena/02.webp",
+      "w": 1045,
+      "h": 1400,
+      "orig": "fachada",
+      "blur": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADQAwCdASoQABUAPzmGuVOvKSWisAgB4CcJQBfnBD3r/v3FNfeVhNQA/laDb4qWJsi6J5zFYQBgY5V35VP1fWkzWTPOAnzhNA1h7kfX/NyiPx8k240qMzht9PijE7AAAAA="
+    },
+    {
+      "src": "/obras/casa-alacena/03.webp",
+      "w": 2400,
+      "h": 1596,
+      "orig": "living",
+      "blur": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAQCdASoQAAsABUB8JQBOgCG5VCxqGAD+ZIpLCCybFwwbMlHDMCCKdl8iYvGRUjw515bINYJr82wA"
+    },
+    {
+      "src": "/obras/casa-alacena/04.webp",
+      "w": 1748,
+      "h": 2400,
+      "orig": "comedor",
+      "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAACQAwCdASoQABYAPzmEuVOvKKWisAgB4CcJZwDE2B8rFVopz2AAAP7V5GNPmwVBXlD2dW9efZbEScyd04S7929LJG6mUF7QsAp8OSIWubaAAA=="
+    },
+    {
+      "src": "/obras/casa-alacena/05.webp",
+      "w": 1400,
+      "h": 914,
+      "orig": "cocina",
+      "blur": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADwAQCdASoQAAoABUB8JZQCsAEPhqzHmAAA+XV9VX1CtJt3zqDNrSwOOonP6YsOunLypSs/AAA="
+    },
+    {
+      "src": "/obras/casa-alacena/06.webp",
+      "w": 2400,
+      "h": 1496,
+      "orig": "estar",
+      "blur": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAACwAQCdASoQAAoABUB8JZQAApBeq/6AANvHf5xTGdjv6aQqXPGQuVEwUWCqICAa03RvyHdgFAA="
+    },
+    {
+      "src": "/obras/casa-alacena/07.webp",
+      "w": 2400,
+      "h": 1465,
+      "orig": "galería",
+      "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAQCdASoQAAoABUB8JQBOgCHfC48WYAD+x2n645kJYSlWDYV4dHg3QFjBpAWvcCf0wT26HY+nUbfUdFAAAA=="
+    },
+    {
+      "src": "/obras/casa-alacena/08.webp",
+      "w": 1400,
+      "h": 861,
+      "orig": "parrilla",
+      "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACQAQCdASoQAAoABUB8JYgCsACNdAAA/fBk7ESZpjRczCGLFL0xS8h89o1ivgrsl1iWboy0ZfqxvLSwSdykKgJCDyFH4AAA"
+    },
+    {
+      "src": "/obras/casa-alacena/09.webp",
+      "w": 1501,
+      "h": 2400,
+      "orig": "escalera",
+      "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAACQAwCdASoQABoAPzmMvlUvKaajMAgB4CcJZwABHui5qJVJ61QAAP7010ubK/C6YXZfotobZh1FCLeSzsUcWdXhhNecl/4P888oitST6kB4AA=="
+    },
+    {
+      "src": "/obras/casa-alacena/10.webp",
+      "w": 2400,
+      "h": 1763,
+      "orig": "dormitorio",
+      "blur": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAACwAQCdASoQAAwABUB8JQBdgCHHnAAAAP7TPMMzoMVSM1UxpMpbyECC7ld3/RRlj7J724AA"
+    },
+    {
+      "src": "/obras/casa-alacena/11.webp",
+      "w": 1647,
+      "h": 2400,
+      "orig": "baño",
+      "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAABwAwCdASoQABcAPzmGuVOvKSWisAgB4CcJaQAAUXguzsvXJ9AA/o8RT7UWhMgW4B70GrE3p1V9g5uXggznXFuzXVR1PvLaWPAAAAAA"
+    },
+    {
+      "src": "/obras/casa-alacena/12.webp",
+      "w": 788,
+      "h": 1400,
+      "orig": "toilette",
+      "blur": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAAAQBACdASoQABwAPzmYvlYvLCajsAgB4CcJYwCdAB6KKAtXA6FzzVV6AAD+j6URFEVqr3tB2h5s2INwiQKJmU/SyuwIlEXy41wkQmH76muFYWoYME5QBnuJIKff22CJ3Aj7fpmgSVIMiQnE0I1cQFZG+vs4iYKAAAA="
+    }
+  ],
+  "casa-nogal": [
+    {
+      "src": "/obras/casa-nogal/01.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "comedor",
+      "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAQAgCdASoQAAsABUB8JYwCsADRG31BZHPQAP61++5e4QHa9DEMtmOHtxHEZvZ0pymvGgv8jcEFASc7A4VfhON0vKkY+4AA"
+    },
+    {
+      "src": "/obras/casa-nogal/02.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "piscina",
+      "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoQAAsABUB8JZACdADcrFFAAAD+2WzpLJOVCril+Ats9bh8QwKXd8+djcLRvKMCeCjn6X1mh8zo3IAgAAA="
+    },
+    {
+      "src": "/obras/casa-nogal/03.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "living",
+      "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoQAAsABUB8JQBOgCIfkA0vooAA/sjlj1BvRLQMZp2r4ofO+YqGVmhMxwXrz0v7p6M7jUqZlqZC1jA68voahf2QeWwINAAA"
+    },
+    {
+      "src": "/obras/casa-nogal/04.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "living",
+      "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoQAAsABUB8JQBWAB4d9vyUsAAA/uIaR6JyTdtm8dF9+f1xMPP9GE8Pg6g1n1PM+5GNlSzM3pKUNiMMdVThKWkpqdAq4AAA"
+    },
+    {
+      "src": "/obras/casa-nogal/05.webp",
+      "w": 1602,
+      "h": 2400,
+      "orig": "hall",
+      "blur": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAADQAwCdASoQABgAPzmEuVOvKKWisAgB4CcJQBOgA8fro6HAYsb5dQAA/hcaFRiiBPxR2iiaH0895LwFloHU3HO9HttGKp2A44r+Ph+fLcWJ8ud+3U5dVhoXgjzxFlmNkEDTEOPgnMFH0GuAAAA="
+    },
+    {
+      "src": "/obras/casa-nogal/06.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "cocina",
+      "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADwAQCdASoQAAsABUB8JQBWAB9Sh6k8YQAA/fxOH5EVm6bgdA7v4agc6D8ACwlB454pCkZqXASaLFV3xjAAAA=="
+    },
+    {
+      "src": "/obras/casa-nogal/07.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "playroom",
+      "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQAgCdASoQAAsABUB8JYwCw7Eeg+ayfXiAAP5mWfK7EFg53EfDbN6ROEomLQ1MTp1mXVPS60YobqCWJ3f+RrFe2QwzrEhyy5bAbLTx7cYAAA=="
+    },
+    {
+      "src": "/obras/casa-nogal/08.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "escritorio",
+      "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwAgCdASoQAAsABUB8JZACsAEPSqIrhO2ugAD83+rxHC72ww9zj+shRwlGhRkv6a9Jwwh7FXJuFlWppwEpADXlpDfTZogaM8eA88wScEe0AAAA"
+    },
+    {
+      "src": "/obras/casa-nogal/09.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "dormitorio",
+      "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQAgCdASoQAAsABUB8JZACsADpz2DjuEQAAP6yF47ouS4tOCOCnSbGJRZ77FlCgikBnFrm5u00GSjdLjBJLYSHkLpqcHUZ5CJmnlgAAAA="
+    },
+    {
+      "src": "/obras/casa-nogal/10.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "baño",
+      "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACwAQCdASoQAAsABUB8JYwCdADG+pCIAP6Z5bCeOTBjZQmFu4oUTcVSxgS/7kg9a7HOBpiUOrG7TFu6fj+yN8igZQAAAA=="
+    },
+    {
+      "src": "/obras/casa-nogal/11.webp",
+      "w": 1602,
+      "h": 2400,
+      "orig": "baño",
+      "blur": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAADwAwCdASoQABgAPzmEuVOvKKWisAgB4CcJZACw7CC1E1KZKvZaQjXgAP3NJ68+6Ewbxx0xTVd98Gtta0Hsvx6kdXhjMMAQvf57IMgWb6Bg49bF9xCKCZTgGLeQbx+uUP4Wc3q5k/siZKe9LImAK4AA"
+    },
+    {
+      "src": "/obras/casa-nogal/12.webp",
+      "w": 2400,
+      "h": 1602,
+      "orig": "detalle",
+      "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoQAAsABUB8JbACw7DbPsWMswAA/acV46pqsx7AHalUhQdxiHG0yqyZpEKUVdiA69PwZatW/bzTQAAA"
+    }
+  ],
+  "casa-muro": [
+    {
+      "src": "/obras/casa-muro/01.webp",
+      "w": 788,
+      "h": 1400,
+      "orig": "fachada",
+      "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADQAwCdASoQABwAPzmIulQvKSWjMAgB4CcJZQAAW+tMX8OHM1rq14AA/sNAjfiimNqEeY4CPzwZ94YWKYn1irPs6tIe6ggMUScI/vw0XPyfW9DLNUtkKcFQgZi8zAAA"
+    },
+    {
+      "src": "/obras/casa-muro/02.webp",
+      "w": 787,
+      "h": 1400,
+      "orig": "fachada",
+      "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAACwAwCdASoQABwAPzmGulQvKSWjMAgB4CcJYwAAW++HfrKZESH2AAD+w4pqp929I73vjPsjXTS4OWJ4gTmOiKC3EE8t2C5nW8Pk4LeIwOCviPAtWEXSNGRiPZasIAAA"
+    },
+    {
+      "src": "/obras/casa-muro/03.webp",
+      "w": 787,
+      "h": 1400,
+      "orig": "hall",
+      "blur": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAABwBACdASoQABwAPzmGuVOvKSWisAgB4CcJbACdMoAKRF6soM95GPDpYJzGgAD+UtoPiKhtZtNA/bR+dwPb5C75dN6FlTsawOI0cIfW4F3eY8BM6Qpm435yjjZ7dgfXG957KUXRHE8AAA=="
+    },
+    {
+      "src": "/obras/casa-muro/04.webp",
+      "w": 787,
+      "h": 1400,
+      "orig": "cocina",
+      "blur": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAACwAwCdASoQABwAPzmGulOvKSWisAgB4CcJQBOgARpHmf646PJAAACnHyzYhqO18PwcRrDHvPnuVtI6o3kiALcyRxjWL+9gSq4pKA7w8+uYnQk/aSa0vqbxpHQBT1xG4AA="
+    },
+    {
+      "src": "/obras/casa-muro/05.webp",
+      "w": 787,
+      "h": 1400,
+      "orig": "baño",
+      "blur": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADQAwCdASoQABwAPzmIuVQvKSWjMAgB4CcJQBOgBFhArLfhgSyHCQAA+27o1nokMYjZ1j0tZvxMdsgsjVF8XdNbl6TOKhiRIFZeZ5GcsawceZe9k1YimaLpfLnxY5JaAAA="
+    },
+    {
+      "src": "/obras/casa-muro/06.webp",
+      "w": 788,
+      "h": 1400,
+      "orig": "baño",
+      "blur": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAADQAwCdASoQABwAPzmIuVOvKSWisAgB4CcJZACdMoAJJi0457n/WAAA/uzCqBy86RcQZPAHAi584yEFT5yspIZ+Fs06mS6Z9mL/QfOp1ktzZrzfBBHodC1bAoYmPd6sbJu3AnpqYaYULKAtPD6kjPkb9jJNyUlYIr1ItjI1EjnVvdGAAAA="
+    },
+    {
+      "src": "/obras/casa-muro/07.webp",
+      "w": 787,
+      "h": 1400,
+      "orig": "baño",
+      "blur": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAABwBACdASoQABwAPzmGuVOvKSWisAgB4CcJZACdMoADNidiwSshY9bsruIRgAD6XGAVNiMeFIK9uwCn/u/RldsSHHwjKct2F42/IvdtBTK/gm8Xg7HVD8kG/S+GxuSwHs5cs8+MqAbS5QKhPWoOljY8kDK75KDiuk1MF54AAAA="
+    },
+    {
+      "src": "/obras/casa-muro/08.webp",
+      "w": 787,
+      "h": 1400,
+      "orig": "detalle",
+      "blur": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAAAQBACdASoQABwAPzmIulQvKSWjMAgB4CcJZgCdLwAE76wfotEyhnh2wAD4tLk9T5cAqXv1QpOUFAmosnKffOzlHvLA+YfLLTERbflwL0/7CNUre46BhhXP/jRfAFv1TGUlyMo3u9EAAA=="
+    },
+    {
+      "src": "/obras/casa-muro/09.webp",
+      "w": 788,
+      "h": 1400,
+      "orig": "galería",
+      "blur": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAABwAwCdASoQABwAPzmGvFQvKSYjMAgB4CcJQAAj4Clb9awEdWAA/utLPcjGfgkv43wfW6lcDu4Lbe7AJRmuzp3NXa9o9tVAN941qdmHm934W2EkDda8vxwGqW+WoYIGG1R3qtsiM9VVVPrysQfApfkkAAA="
+    },
+    {
+      "src": "/obras/casa-muro/10.webp",
+      "w": 787,
+      "h": 1400,
+      "orig": "piscina",
+      "blur": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAAAwBACdASoQABwAPzmGulQvKSWjMAgB4CcJZQDKACHaT4iROkhZ/umWtgAA/t6VoQGj84LONaxMwN7PLuKnA9S6Qucvt7ts4YqDFgmUhZvAvOubOymxMBrc6L32nW4XdU58qgK0OCI9/Ep98yYJ1rAvUAA="
+    },
+    {
+      "src": "/obras/casa-muro/11.webp",
+      "w": 787,
+      "h": 1400,
+      "orig": "contrafrente",
+      "blur": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAADQAwCdASoQABwAPzmGulQvKSWjMAgB4CcJZQAAW+sIq1e6bsd9uAAA/t59W1ZllTjmcXu81bww4CMpNIyZYoRND87rB3yyXYz1NJdU1LD9nzNO+o5ETVGvTiHsATTiu2VMR4AA"
+    },
+    {
+      "src": "/obras/casa-muro/12.webp",
+      "w": 787,
+      "h": 1400,
+      "orig": "detalle",
+      "blur": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAAAwBACdASoQABwAPzmMvlUvKaajMAgB4CcJQBOgBA6UCnC43y2bfo2uPAAA/mWFE8pqjeYn855dkhiLK0PGEurB0j2N3vUZZKz+jLVxKt9iJ5p0lqgMfo5X6stlCzdeDwMNBwrYU050BtI38tudyycaQLPRQ0U+mhlZnx1gAAA="
+    }
+  ]
 }
